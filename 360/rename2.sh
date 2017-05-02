@@ -1,10 +1,13 @@
 #!/bin/bash 
 # PMC
 # 2016-02-20
+# rename2.sh
+#
 # rename moodle .java files
 #
-#  get rid of spaces 1st see rename1Space.sh
-#  rename  to first name  from Firstname_blahblah.java Firstname.java
+#  1st get rid of spaces 1st see rename1Space.sh
+#  2nd rename  to first name  from Firstname_blahblah.java Firstname.java see rename2.sh
+#  3rd use the file name to insert it as a class name
 #
 if [[ $# -le 0 ]] ; then
     echo $(basename $0) need a list of files
