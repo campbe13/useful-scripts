@@ -1,8 +1,19 @@
 #!/bin/bash
 # p campbell
+# 2017-09-17 check for ruby before running
+# 2016-11-25 created
+# 
+# clones all repos in an organization or for a userid on github
+# uses github api URL
+#
+# source
 # can't remember where I got the info
 # you need to install ruby
+#
+# testing
 # I have used it on ubuntu, it works fine for public repos
+# I have not used it on a mixed or private only org
+#
 # TODO: replace ruby with something more generic to a bash shell to parse the json ??
 
 # check for ruby, assuming curl
