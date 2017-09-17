@@ -15,6 +15,8 @@
 # I have not used it on a mixed or private only org
 #
 # TODO: replace ruby with something more generic to a bash shell to parse the json ??
+# TODO: have the org as a param instead of hard coding
+
 
 # check for ruby, assuming curl
 curl -s httwhich rub >/dev/null    # n.b. sets return code 1 if not found 0 if found
