@@ -12,14 +12,14 @@
 #
 # testing
 # I have used it on ubuntu, it works fine for public repos
-# I have not used it on a mixed or private only org
+# I have not used it on a mixed or private only $org
 #
 # TODO: replace ruby with something more generic to a bash shell to parse the json ??
 # TODO: have the org as a param instead of hard coding
-
+# TODO: add user need users/$userid  (org is orgs/$orgname)
 
 # check for ruby, assuming curl
-curl -s httwhich rub >/dev/null    # n.b. sets return code 1 if not found 0 if found
+which ruby >/dev/null    # n.b. sets return code 1 if not found 0 if found
 if [[ $? -eq 1 ]] ; then
    echo basename $0 :  ruby is not in path or not installed.
    exit 5
