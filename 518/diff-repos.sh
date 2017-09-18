@@ -13,7 +13,9 @@ fi
 repo1=$1
 repo2=$2
 
-dir=$(basename $repo1)
+# remove leading uri  &  .git at end
+# isolate the directory name
+dir=$(basename $repo1|cut -d\. -f 1)
 
 git clone $repo1
 cd $dir
