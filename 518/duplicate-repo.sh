@@ -9,7 +9,7 @@
 # TODO: if no repos, ask for & read in repo names
 
 if [[ $# -ne 2 ]] ; then
-   echo UsageL basename $0 uri-repo1 uri-repo2
+   echo Usage: $(basename $0) uri-repo1 uri-repo2
    exit 5
 fi
 oldrepo1=$1
