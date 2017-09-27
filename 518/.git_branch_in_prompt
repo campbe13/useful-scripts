@@ -1,0 +1,11 @@
+# Usage:
+# 1 cut and paste this into .bashrc or whatever your system uses
+# or 
+# 2 download & add    source .git_branch_in_prompt   to your .bashrc
+# 
+# Only tested on Ubuntu
+
+get_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(get_git_branch)\[\033[00m\] $ "
