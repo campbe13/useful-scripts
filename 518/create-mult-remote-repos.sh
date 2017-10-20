@@ -8,32 +8,42 @@
 # see https://developer.github.com/v3/repos/#create
 # api for user: https://api.github.com/user/repos
 
-# TODO find a way to give password properly instead of each time
+# 2017-10-20
+# Change: use password properly instead of each time
+#    not excactly secure but quick
+# Change:  mods to set everything so I don't have to enter
+#
 
 echo $(basename $0)
 result="result.$(date +%F)"
 echo > $result
 
-read -p "enter your github userid " uid
-read -p "enter your github organization " org
-read -p "enter your repo basename " repo
-read -p "enter \# repos you want " count
-read -p "enter description for repo " desc
+if [[ $# -ge 1 ]] && [[ $1 == "tricia" ]] ; then
+    # user:password
+    uid=campbe13
+    pass=password
+    org=Android518-2017
+    repo=assign2-team
+    desc="base code for assignment 2 droid 2017"
 
-# If you want to do this faster uncomment the following & comment the reads:
-#uid=campbe13
-#org=Android518-2017
-#repo=assign1-team
-#desc="assignment 1 starter repo"
-#count=16
+else
+  read -p "enter your github userid " uid
+  read -p "enter your github password " pass
+  read -p "enter your github organization " org
+  read -p "enter your repo basename " repo
+  # read -p "enter \# repos you want " count
+  read -p "enter description for repo " desc
+fi
 
-for i in {01..$count} ; do
+for i in {01..18} ; do
+#for i in {1..$count} ; do
+#for i in {3 ; do
   repos=$repo$i
   echo -e "Repo $repos" >> $result
-  curl -u $uid  https://api.github.com/orgs/$org/repos \
+  curl -u $uid:$pass  https://api.github.com/orgs/$org/repos \
    --request POST \
    -d "{\"name\":\"$repos\", \"description\":\"$desc\", \"private\":\"true\"}" \
-   >> $result
+   >>  $result
   echo -e "================" >> $result
 done
 
