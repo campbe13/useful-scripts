@@ -1,9 +1,9 @@
-# useful-scripts
-useful scripts for testing renaming etc for CS courses
+# useful templates
+Some sample templates for repositories, for use in student projects
 
-I use some for 
+Need some re-vamping for next user
 
-* [360-420-DW](360) Java for sci & engineers, testing java source code
-* [420-112-DW](112) Intro to Logic, testing java source code
-* [420-241-DW](241) OS I Linux testing scripts and system & service installation 
-* [420-518-DW](518) Android programming, mostly git automation so far
+Some (useful?) Refs:
+* https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/
+* https://help.github.com/articles/creating-an-issue-template-for-your-repository/
+* there are several open repos with starting points
