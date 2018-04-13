@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "duration": 4.958768,
+  "height": 35,
+  "title": null,
+  "width": 100,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "command": null,
+  "stdout": [
+    [
+      0.14465,
+      "\u001b]0;tricia@korra:~/useful-scripts/general\u0007"
+    ],
+    [
+      0.000314,
+      "\u001b[?1034h[tricia@korra general]$ "
+    ],
+    [
+      0.741743,
+      "h"
+    ],
+    [
+      0.101367,
+      "e"
+    ],
+    [
+      0.21211,
+      "l"
+    ],
+    [
+      0.157589,
+      "l"
+    ],
+    [
+      0.167295,
+      "o"
+    ],
+    [
+      0.284578,
+      "\r\n"
+    ],
+    [
+      0.001316,
+      "bash: hello: command not found\r\n"
+    ],
+    [
+      0.001102,
+      "\u001b]0;tricia@korra:~/useful-scripts/general\u0007"
+    ],
+    [
+      9.2e-05,
+      "[tricia@korra general]$ "
+    ],
+    [
+      1.03036,
+      "g"
+    ],
+    [
+      0.180558,
+      "o"
+    ],
+    [
+      0.146289,
+      "o"
+    ],
+    [
+      0.102776,
+      "d"
+    ],
+    [
+      0.221017,
+      "b"
+    ],
+    [
+      0.172529,
+      "y"
+    ],
+    [
+      0.150198,
+      "e"
+    ],
+    [
+      0.198532,
+      "\r\n"
+    ],
+    [
+      0.001369,
+      "bash: goodbye: command not found\r\n"
+    ],
+    [
+      0.000536,
+      "\u001b]0;tricia@korra:~/useful-scripts/general\u0007"
+    ],
+    [
+      0.000103,
+      "[tricia@korra general]$ "
+    ],
+    [
+      0.372516,
+      "e"
+    ],
+    [
+      0.172789,
+      "x"
+    ],
+    [
+      0.111676,
+      "i"
+    ],
+    [
+      0.129411,
+      "t"
+    ],
+    [
+      0.155056,
+      "\r\n"
+    ]
+  ]
+}

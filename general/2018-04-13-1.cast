@@ -1,0 +1,86 @@
+{
+  "stdout": [
+    [
+      0.136472,
+      "\u001b]0;tricia@korra:~/useful-scripts/general\u0007"
+    ],
+    [
+      0.000497,
+      "\u001b[?1034h[tricia@korra general]$ "
+    ],
+    [
+      11.025608,
+      "f"
+    ],
+    [
+      0.207826,
+      "g"
+    ],
+    [
+      1.98287,
+      "\r\n"
+    ],
+    [
+      0.000301,
+      "bash: fg: current: no such job\r\n"
+    ],
+    [
+      0.000159,
+      "\u001b]0;tricia@korra:~/useful-scripts/general\u0007"
+    ],
+    [
+      0.000133,
+      "[tricia@korra general]$ "
+    ],
+    [
+      0.726436,
+      "b"
+    ],
+    [
+      0.216941,
+      "g"
+    ],
+    [
+      0.249741,
+      "\r\n"
+    ],
+    [
+      0.00049,
+      "bash: bg: current: no such job\r\n"
+    ],
+    [
+      0.000353,
+      "\u001b]0;tricia@korra:~/useful-scripts/general\u0007[tricia@korra general]$ "
+    ],
+    [
+      0.472479,
+      "e"
+    ],
+    [
+      0.171623,
+      "x"
+    ],
+    [
+      0.122702,
+      "i"
+    ],
+    [
+      0.102016,
+      "t"
+    ],
+    [
+      0.199707,
+      "\r\n"
+    ]
+  ],
+  "width": 100,
+  "duration": 15.617583,
+  "command": null,
+  "version": 1,
+  "height": 35,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "title": null
+}
