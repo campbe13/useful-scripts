@@ -13,6 +13,11 @@ if [[ $# -le 0 ]] ; then
     echo $(basename $0 ) file_that_is_list_of_filenames
     exit 1
 fi
+if [[ ! -f $1 ]] ; then
+    echo $(basename $0 ) file_that_is_list_of_filenames
+    echo first arg must be a file
+    exit 1
+fi
 while  read -r fn
 do
     echo $fn
