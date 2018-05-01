@@ -6,14 +6,22 @@
 # pm campbell
 # 2018-04-12
 #
-bn=$(basename $0)
-date=$(date +%F)
-fn=$date.cast
+# first check if it's installed
 which asciinema > /dev/null  2>&1
 if [[ $? -ne 0 ]] ; then
      echo $bn please install asciinema 
      exit 5
 fi
+# now check for a title
+bn=$(basename $0)
+if [[ $# -ne 1 ]] ; then
+  echo Usage: $bn "asciinema title here" 
+  exit 1
+fi
+title=$1
+# record it!
+date=$(date +%F)
+fn=$date.cast
 # fault, maximum 9 recordings in a day
 if [[ -f $date.cast ]] ; then
     for i in {1..9} ; do
@@ -27,4 +35,4 @@ if [[ -f $date.cast ]] ; then
 fi
 echo $bn recording to $fn
 echo asciinema play $fn will playback the cast
-asciinema rec $fn
+asciinema rec -t $title $fn
