@@ -7,14 +7,12 @@
 
 # you need to get 
 #  1 an api token via the web interface
+token=< your token >
 #  2  the id of your group/namespace
 #  you can use curl --header "PRIVATE-TOKEN: <your token> " "https://gitlab.com/api/v4/namespaces"  to list all 
-
-
+groupid=< your group id > 
 
 repofn=$1
-token=UgpiZi9kChZw7XGLi5Cu
-groupid=SETGROUPID
 groupname="Android518-2018-staging"
 
 test ! -f $repofn && echo "Repo file required." 1>&2 && exit 1
