@@ -17,11 +17,19 @@
 # TODO: replace ruby with something more generic to a bash shell to parse the json ??
 # TODO: have the org as a param instead of hard coding
 # TODO: add user need users/$userid  (org is orgs/$orgname)
+fn=$(basename $0)
+org=Android18-2017
+
+read -p  "$fn about to clone all repos in org $org y or n" yn
+
+if [[ $yn != y ]] ; then
+   echo $fn ending by choice
+fi
 
 # check for ruby, assuming curl
 which ruby >/dev/null    # n.b. sets return code 1 if not found 0 if found
 if [[ $? -eq 1 ]] ; then
-   echo basename $0 :  ruby is not in path or not installed.
+   echo  $fn :  ruby is not in path or not installed.
    exit 5
 fi
 
