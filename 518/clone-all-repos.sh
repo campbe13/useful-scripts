@@ -24,6 +24,7 @@ read -p  "$fn about to clone all repos in org $org y or n" yn
 
 if [[ $yn != y ]] ; then
    echo $fn ending by choice
+   exit 1
 fi
 
 # check for ruby, assuming curl
