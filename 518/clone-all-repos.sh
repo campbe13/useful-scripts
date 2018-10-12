@@ -34,7 +34,7 @@ if [[ $? -eq 1 ]] ; then
    exit 5
 fi
 
-curl -s https://api.github.com/orgs/Android518-2015/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["ssh_url"]} ]}'
+curl -s https://api.github.com/orgs/$org/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["ssh_url"]} ]}'
 
 
 # clone private repos:
