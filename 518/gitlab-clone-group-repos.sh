@@ -40,10 +40,12 @@ echo -e "$bn clone everything in group $gn \n"
 if [[ "$1" != -clone ]] ; then
 	echo NOTE running in test mode \(echo, not git\)
 	echo -e 'NOTE to run & clone use option -clone\n'
+else
+   eval `ssh-agent -s`
+   ssh-add ~/.ssh/id_rsa
 fi
-
 for repo in $( curl -H "Content-Type:application/json" https://gitlab.com/api/v4/groups/$gn/projects?private_token=$token \
-    | tee $gn.json | jq '.[] | .ssh_url_to_repo' |tee $gn.repo.list.txt) ; do
+    | tee $gn.json | jq '.[] | .ssh_url_to_repo' |sed s/\"$// |sed s/^\"//|tee $gn.repo.list.txt) ; do
     if [[ "$1" == -clone ]] ; then
         git clone $repo
     else
