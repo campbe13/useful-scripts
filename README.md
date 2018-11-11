@@ -10,7 +10,7 @@ useful scripts for testing renaming etc for CS courses
 
 ## Not specific to any course 
 
-* [general use scripts](general) General use, ex asciinema recording to date stamped file
+* [general use scripts](general) General use, ex rsync, asciinema recording to date stamped file
 * [just for fun scripts](not-useful) For fun, ex make the leds blink
 
 # useful templates
