@@ -1,5 +1,5 @@
 #!/bin/sh
-# create repos on github, using my api private_token
+# create repos on gitlab, using my api private_token
 # input a file that contains list of files
 # pcampbell
 
