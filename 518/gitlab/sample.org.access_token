@@ -1,0 +1,8 @@
+# edit this file put in your group name and 
+# your access token, rename it org.access_token
+
+# group name on git server
+ORG=yourgroupname
+
+# access token from git server
+ACCESS_TOKEN=youraccesstoken

@@ -1,7 +1,7 @@
 # used in gitlab-clone-group-repos.sh
 # your token via the web api
-token=swdMqb3-xxx_7zVsCP6c
-# your token via the web api
+token=yourtoken
+# your group id 
 groupid=3440999
 # your group name
 gn=Android518-2018
