@@ -1,4 +1,5 @@
 #!/bin/bash
+# fix app level build.gradle
 #Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'
 #Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'
 #Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'
