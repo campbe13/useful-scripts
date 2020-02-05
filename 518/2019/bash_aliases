@@ -1,0 +1,30 @@
+# this is not a bash script
+# useful aliases
+# plonk into home dir
+# rename it to .bash_aliases
+# check .bashrc, should be sourced there if not, source it
+#
+# pmcampbell
+# 2019-12-07
+alias cda2='cd ~/droid2019/assign2/'
+alias fkt='find ./ -name "*.kt"'
+alias gpom='git push origin master'
+alias gplm='git push lab master'
+alias sonic='ssh pcampbell@sonic.dawsoncollege.qc.ca'
+alias findapk='find ./ -name "*.apk"'
+function apktmp {
+     if [[ $# -ne 1 ]]  ; then
+	echo $FUNCNAME  arg new apk name
+     fi 
+     cp $(findapk) /tmp/$1.apk
+}
+function scpsonic {
+     if [[ $# -eq 0 ]] ; then
+	echo $FUNCNAME needs args
+     fi
+     for i in $@ ; do 
+     scp $i pcampbell@sonic.dawsoncollege.qc.ca:~/
+     done
+}
+alias speed='speedtest-cli | tee ~/speedtest/$(date +%F.%H.%M).speed'
+
