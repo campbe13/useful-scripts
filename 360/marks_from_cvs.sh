@@ -16,7 +16,7 @@
 # see section # print for each  comment any you don't need
 count=0
 if [[ $# -ne 1 ]] ; then
-   echo $(basename $i ) need a file name, csv
+   echo $(basename $0 ) need a file name, csv
    exit
 fi
 
