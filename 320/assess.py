@@ -2,8 +2,14 @@
 """
 P M Campbell
 2020-10-03
-parse feedback for assignment 1 into html 
+parse feedback for assignment 1 
+from csv into html 
 for distribution to students
+
+set for csv
+row 1 header  (1st col ignored)
+row 2 header  (1nd col ignored)
+row 3-n  results  (2st col is student name, used in file name   
 """
 import csv
 from datetime import date
