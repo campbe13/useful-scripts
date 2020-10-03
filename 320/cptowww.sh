@@ -11,4 +11,5 @@ list=`ls *.html|cut -f 1 -d '-'`
 # for i in angela antonio ; do
 for i in $list ; do
     cp $i-feedback-ass1.html /home/$i/www/
+    chown $i:js2020 /home/$i/www/$i-feedback-ass1.html
 done
