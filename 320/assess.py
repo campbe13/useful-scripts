@@ -2,14 +2,8 @@
 """
 P M Campbell
 2020-10-03
-parse feedback for assignment 1 
-from csv into html 
+parse feedback for assignment 1 into html 
 for distribution to students
-
-set for csv
-row 1 header  (1st col ignored)
-row 2 header  (1nd col ignored)
-row 3-n  results  (2st col is student name, used in file name   
 """
 import csv
 from datetime import date
@@ -21,7 +15,7 @@ def print_content(i):
     f.write(f'<tr> <td> {head1[i]} <td>  {head2[i]} <td>{row[i]} ')
 
 def open_html(name):
-    fn = name.lower() + "-feedback-ass1.html"
+    fn = name.lower().strip() + "-feedback-ass1.html"
     f = open(fn, 'w')   # clobber old file
     f.write('''<!DOCTYPE html>
     <html lang="en">
