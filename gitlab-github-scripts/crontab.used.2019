@@ -1,0 +1,23 @@
+# reminder:
+# min hour dayofmonth month dayofweek
+#30 19  13 10 * ~/droid/clone-a1.sh  >> ~/droid/out.txt
+# test assign 2
+#30 12  12 11 * ~/droid/clone-a2.sh  >> ~/droid/out.txt
+# clone assign 2
+#15 21  12 11 * ~/droid/clone-a2.sh  >> ~/droid/out.txt
+#30 21  12 11 * ~/droid/clone-a2.sh  >> ~/droid/out.txt
+# clone  project
+#55 23  10 12 * ~/droid/clone-proj.sh  >> ~/droid/out-proj.txt
+#05 00  11 12 * ~/droid/clone-proj.sh  >> ~/droid/out-proj.txt
+#15 00  11 12 * ~/droid/clone-proj.sh  >> ~/droid/out-proj.txt
+
+# test assignment 1 2019 android
+#10 21  6 10 * ~/droid/clone-a1.sh  >> ~/droid/out.txt
+# actual
+#45 12  7 10 * ~/droid/clone-a1.sh  >> ~/droid/out.txt
+
+# test assignment 1 2019 android
+#00 22  13 11 * ~/droid/clone-a2.sh  >> ~/droid/out.txt
+# actual
+#45 23  13 11 * ~/droid/clone-a2.sh  >> ~/droid/out.txt
+#25 12 15 01 * ~/droid/clone-1.sh
