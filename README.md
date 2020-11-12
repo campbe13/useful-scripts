@@ -4,6 +4,7 @@ useful scripts for testing renaming etc for CS courses
 ## I use some for
 
 * [420-320-DW](320) Front end Web Dev w JavaScript
+* [420-110-DW](110) Intro to Java 
 * [360-420-DW](360) Java for sci & engineers, testing java source code
 * [420-112-DW](112) Intro to Logic, testing java source code
 * [420-241-DW](241) OS I Linux testing scripts and system & service installation
@@ -11,6 +12,7 @@ useful scripts for testing renaming etc for CS courses
 
 ## Not specific to any course 
 
+* [gitlab and github specific](gitlab-github-scripts) General use, ex rsync, asciinema recording to date stamped file
 * [general use scripts](general) General use, ex rsync, asciinema recording to date stamped file
 * [just for fun scripts](not-useful) For fun, ex make the leds blink
 
