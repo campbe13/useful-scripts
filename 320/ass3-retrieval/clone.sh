@@ -13,6 +13,11 @@
 # my key has no password so that I can run it automatically
 # I usually run it as a cron job just after the deadline 
 #
+# mods:
+# if the repo name is duplicated git will not try to clone
+# into the same directory it returns 128 so i check
+# for 128, parse the git id & create a new directory
+#
 sect2=~/scripts/320-js-repos-tricia-sect02.txt
 sect1=~/scripts/320-js-repos-jaya-sect01.txt
 fn=$sect2
@@ -32,14 +37,15 @@ elif [[ $1 -ne 2 ]] ; then
     usage
     exit 3
 fi
-date=$(date +%F)
-time=$(date +%H.%M)
-dir=~/scripts/project.$teacher.$date.$time
-err=~/error.$date.$time
 if   [[ ! -f $fn ]] ;  then
      echo $(basename $0) needs a list of repos in $fn
      exit 5
 fi
+
+date=$(date +%F)
+time=$(date +%H.%M)
+dir=~/scripts/project.$teacher.$date.$time
+errorfile=~/scripts/error.$teacher.$date.$time-clone.txt
 if   [[ ! -d $dir ]] ;  then
  mkdir $dir
 fi
@@ -48,14 +54,27 @@ count=0
 errct=0
 for i in $(cat $fn) ;  do
 	((count++))
-	echo cloning $i 
-        git clone $i
+	echo cloning $i  >> $errorfile
+    git clone $i  2>> $errorfile
 	err=$?
-        if [[ $err -ne 0 ]] ; then
+    if [[ $err -eq 128 ]] ; then   # directory exists 
+        newdir=$(echo $i|cut -f 2 -d ":"|cut -f 1 -d "/")
+        mkdir $newdir
+        cd $newdir
+        git clone $i  2>> $errorfile
+        err=$?
+    fi
+    if [[ $err -ne 0 ]] ; then
 		(( errct++ ))
- 		echo  error $err repo  $i >> $err
+ 		echo  error $err repo  $i >> $errorfile
 	fi
 done
-echo cloned $((count-errct)) repos  
-echo in error $errct 
-echo see errors in ../errors.$date.txt
+echo cloned $((count-errct)) repos >> $errorfile
+echo in error $errct >> $errorfile
+
+if [[ $teacher == "jaya" ]] ; then
+    email="jnilakantan@dawsoncollege.qc.ca"
+else
+    email="pcampbell@dawsoncollege.qc.ca"
+fi
+cat $errorfile | mail -s "results clone project2 " $email 
