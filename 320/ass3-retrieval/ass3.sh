@@ -4,8 +4,8 @@
 # javascript fall 2020
 # pmcampbell
 
-sect2=~scripts/320-js-class-tricia-sect02.txt
-sect1=~scripts/320-js-class-jaya-sect01.txt
+sect2=~/scripts/320-js-class-tricia-sect02.txt
+sect1=~/scripts/320-js-class-jaya-sect01.txt
 dir=ass3
 file=$sect2
 teacher=tricia
@@ -26,7 +26,7 @@ elif [[ $1 -ne 2 ]] ; then
     usage
     exit 2
 fi
-errorfile=errors-$teacher-$date.txt
+errorfile=~/scripts/errors-$teacher-$date.txt
 tmp=/tmp/$dir-$teacher-$date
 mkdir $tmp 
 for i in $(cat $file) ; do
@@ -53,3 +53,4 @@ else
     email="pcampbell@dawsoncollege.qc.ca"
 fi
 cat $errorfile | mail -s "results cronjob $dir cat" $email 
+rm -rf $tmp

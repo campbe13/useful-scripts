@@ -45,7 +45,6 @@ fi
 date=$(date +%F)
 time=$(date +%H.%M)
 dir=~/scripts/project.$teacher.$date.$time
-tar=project.$teacher.$date.$time.tgz
 errorfile=~/scripts/error.$teacher.$date.$time-clone.txt
 if   [[ ! -d $dir ]] ;  then
  mkdir $dir
@@ -64,7 +63,6 @@ for i in $(cat $fn) ;  do
         cd $newdir
         git clone $i  2>> $errorfile
         err=$?
-        cd ..
     fi
     if [[ $err -ne 0 ]] ; then
 		(( errct++ ))
@@ -76,7 +74,6 @@ echo in error $errct >> $errorfile
 
 if [[ $teacher == "jaya" ]] ; then
     email="jnilakantan@dawsoncollege.qc.ca"
-    tar -zf /tmp/$tar  $dir
 else
     email="pcampbell@dawsoncollege.qc.ca"
 fi
