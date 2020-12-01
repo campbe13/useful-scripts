@@ -21,6 +21,8 @@ labs/lab25*
 *.xls*
 # dr java backup
 *.java~
+# vscode
+.vscode/
 
 # below from the original file
 # original from https://github.com/github/gitignore/blob/master/Java.gitignore
