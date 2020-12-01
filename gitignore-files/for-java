@@ -1,0 +1,46 @@
+# mostly for repos for teaching the early java courses
+# added 2020-11-30 PMCampbell
+# original from https://github.com/github/gitignore/blob/master/Java.gitignore
+
+# delay labs until they've had a chance to try 
+# specific to my repo for 
+labs/lab20*
+labs/lab21*
+labs/lab22*
+labs/lab23*
+labs/lab24*
+labs/lab25*
+
+# windows files
+*.ini
+# word files and excel
+*.doc*
+*.xls*
+# dr java backup
+*.java~
+
+# below from the original file
+# original from https://github.com/github/gitignore/blob/master/Java.gitignore
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
