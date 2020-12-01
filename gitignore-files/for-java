@@ -1,3 +1,6 @@
+# to use this file rename it .gitignore
+
+# .gitignore for java stuff
 # mostly for repos for teaching the early java courses
 # added 2020-11-30 PMCampbell
 # original from https://github.com/github/gitignore/blob/master/Java.gitignore
