@@ -1,0 +1,16 @@
+git@gitlab.com:AngelaSposato/js-project2-as-jl.git
+git@gitlab.com:Johanna_Luangxay/webdev2-project2_jl-vlr.git
+git@gitlab.com:Zach.Makeen/speed-reader-zm-phn.git
+git@gitlab.com:emiliakrichevsky/project2_sph_ek.git
+git@gitlab.com:elidjay/project2.git
+git@gitlab.com:maria_b/fab-project2-aa-mb.git
+git@gitlab.com:Nael_Louis/project2_sas_nl.git
+git@gitlab.com:cathy_tham/js-project2-ct-gz.git
+git@gitlab.com:KristinaAmend/fab-project2-ka-js.git
+git@gitlab.com:celine_tran/fab-project-ct-sp.git
+git@gitlab.com:eplante/fab-project2-ep-ocb.git
+git@gitlab.com:nguyda5/fab-project2-dn-jm.git
+git@gitlab.com:LYL0/fall2020-as-tc-ll-project2.git
+git@gitlab.com:zhuxiaoj1/project-2.git
+git@gitlab.com:HazurinL/jsproject2-lh-wt.git
+git@gitlab.com:SirineA/fab-project2-ems-sa.git
