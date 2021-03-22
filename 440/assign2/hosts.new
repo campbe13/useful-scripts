@@ -1,0 +1,77 @@
+127.0.0.1	localhost
+127.0.1.1	dawson-virtual-machine
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.172.23.235   anvm.dawsoncollege.qc.ca	julian
+10.172.23.237	lebox.dawsoncollege.qc.ca	le
+10.172.18.2	daniloNavi.dawsoncollege.qc.ca	danilo
+10.172.12.231	ronybox.dawsoncollege.qc.ca	estefan
+10.172.20.80	davidng.dawsoncollege.qc.ca	david
+10.172.18.182	danielvm.dawsoncollege.qc.ca	daniel
+10.172.21.130	trevormccubbin.dawsoncollege.qc.ca	trevor
+10.172.21.21	jackson.dawsoncollege.qc.ca	jackson
+10.172.10.115	michtea.dawsoncollege.qc.ca	mich
+10.172.20.9	jimmyle.dawsoncollege.qc.ca	jimmyle
+10.172.11.79	caelanvm.dawsoncollege.qc.ca	caelan
+10.172.19.36	AlbinAz.dawsoncollege.qc.ca	albin
+10.172.14.44	juancarlosbox.dawsoncollege.qc.ca	juancarlos
+10.172.14.150	aharon.dawsoncollege.qc.ca	aharon
+10.172.12.103	kristinabox.dawsoncollege.qc.ca	kristina
+10.172.13.61	zachmakeen.dawsoncollege.qc.ca	zachmakeen
+10.172.23.213	rodrigo.dawsoncollege.qc.ca	rodrigo
+10.172.12.1	guang.dawsoncollege.qc.ca	guang
+10.172.18.47	rosemaryVM.dawsoncollege.qc.ca	rosemary
+10.172.19.20	yassinevm.dawsoncollege.qc.ca	yassine
+10.172.23.30	davidpvm.dawsoncollege.qc.ca	davidp
+10.172.19.44	vladVM.dawsoncollege.qc.ca	vladik86
+10.172.17.236	emiliabox.dawsoncollege.qc.ca	emilia
+10.172.12.151	azadehbox.dawsoncollege.qc.ca	azadeh
+10.172.10.110	angelavm.dawsoncollege.qc.ca	angela
+10.172.11.92	jose.dawsoncollege.qc.ca	jose
+10.172.24.231	grigorLinuxVM.dawsoncollege.qc.ca	grigor
+10.172.25.101	johanna-vm.dawsoncollege.qc.ca	johanna
+10.172.19.227	mandeepvbox.dawsoncollege.qc.ca	mandeep
+10.172.19.6	jessievm.dawsoncollege.qc.ca	jessie
+10.172.15.197	sirinevm.dawsoncollege.qc.ca	sirine
+10.172.18.29	mikaelvm.dawsoncollege.qc.ca	miky
+10.172.21.186	elidjay.dawsoncollege.qc.ca	elidjayross
+10.172.13.92	christianbox.dawsoncollege.qc.ca christian	
+10.172.16.109	mishal-a.dawsoncollege.qc.ca	mishal
+10.172.16.231	etiennebox.dawsoncollege.qc.ca	etienne
+10.172.22.88	vashtivm.dawsoncollege.qc.ca	vashti
+10.172.17.73	alexanderag.dawsoncollege.qc.ca	alexander
+10.172.19.223	lilianebox.dawsoncollege.qc.ca	lilianevm
+10.172.17.119	alecphan.dawsoncollege.qc.ca	alecphan
+10.172.17.70	jeivm.dawsoncollege.qc.ca	jei
+10.172.17.31	kirillp.dawsoncollege.qc.ca	kirill
+10.172.10.209	jamin.dawsoncollege.qc.ca	jamin
+10.172.10.234	maria13vbox.dawsoncollege.qc.ca	maria13
+10.172.12.64	naelsagel.dawsoncollege.qc.ca	nael
+10.172.19.17	alex.dawsoncollge.qc.ca	alex
+10.172.21.147	michaelvm.dawsoncollege.qc.ca	michael
+10.172.17.7	celinevm.dawsoncollege.qc.ca	celine
+10.172.14.198	serban-alin-4057.dawsoncollege.qc.ca	alin
+10.172.12.34	mateb.dawsoncollege.qc.ca	mate
+10.172.20.91	coopervm.dawsoncollege.qc.ca	cooper
+10.172.16.161	cathyvm.dawsoncollege.qc.ca	cathytham
+10.172.23.160	neilvm.dawsoncollege.qc.ca	neil
+10.172.23.130	edris.dawsoncollege.qc.ca	edris
+10.172.22.124	thomas.dawsoncollege.qc.ca	thomas
+10.172.19.187	jacob.dawsoncollege.qc.ca	jacob
+10.172.14.43	davidtranvm.dawsoncollege.qc.ca	davidtranstudent
+10.172.23.108	kausarvm.dawsoncollege.qc.ca	kausarmussa
+10.172.18.176	marianbox.dawsoncollege.qc.ca	marian
+10.172.13.12	jimmydvm.dawsoncollege.qc.ca	jimmy
+10.172.25.36	keren.dawsoncollege.qc.ca	rkeren
+10.172.14.201	christiangoat.dawsoncollege.qc.ca	christiangoat
+10.172.20.27	castielz.dawsoncollege.qc.ca	castiel
+10.172.16.254	sammyvm.dawsoncollege.qc.ca	sammy
+10.172.10.180	sergiosegrera.dawsoncollege.qc.ca	sergio
+10.172.18.126	nicolaevm.dawsoncollege.qc.ca	nicolae
+10.172.17.166	shiv.dawsoncollege.qc.ca	shiv
+10.172.25.172	shlomyb.dawsoncollege.qc.ca	shlomy

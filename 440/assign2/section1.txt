@@ -1,0 +1,618 @@
+checking ssh 
+START>>>aharon
+id
+uid=1003(jimh) gid=1004(jimh) groups=1004(jimh)
+uid=1004(gonzo) gid=1005(gonzo) groups=1005(gonzo),1003(muppets)
+uid=1005(fozzie) gid=1006(fozzie) groups=1006(fozzie),1003(muppets)
+uid=1006(kermit) gid=1007(kermit) groups=1007(kermit),1003(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 18 20:49 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 18 19:31 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 18 19:47 kermit
+-rwxrwxr-x 1 root   muppets 130 Feb 18 19:48 README.txt
+drwxrwxr-x 2 root muppets 4096 Feb 18 20:49 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 18 20:49 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1004:jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1008:1009:userJimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1004:
+/etc/group:userjimh:x:1009:
+/etc/shadow:jimh:!$6$CE3tTVhqD4rfpDJ4$qmWP97W0HqVjIS3aFfcrdMhCz7ANYbg8W8RnuKpFIG.erGnL0jqMZ2r.s/9eLpAdbSYoa5tlerY/yGgZwLEAv0:18675:0:99999:7:::
+/etc/shadow:userjimh:$6$AoC1q.M5y3sfiOTJ$HxU7efvju08b6HBCIkTaz3/ThW0bjVwPsPwrotEsl9vPOGGPWVao60p4NWNNzSfxRYP7q9Vpha.3Faxbp7vCR0:18675:0:99999:7:::
+START>>>albin
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 8
+-rwxrwxrwx 1 fozzie muppets 461 Feb 16 18:50 checkmuppets.sh
+-rw-rw-r-- 1 fozzie muppets   0 Feb 16 18:26 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 16 18:24 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 16 18:25 kermit
+-rw-r--r-- 1 root   root     95 Feb 14 22:10 README.txt
+drwxrwxrwx 2 root muppets 4096 Feb 16 18:50 /usr/local/muppetmovie2021
+drwxrwxrwx 2 root muppets 4096 Feb 16 18:50 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$pcAViIZ4lc8Utcxn$XqxC7r0BFphhQUGT5PHb9mXKEr/iHxLRu0ja0LV8LF63HviQG.zuWpO9QL99PeREzz9n4YKYiWJTPrOC2xry21:18672:0:99999:7:::
+/etc/shadow:userjimh:$6$GUBSfK2TiwG5NwaE$ZSnVXe.HHzixLmuToVlAcNDdi8BFaTXQVMTbyiiE4.BnJCmdJUxfS69NBJTkHk2XGHd.MaRoqrMsJBLP5cg9V1:18672:0:99999:7:::
+START>>>angela
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh),1009(muppets)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 16 19:20 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 13 14:31 gonzo
+-rw-rw-r-- 1 jimh   muppets   0 Feb 16 19:14 jimh
+-rw-rw-r-- 1 kermit muppets   0 Feb 16 19:16 kermit
+-rw-rwxr-- 1 root   muppets 107 Feb 13 14:36 readme.txt
+drwxrwxr-x 2 root muppets 4096 Feb 16 19:20 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 16 19:20 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/group:muppets:x:1009:gonzo,jimh,kermit,fozzie
+/etc/shadow:jimh:!$6$ZvMWRK3jMJfKvxQ1$2GEfeFC4uGwz9Gu8H38I.Y4R8tXEG0FLXxBN0b7LkuUFJdSVTAWb.0Bw868wTvCw2nx3Cwwt2lWrAIzapVOqH/:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$iGVyMkCXrn6tBEeV$kd3IeM6Q5Vvxqybsmq9rgGqBMHB9m5Sx..X2iHgdDh87bHTFb.szWrsKrXv2grGSht9KjY6Clkm.et4BFisP80:18670:0:99999:7:::
+START>>>azadeh
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1007(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1007(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1007(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 13 21:11 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 13 21:07 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 13 21:01 kermit
+-rw-r--r-- 1 root   root    127 Feb 15 22:50 README
+drwxrwxr-x 2 root muppets 4096 Feb 15 22:50 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 15 22:50 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/shadow:jimh:!$6$zHW1C3gnMnpEyCza$gT/OAFeso9MOM6q3G4vyelJCX1Ajcl2f7DjOCoH2NazN3MPA42uJY7HAS83OR0.sozVhviXzMJ27bzAZ4J4ne1:18670:0:99999:7:::
+START>>>caelan
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 13 14:42 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 13 14:32 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 13 14:38 kermit
+-rwxrwxrwx 1 root   root    110 Feb 13 14:42 README
+drwxrwxr-x 2 root muppets 4096 Feb 13 14:42 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 13 14:42 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$q0vaXp0NPQfVb5Cv$aJiGEQ444M3KPhSm778cBJXowdOODGbUGDBa52jrSjzaeNshU1PxNT2eUsT4aHBsL5dzbFCUjgs3h73gTWzo2.:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$C6T3vZ41icoPZ5Ui$ML/DJfDRNIoLu8X/MZPCYqngyeHJV7X3jUCP03/0AYfLGumYUHvydTsrUBsMqckxNFE1U0bCqgUNJhJo4n0P01:18670:0:99999:7:::
+START>>>daniel
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie fozzie    0 Feb 18 17:29 fozzie
+-rw-rw-r-- 1 gonzo  gonzo     0 Feb 18 17:29 gonzo
+-rw-rw-r-- 1 kermit kermit    0 Feb 18 17:30 kermit
+-rw-rw-r-- 1 root   muppets 104 Feb 18 17:48 README
+drwxrwxr-x 2 root muppets 4096 Feb 18 17:48 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 18 17:48 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$6O1Ik2h7KAgKRWHc$qT7m26wiwcBKILcExmRQpNQ.I8OqbyauElwj4MAVAJu8.dICGilwrduDb1DxWk8Sy8CX0ut66zjrwxPY1ujNr1:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$Hab.DsTPOFs2QlQZ$Dz8rhJJO40qeanW8FNbjep3h0dACEg6i7geCsAeNMSQ6M0LYzXNwnB3PSg1BzjK5a9v5./OkI39RZUHOdsLDP.:18670:0:99999:7:::
+START>>>danilo
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie fozzie   0 Feb 18 18:38 fozzie.txt
+-rw-rw-r-- 1 gonzo  gonzo    0 Feb 18 18:48 gonzo.txt
+-rw-rw-r-- 1 kermit kermit   0 Feb 18 18:47 kermit.txt
+-rw-rw-r-- 1 gonzo  muppets 84 Feb 18 18:58 README.txt
+drwxrwxr-x 2 root muppets 4096 Feb 18 18:58 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 18 18:58 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$7betXZLHEesneM5Y$V0vrJ9zhEP7uL9WmZHxH2pxYLo5kfZv7ZaMo2zcHuDth1hnS1ogPuCzlYkW7bE/xSsEsutwty6/lSp90rPwE./:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$7Q2ujJ2c3kmkvT74$En6LiKGRQ.PDviZZlv7M4Wk2BdXEc.gU8wN32sVEj8JpB3BqASXUXYK8YCUrNvgdXusoS03D8IShBBVWl1EXY0:18670:0:99999:7:::
+START>>>david
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 fozzie fozzie   0 Feb 12 15:21 fozzie
+-rw-rw-r-- 1 gonzo  gonzo    0 Feb 12 15:18 gonzo
+-rw-rw-r-- 1 kermit kermit   0 Feb 12 15:18 kermit
+-rw-rw-r-- 1 gonzo  muppets 97 Feb 12 15:31 README.txt
+drwxrwxr-x 2 root muppets 4096 Feb 12 15:31 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 12 15:31 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$KW0otwtliwMcgLtE$MYpjmtiMW3AKcJLMtltJKYvH31Oaelqx7CQrdLf3c7gun08g5GDwhdoom2VlgYll5O.jhmwqCZ4oJMtbiIS6H.:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$O7MQ74iIQztGEa3w$NuKA2F5KcA3TeIvEOHMgWHbzidwffZ35fgIQZqR1HwCsY9YCBm.ABOWeH4E1rK9mk5WSg6uWNYKLaVDVO3XPf0:18668:0:99999:7:::
+START>>>davidp
+id
+uid=1004(jimh) gid=1004(jimh) groups=1004(jimh)
+uid=1002(gonzo) gid=1002(gonzo) groups=1002(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 12 15:49 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 12 15:34 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 12 15:44 kermit
+-rw-rw-r-- 1 davidp davidp  115 Feb 12 15:50 README
+drwxrwxr-x 2 root muppets 4096 Feb 12 15:50 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 12 15:50 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1004:1004:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1004:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$Cl9eKCgJdC613hXp$uPjIYVd1hvA3vqz30jSsn.I9NYYeeI59Tj9D0QFciz3BnOiOU9cm5sov7qoJCnUz0aEjioFhTOPSMJMbcCB5H0:18668:0:99999:7:::
+/etc/shadow:userjimh:$6$nJ0zr9HrTlOSeKhu$OqWi.hmnD2n0jMg59fPNlkqU8P3HACPbYwdYD1sOvpXCQNLrH5BL3P.lpx9SwzgzkE2OXQRQNW6yG0fZduzt4/:18668:0:99999:7:::
+START>>>elidjayross
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets  0 Feb 17 00:30 fozzie
+-rw-rw-r-- 1 gonzo  muppets  0 Feb 17 00:30 gonzo
+-rw-rw-r-- 1 kermit muppets  0 Feb 17 00:31 kermit
+-rw-rwxr-- 1 root   muppets 66 Feb 17 00:38 README
+drwxrwxr-x 2 root muppets 4096 Feb 17 00:38 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 17 00:38 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$6txv3LXpn7EdIPPA$0Qgra1ae/v4.B9A.zZoqE1Z1RhnRlyqUddsWmrDBjEQUc865DUqlM800ijZoMiXron4C8RlF4SswmIHnAccFX/:18675:0:99999:7:::
+/etc/shadow:userjimh:$6$8jLtmLQ/PkotuYee$fxRgylxmz.KaYQc7Ygl7jAXtOO.1mkkp78TnYwKyadggyCw1J9OMAB5Y7r9kMeuqByrduyKKzJELwSI69dhJB/:18675:0:99999:7:::
+START>>>emilia
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 18 19:34 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 18 18:53 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 18 19:36 kermit
+-rw-rw-r-- 1 root   muppets 106 Feb 18 19:36 README
+drwxrwxr-x 2 root muppets 4096 Feb 18 19:36 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 18 19:36 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003::/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$90AJlfVjkYbVvui7$9z9V/mtpqSQM.fKLEufZTTrYQ.hPbgWwHQ4om.o7DS6ZfwQgO0ryfyqZTEty0M0hkwuB7ToQIrpsyNrfvXRh4.:18676:0:99999:7:::
+/etc/shadow:userjimh:$6$LjM6Hlma580jigBe$07dLw6ewp30SFcNdAxqcl1aoM2Ktcq67Ap/EjQLCB9S82DRtWiWkaAXOSDg3AhE5pG7kSReM/JXsh.Z1WRL8b1:18676:0:99999:7:::
+START>>>estefan
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 8
+-rw-rw-r-- 1 kermit kermit 368 Feb 19 11:21 checkmuppets.sh
+-rw-rw-r-- 1 fozzie fozzie   0 Feb 18 21:52 fozzie.txt
+-rw-rw-r-- 1 gonzo  gonzo    0 Feb 18 21:49 gonzo.txt
+-rw-rw-r-- 1 kermit kermit   0 Feb 18 21:48 kermit.txt
+-rw-rwxr-- 1 fozzie fozzie 109 Feb 18 21:51 README.txt
+drwxrwxr-x 2 root muppets 4096 Feb 19 11:21 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 19 11:21 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/shadow:jimh:!$6$wWR/UlBUEZEjojcu$LKg.CAi53Yr.W600emd62g3iRqKuDPNlk.K41dHHnw44errELhZF3pAOwSjSe6p/zR3lQKk0mKg/x4uxdrvnJ1:18668:0:99999:7:::
+START>>>grigor
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1010(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1010(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1010(muppets)
+total 4
+-rw-rw-r-- 1 fozzie fozzie   0 Feb 19 02:55 fozzie
+-rw-rw-r-- 1 gonzo  gonzo    0 Feb 19 02:52 gonzo
+-rw-rw-r-- 1 kermit kermit   0 Feb 19 02:54 kermit
+-rw-rw-r-- 1 root   muppets 87 Feb 19 02:57 README
+drwxrwxr-x 2 root muppets 4096 Feb 19 02:57 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 19 02:57 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:jimh
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$ueN0HklNr1j8U/ZB$BC7P29c9WYDSpdmFdZ3Xmj37yqpzJYPr5riabS0m4ZsPxyqkN1aH61q5XhcEuvUs8kpwtRhQaGkhc471QIVrv/:18677:0:99999:7:::
+/etc/shadow:userjimh:$6$oGUZJegjzVXK3W0.$Bfxv1qANgsswBCc5Ghb4FftaVi3uE4k/4OrdZcTUZuVFU0WAZPa22nqepCQBdtcowi9atoJhK0Y8IXsGZM/N..:18677:0:99999:7:::
+START>>>guang
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-r--r-- 1 root root   0 Feb 19 11:26 fozzie
+-rw-r--r-- 1 root root   0 Feb 19 11:01 gonzo
+-rw-r--r-- 1 root root   0 Feb 19 11:26 kermit
+-rw-r--r-- 1 root root 116 Feb 19 11:07 README.txt
+drwxr-xr-x 2 root muppets 4096 Feb 19 11:26 /usr/local/muppetmovie2021
+drwxr-xr-x 2 root muppets 4096 Feb 19 11:26 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,123,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:userjimh,123,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$g9ne2swv/VeQgfUe$tMUWwk/xWneiSTx0L02KLGO4r66OXJ8dy.iCqnpp6MdqE7QBt1OFYMCoM77Efrzg0I7K4AW7a76rN2DKbNFuK.:18677:0:99999:7:::
+/etc/shadow:userjimh:$6$Q5UTwlCuWOLzFEOz$FthIeb458Wbj3rJM/ZwO.ZOo15Ky802ezAt4z2ozZnx0tGtMQoPjI4oRGfR6.6oEgHvcNZZYMOsdpUWBLzyjI.:18677:0:99999:7:::
+START>>>jackson
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1005(gonzo) gid=1005(gonzo) groups=1005(gonzo),1007(muppets)
+uid=1004(fozzie) gid=1004(fozzie) groups=1004(fozzie),1007(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1007(muppets)
+total 4
+-rw-r--r-- 1 root root  0 Feb 12 15:07 gonzo
+-rwxrwxrwx 1 root root 83 Feb 12 15:10 README
+drwxr-xr-x 2 root muppets 4096 Feb 12 15:07 /usr/local/muppetmovie2021
+drwxr-xr-x 2 root muppets 4096 Feb 12 15:07 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/shadow:jimh:!$6$OpM4aFNEaRJJ4Lrp$A2pfqbCHvBPRCJj5g.2Txx49kFnVIuCqBmbFVs7Lbr9qdAc3G8R8Qmnw3lrovkdeTMY2/E1A8YhBBMdMtNFJ71:18670:0:99999:7:::
+START>>>jessie
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 16 18:14 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 16 18:23 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 16 18:24 kermit
+-rw-rw-r-- 1 root   muppets 159 Feb 16 18:25 README
+drwxrwxr-x 2 root muppets 4096 Feb 16 18:25 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 16 18:25 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$7mTaCd0RZLS.x6Cl$4s.PvHnstOfQeHhga7BsoZnZp0P/z2Za//OzKMvwibj5kMBL5zfAjxkaTTVwrkWPp8oY0UkynlzbeQs8l0nOi/:18674:0:99999:7:::
+/etc/shadow:userjimh:$6$WhQd9cz7ONidXic2$VnqzEyPouFFplbkN1AaEJl6exns3bkfOBn7EQ2fhN/BEm.Iezb.1OIB1vGIH8fdice6Q9sSoxZ/xuOMg5Dh5b1:18674:0:99999:7:::
+START>>>jimmyle
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+drwxrwx--x 2 root muppets 4096 Feb 12 17:41 /usr/local/muppetmovie2021
+drwxrwx--x 2 root muppets 4096 Feb 12 17:41 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$0moHN0aoa9VaLzeX$MNmQieAQxfRdJrI6SR08x0xckb56tbh85PqPDOaHk2TGpUamFSW.hpg8RZKCfiBN.atvIKmbRqP/ht303yJf3/:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$RBG/i4AwUuQDlQLt$tljgGFKBfc9GPi83btWgzMPEwdTnaVJQ.bAZ3sNdtgGUDuy2CYEBdRVkENDLmTAekM3C5MnyBXIfCU7PRstk8.:18670:0:99999:7:::
+START>>>johanna
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1010(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1010(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1010(muppets)
+total 4
+-rw-rw-r-- 1 fozzie fozzie    0 Feb 17 16:08 fozzie
+-rw-rw-r-- 1 gonzo  gonzo     0 Feb 17 16:04 gonzo
+-rw-rw-r-- 1 kermit kermit    0 Feb 17 15:48 kermit
+-rwxrw---x 1 root   muppets 109 Feb 17 16:09 README
+drwxrwxr-x 2 root muppets 4096 Feb 17 16:16 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 17 16:16 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:Jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:User Jimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$3M4oZ.09Eaao3XP3$6H8Ynn.FgW/1XrhFVUQ1xwd74zJSnbslR.EMVL9FtohosmJoQ5.iOKMYMmlXopdziCXsZhRGaZ1nAJi0de601.:18671:0:99999:7:::
+/etc/shadow:userjimh:$6$lYrKG467May/wTry$RTeonrGy17P4HDSjk2ameDWzvlaXlOXIAjQmCveOpoBR/UWLTBHiWx/hy7oYrIabQD3k4Kcj4l42davO5fuaN/:18671:0:99999:7:::
+START>>>jose
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1010(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1010(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1010(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets  0 Feb 19 09:55 fozzie
+-rw-rw-r-- 1 gonzo  muppets  0 Feb 19 09:45 gonzo
+-rw-rw-r-- 1 kermit muppets  0 Feb 19 09:51 kermit
+-rw-rw-rw- 1 root   root    94 Feb 19 09:55 README
+drwxrwxr-x 2 root muppets 4096 Feb 19 09:55 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 19 09:55 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:$6$mb.5.cmqrO4zFojv$ARi.keBhzJEsGl8F3HMEDPg3UdeyJyxglVJnwRYvJZuA6j9tUoYo4VrPFfWNXnZyTuAihuz13tgu0Hi5z6LE10:18676:0:99999:7:::
+/etc/shadow:userjimh:$6$ifIM5iTxPaiE7AN1$hrawQmStaKkoKF/GgW.gH.G0x8Kb7eaRFyyh5UVGSz/6Hsv6rwWccCUos7/NPhFHCsIDfuWu7AxckLZbCi4Lh1:18676:0:99999:7:::
+START>>>juancarlos
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 16 22:55 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 16 22:54 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 16 23:00 kermit
+-rw-rw-r-- 1 root   muppets 186 Feb 16 23:00 README
+drwxrwxr-x 2 root muppets 4096 Feb 16 23:00 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 16 23:00 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:userjimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$q.4sqvgaToXNMNyr$fRX33kvew0U4rO/9ePzkPsYcedW7U9bTNdR1IfRLr.uo1rnlJtkUZ6bD2YdlQOgv3OLCao1TABq9Mi6QvH4GL0:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$c2HwQU3LHw1nb6sb$Un30d.P6fgkfIt2MS.ForssHiKLcV6Wy6aEhyo5NxomLW.ww35v81fC8VrXuPLOXSi9ghlhOgLfcU2dV6VIWi0:18675:0:99999:7:::
+START>>>julian
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 fozzie fozzie    0 Feb 18 13:56 fozzie
+-rw-rw-r-- 1 gonzo  gonzo     0 Feb 18 13:54 gonzo
+-rw-rw-r-- 1 kermit kermit    0 Feb 18 13:55 kermit
+-rw-rwxr-- 1 root   muppets 105 Feb 18 13:56 README.txt
+drwxrwxr-x 2 root muppets 4096 Feb 18 13:56 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 18 13:56 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,492-02,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:testjimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$rHNAO4yLQPgt5wHb$xlzPO8zTI4pt.e8AfavPswQnEJxxZl7C3OYcWQcKX3F8/GWV6RF6PPs4iQfBLXaBFYF.QHWpkLaLVRvsZYD1l.:18676:0:99999:7:::
+/etc/shadow:userjimh:$6$8TVHKZ5hKTAhyh77$WkCbgIWPJHiOaDyXAVUbeM.di0PI25dwcilmn.NaLcnWbQOhGeeLBdr542nuzHFmthKsuMdXFls3sk56pcLhh/:18676:0:99999:7:::
+START>>>kristina
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-rw- 1 fozzie muppets   0 Feb 13 13:26 fozzie
+-rw-rw-rw- 1 gonzo  muppets   0 Feb 13 13:27 gonzo
+-rw-rw-rw- 1 kermit kermit    0 Feb 13 13:28 kermit
+-rw-rwxrw- 1 root   muppets 191 Feb 13 13:29 README
+drwxrwxrwx 2 root muppets 4096 Feb 13 13:29 /usr/local/muppetmovie2021
+drwxrwxrwx 2 root muppets 4096 Feb 13 13:29 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:Jimmy Jon,,,,Sandwich Master:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$AmRWXDSLc3WHhACu$uDbmkNvpxU.RHIECwmyLxtW6xuCpE5Awa2jcJiI6hTJ79H1MJwyzM0lnVSikmATY7MU/SjOmay7lgcdcM1N58/:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$7m5xDsoCWydCZhvW$kUJUxJ7sYPQWKEGHR36LHlJolGXBbCInY9sqmtRR7aP/3MnI3/2L6KmJgfdBh1C0YjttD/gbRJHiarEUciwu5.:18670:0:99999:7:::
+START>>>le
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1010(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1010(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1010(muppets)
+total 8
+-rw-rw-r-- 1 fozzie muppets   0 Feb 12 13:29 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 12 13:22 gonzo
+-rw-rw-r-- 1 kermit muppets   4 Feb 12 14:25 kermit
+-rw-rw-r-- 1 root   muppets 160 Feb 12 13:29 README
+drwxrwxr-x 2 root muppets 4096 Feb 12 16:54 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 12 16:54 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1008:1008:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1008:
+/etc/shadow:jimh:!$6$wbAXrlpVKV2oaDjB$hCrMZ5RsfgVbUXQfXv02rrfc99OhScqnleq4UCENUFEjGyX5p.uBdnowp/j3xJIh03TeCkqZ3gZK.VF6RhBbu/:18668:0:99999:7:::
+/etc/shadow:userjimh:$6$tJFHYAIwdRmVR1xz$0TQlqeo.IV5UOFl8NpvIwchylsp9yQwGBe6hYhfs5aXHVb/LuRp7UhZQz1Ovbe3PXsEylyytpFunfwdqrCfSc.:18670:0:99999:7:::
+START>>>mandeep
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 0
+d????????? ? ? ? ?            ? fozzie
+d????????? ? ? ? ?            ? gonzo
+d????????? ? ? ? ?            ? kermit
+-????????? ? ? ? ?            ? README.md
+drwxrwxr-- 5 root muppets 4096 Feb 15 20:52 /usr/local/muppetmovie2021
+drwxrwxr-- 5 root muppets 4096 Feb 15 20:52 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:Jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:userjimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$uVUFK8QvuVyQQ2iP$xGfy7kR51Gu.UACzF7uVR3qDPZk2Ztn0Y.08t0EW6w0I9K60vE0Py7J4sH1lA.fUkRZ123KXEEdwl8YGf4PHH.:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$AnCI/fDF1OUoCshr$pjMeI6irVqvb96DaXYtdTVC0HKq2M4XOvC9hTXafFyhu1n35AXqKgWidmRwj5nUTwczUzjiMLuimS7sbqX6jZ/:18670:0:99999:7:::
+START>>>mich
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 16
+-rw-rw-r-- 1 fozzie fozzie   1 Feb 17 17:12 fozzie
+-rw-rw-r-- 1 gonzo  gonzo    1 Feb 17 17:00 gonzo
+-rw-rw-r-- 1 kermit kermit   1 Feb 17 17:12 kermit
+-rw-r--r-- 1 root   muppets 72 Feb 17 17:08 README
+drwxrwxr-x 2 root muppets 4096 Feb 17 17:12 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 17 17:12 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jim h,,,,reg user:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:ujim h,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$1.4DHnD29JN9u.iP$ikw9nvM9kA6uVyUEDYPyuiLaggLek9w92VmtWCLm3dFzQ8mlnIa94BPIifo2OZyhNkb0q0Mbpe/zF1qj8qCv7/:18669:0:99999:7:::
+/etc/shadow:userjimh:$6$hV7LDbpvDIT3IMlh$bxF9pKfmw6xSFOGRNacyvskXY8nPkMEYVaKte5v.n0AnOk1HJD/YWDE3ZJYgdYeuWrIGfiLRciVkp5nBN1qyT1:18669:0:99999:7:::
+START>>>miky
+id
+uid=1004(jimh) gid=1004(jimh) groups=1004(jimh)
+uid=1003(gonzo) gid=1003(gonzo) groups=1003(gonzo),1008(muppets)
+uid=1006(fozzie) gid=1006(fozzie) groups=1006(fozzie),1008(muppets)
+uid=1005(kermit) gid=1005(kermit) groups=1005(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 gonzo gonzo  0 Feb 19 00:25 fozzie
+-rw-rw-r-- 1 gonzo gonzo  0 Feb 19 00:25 gonzo
+-rw-rw-r-- 1 gonzo gonzo  0 Feb 19 00:25 kermit
+-rwxrw-r-- 1 gonzo gonzo 98 Feb 19 00:23 README
+drwxrwxr-x 2 root muppets 4096 Feb 19 00:25 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 19 00:25 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1004:1004:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1004:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:$6$smFI0FDig4PCMjPY$HElzmWtzr4LAyajePUGV.pBPoFikZQ2hvVqV8kDTHP1t3ES5ucwGe3Ylj0RmxO3IVTHPMsQ6d1xWhyeYkxY0w.:18677:0:99999:7:::
+/etc/shadow:userjimh:$6$n1V96MtVtkQGq5IT$VKLB/pJ3rnfSTZRrt11anQc1Jf8Y8l8gbsCnHEkU5D49RzPxudeZ7eF7dIY2/5y1h9XV32kys0ydKLO0IBQRn/:18677:0:99999:7:::
+START>>>rodrigo
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets  0 Feb 16 15:44 fozzie
+-rw-rw-r-- 1 gonzo  muppets  0 Feb 16 15:42 gonzo
+-rw-rw-r-- 1 kermit muppets  0 Feb 16 15:44 kermit
+-rw-r--r-- 1 root   root    49 Feb 16 18:15 README
+drwxrwxr-x 2 root muppets 4096 Feb 16 18:15 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 16 18:15 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:userjimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:$6$LTvDMlvFVfLm7mjN$3jQ2A.B0pfrzL24MMpNawPw4tC.LWcYvnYycXvFo3E1arcXxMR/M8/ehBmeaJaI.r1JW3J4BPe11xWJGhAO5C1:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$c.m23OjD4km1iD9p$2OgCphXmAiePZgtX9iJDkJ0P4Uhc0nsLrzKCqTqwj8AB5DqQ0vxCzKZqurAuczXUlMqa0ePfFuOfqUnxvxcPE/:18670:0:99999:7:::
+START>>>rosemary
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1009(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1009(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1009(muppets)
+total 0
+-????????? ? ? ? ?            ? fozzie
+-????????? ? ? ? ?            ? gonzo
+-????????? ? ? ? ?            ? kermit
+-????????? ? ? ? ?            ? README
+drwxrwxr-- 2 root muppets 4096 Feb 16 16:53 /usr/local/muppetmovie2021
+drwxrwxr-- 2 root muppets 4096 Feb 16 16:53 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:Jim Hamburger,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$q6sn5tWKd/sYQ2eR$RtWfx2czA5qJ8WlNhJAcHreWR1kHeYcNj7ylMTBD7TamHX/1C0SDNMqWzHxykOI6rqkJYdcijN8.RVCFXYms21:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$M4ghUKdD/buHtegS$NNFQiSh240Ai1e5URGAvpHNQn9jxy0Eoa0qzPVRv1JUMSkRqxhTZWHAE3HuzuruFKGR772q98.jzY0Xsrqlh2.:18673:0:99999:7:::
+START>>>sirine
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1007(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1007(muppets)
+uid=1007(kermit) gid=1008(kermit) groups=1008(kermit),1007(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets  0 Feb 19 08:43 fozzie
+-rw-rwxr-- 1 gonzo  muppets  0 Feb 19 08:05 gonzo
+-rw-rw-r-- 1 kermit muppets  0 Feb 19 08:33 kermit
+-rwxrwxrwx 1 root   root    78 Feb 19 08:44 README
+drwxrwxrwx 2 root muppets 4096 Feb 19 08:44 /usr/local/muppetmovie2021
+drwxrwxrwx 2 root muppets 4096 Feb 19 08:44 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1006:1006:userjimh,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1006:
+/etc/shadow:jimh:!$6$ULi/l/OSrGwy7MEd$r9vljGSqqnLTBtt2xcuePSdK/rmGJZ6nYcFkC4RBEbm5wLL0RYjZyUDhDrpMj3dpdp7sKCnX7m4ShqXBe.fhz0:18677:0:99999:7:::
+/etc/shadow:userjimh:$6$RDqmX0dSI1DP4v8t$cT3t8sTwmk1gWz1Y8rZIjwosahpb/EO3pI7v12NQ22nulxVcs1AT3K5sG221zcCZ4iQ6D0hEmaZPGH1ptI6ai/:18677:0:99999:7:::
+START>>>trevor
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1010(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1010(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1010(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 17 16:04 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 17 15:37 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 17 16:02 kermit
+-rw-rw-r-- 1 root   muppets 132 Feb 17 16:04 README
+drwxrwxr-x 2 root muppets 4096 Feb 17 16:04 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 17 16:04 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jim,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1008:1008:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1008:
+/etc/shadow:jimh:!$6$f.ATkU9WOjoihQMn$GplWz1sIjCRnaK8fM4R4g4uGdsfGEHCUcLqQ/9/3n.gjK0i0xufL7DGp3mpwGjCMLCKdTa1X5iTZU6HozOoRu.:18669:0:99999:7:::
+/etc/shadow:userjimh:$6$DbY2NqO8b.5DJqka$yQK/2/H9ZJPHEgTUUImHYLkCg18lDQObtld2agKXhpKNmyrCf9LICX6hTZJOZNvBfVER1NX8m..d0tGDg.bqd/:18669:0:99999:7:::
+START>>>vladik86
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 17 14:42 fozzie
+-rwxrwxr-x 1 gonzo  muppets   0 Feb 17 14:43 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 17 14:41 kermit
+-rwxrwxr-x 1 root   muppets 149 Feb 17 14:43 README.txt
+drwxrwsr-x 2 root muppets 4096 Feb 17 14:43 /usr/local/muppetmovie2021
+drwxrwsr-x 2 root muppets 4096 Feb 17 14:43 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:Jim H,1,1,1,1:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$TvnBiucJnfbqv2KZ$WIZRw9oKAY4uEHAZdFS0FPUB4Jytnx/5nYrLKtg8De9S/jwN6rsF8zfy0YjkyM1TQh4b76BbdKYWvQaEjVwlX0:18675:0:99999:7:::
+/etc/shadow:userjimh:$6$T9yZCbQmjFoxxQaM$SOLk36gxYGya5UhJ8sulenUHmgzbHi6nElLizh8AZBxB3DzBaTbwOYzh/1PFV88wAirBsijNIpZzN0PQ3ic850:18675:0:99999:7:::
+START>>>yassine
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1010(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1010(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1010(muppets)
+total 4
+-rw-r--r-- 1 root root  0 Feb 16 17:48 fozzie
+-rw-r--r-- 1 root root  0 Feb 16 17:48 gonzo
+-rw-r--r-- 1 root root  0 Feb 16 17:48 kermit
+-rw-r--r-- 1 root root 60 Feb 15 13:43 README
+drwxrwxr-x 2 root muppets 4096 Feb 16 17:48 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 16 17:48 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:jimh jimh,,,,student:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:littlejimh,,,,student:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:!$6$qojUzEkPpbaf5CNv$CiFRauh8rp/NJVZLKGhxXZvF7H/rQxwfuNiNJRlRkap2jof87jUZTPgkmuQp2.EGoatMP4A3RQnw448EtWNxH0:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$Y9g4NaYaTeio/1wp$m/Np5pAAN9TtPqDqVUE28XU9itjhA8/GJ/0.WQjoOUmtyEJCRj5TQc5iqieqk5jtMzNhEdUViJapI3Af1PgUr1:18670:0:99999:7:::
+START>>>zachmakeen
+id
+uid=1003(jimh) gid=1003(jimh) groups=1003(jimh)
+uid=1004(gonzo) gid=1004(gonzo) groups=1004(gonzo),1008(muppets)
+uid=1005(fozzie) gid=1005(fozzie) groups=1005(fozzie),1008(muppets)
+uid=1006(kermit) gid=1006(kermit) groups=1006(kermit),1008(muppets)
+total 4
+-rw-rw-r-- 1 fozzie muppets   0 Feb 16 15:38 fozzie
+-rw-rw-r-- 1 gonzo  muppets   0 Feb 16 15:36 gonzo
+-rw-rw-r-- 1 kermit muppets   0 Feb 16 15:38 kermit
+-rw-r--r-- 1 root   root    131 Feb 16 15:26 README.txt
+drwxrwxr-x 2 root muppets 4096 Feb 16 15:38 /usr/local/muppetmovie2021
+drwxrwxr-x 2 root muppets 4096 Feb 16 15:38 /usr/local/muppetmovie2021
+/etc/passwd:jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+/etc/passwd:userjimh:x:1007:1007:,,,:/home/userjimh:/bin/bash
+/etc/group:jimh:x:1003:
+/etc/group:userjimh:x:1007:
+/etc/shadow:jimh:$6$tlusJ5idWdn8cWx/$CzobfAkGA9TOtOXLWdazwgc6ee2az4MsKtZjmtIn8BO28hyGnl.F6dqtbJV46WQMLZtv8Pf3j8d8RLK4iW2Ry.:18670:0:99999:7:::
+/etc/shadow:userjimh:$6$ECBIaKbwAbgn9HeN$dKAgc.rTJbUymBfkXTFOm35PXksXMLqCaSTt.Psz//.rRZMsriA.5uabGD3BPRvkdOIb6efTTzy27HZsLDhU50:18670:0:99999:7:::
+success 0
+fail 0

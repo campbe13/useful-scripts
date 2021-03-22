@@ -1,0 +1,1067 @@
+checking ssh 
+START>>>alecphan
+hostname
+   Static hostname: alecphan.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: bc7ca295150c4a5391b2390e0027d551
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+alecphan:x:1002:1002:Phan Hieu Nghia,,,,student:/home/alecphan:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:Jim H,,,,user1:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,alecphan
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>alex
+hostname
+   Static hostname: alex.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 7dac68d5992c40a6ae85c31822ba0867
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-44-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:tricia,,,,teacher:/home/tricia:/bin/bash
+alex:x:1002:1002:Alessandro Vendramin,0,5149800359,5146300359,student:/home/alex:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,alex
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>alexander
+hostname
+   Static hostname: alexanderag.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: bc0da4e4053a4584b6261ffddbe19e0c
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+alexander:x:1002:1002:Alexander Arella Girardot,,,,student:/home/alexawef:/bin/bash
+jimh:x:1003:1003:jim,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,alexander
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>alin
+hostname
+   Static hostname: serban-alin-4057.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 78cf325411794886b776ffd0568567c5
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+alin:x:1002:1002:Alin Serban Caia,,,,student:/home/alin:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,alin
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>castiel
+hostname
+   Static hostname: castielz.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: d98541620b45457bade872d0396c8153
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+castiel:x:1002:1002:Castiel Le,,,,student:/home/castiel:/bin/bash
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,castiel
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>cathytham
+hostname
+   Static hostname: cathyvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 888558b53c14413f8512aa657e33a200
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+cathytham:x:1002:1002:Cathy Tham,,,,student:/home/cathytham:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,cathytham
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>celine
+hostname
+   Static hostname: celinevmdawsoncollege.qc.ca
+   Pretty hostname: celinevm@dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: f4172dba9fc9439d8ce7472cabc94218
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:Patricia Campbell,,,,TEACHER:/home/tricia:/bin/bash
+celine:x:1002:1002:celine tran,,,,student:/home/celine:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,celine
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  elpa-git-commit                            2.90.1-2                            all          Major mode for editing git commit message
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-all                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (all subpackages)
+ii  git-cvs                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (cvs interoperability)
+ii  git-daemon-run                             1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (git-daemon service)
+ii  git-doc                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (documentation)
+ii  git-el                                     1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (emacs support)
+ii  git-email                                  1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (email add-on)
+ii  git-gui                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (GUI)
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  git-mediawiki                              1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (MediaWiki remote helper)
+ii  git-svn                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (svn interoperability)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>christian
+hostname
+   Static hostname: christianbox.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 7e0454507a4d4fc2941c477bbf923dad
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,:/home/tricia:/bin/bash
+christian:x:1002:1002::/home/christian:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,christian
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>christiangoat
+hostname
+   Static hostname: christiangoat.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 09b8ffb3bb32425e98ae9a1a20347f13
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:Patricia Campbell,,,,teacher:/home/tricia:/bin/bash
+christiangoat:x:1002:1002:Christian Bula,,,,student:/home/christiangoat:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,christiangoat
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>cooper
+hostname
+   Static hostname: coopervm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 24abd45791d94c73aed5e32f98a6f886
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+cooper:x:1002:1002:Cooper,,,,student:/home/cooper:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,cooper
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>davidtranstudent
+hostname
+   Static hostname: davidtranvm
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 4998df8f94364259928e0acb9612ccf8
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+davidtranstudent:x:1002:1002:David Tran,,,,student:/home/davidtranstudent:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003::/home/jimh:/bin/sh
+sudo for both
+sudo:x:27:dawson,tricia,davidtranstudent
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>edris
+hostname
+   Static hostname: edris.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 34d08250b1614c31a9b57340ef9be572
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.2 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Edris:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+edris:x:1002:1002:Edris Zoghlami,,,,student:/home/edris:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,edris
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+START>>>etienne
+hostname
+   Static hostname: etiennebox.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 8064e07c198c43728e3871d62618710f
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+etienne:x:1002:1002:Etienne Plante,,,:/home/etienne:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,etienne
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>jacob
+hostname
+   Static hostname: jacobvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 0503bd29f84f451692ea5483054061fe
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:Patricia Campbell,,,,teacher:/home/tricia:/bin/bash
+jacob:x:1002:1002:Jacob Riendeau,,,,student:/home/jacob:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,jacob,fozzie
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>jamin
+hostname
+   Static hostname: jamin.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 5e7c63bfd1554040b0cc11671ecf9880
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,:/home/tricia:/bin/bash
+jamin:x:1002:1002:,,,:/home/jamin:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+fozzie:x:1005:1005:,,,:/home/fozzie:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,jamin
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>jei
+hostname
+   Static hostname: jeivm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 12d33e1ab72b4b5f86f8a160eb1e6353
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+jei:x:1002:1002:Jei wen Wu,,,,student:/home/jei:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,jei
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>jimmy
+hostname
+   Static hostname: jimmydvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 34fbe2f0a9ef4250818a9fe853653f81
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+jimmy:x:1002:1002:Jimmy Ye,,,,Student:/home/jimmy:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,jimmy
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>kausarmussa
+hostname
+   Static hostname: kausarvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: c2097369871245409d91b2073eca298d
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+kausarmussa:x:1002:1002:Kausar Mussa,,,,Student:/home/kausarmussa:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,kausarmussa
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>kirill
+hostname
+   Static hostname: kirillp.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: df178eaa578440a5a43368eea373a153
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:Patricia Campbell,wfh,,,teacher:/home/tricia:/bin/bash
+kirill:x:1002:1002:Kirill Parhomenco,1933830,,,student:/home/kirill:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,kirill
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>lilianevm
+hostname
+   Static hostname: lilianebox.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: dea06c7525f149b8902e02ead1955f17
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-40-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+lilianevm:x:1002:1002:,,,,student:/home/lilianevm:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,lilianevm
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  elpa-git-commit                            2.90.1-2                            all          Major mode for editing git commit message
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-all                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (all subpackages)
+ii  git-cvs                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (cvs interoperability)
+ii  git-daemon-run                             1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (git-daemon service)
+ii  git-doc                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (documentation)
+ii  git-el                                     1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (emacs support)
+ii  git-email                                  1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (email add-on)
+ii  git-gui                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (GUI)
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  git-mediawiki                              1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (MediaWiki remote helper)
+ii  git-svn                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (svn interoperability)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>maria13
+hostname
+   Static hostname: maria13vbox.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 36b33db08fba48ab87c10d423a591b9f
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-40-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,:/home/tricia:/bin/bash
+maria13:x:1002:1002:Maria B,,,:/home/maria13:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,maria13
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>marian
+hostname
+   Static hostname: marianbox.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: c81c005d640c40c3af057914de997a18
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-40-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+marian:x:1001:1001:Marian Ruth Lina,,,,Student:/home/marian:/bin/bash
+tricia:x:1002:1002:,,,,teacher:/home/tricia:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:Jimh,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,marian,tricia
+uid=1002(tricia) gid=1002(tricia) groups=1002(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>mate
+hostname
+   Static hostname: mateb.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 7c74981af6274b90b9cc25eabdcb8e5a
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+mate:x:1002:1002:Mate Barabas,,,,student:/home/mate:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,mate
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>michael
+hostname
+   Static hostname: michaelvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 5fc6d35256044e09bde980dfe130b064
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-41-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+michael:x:1002:1002:Michael,,,,student:/home/michael:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,michael
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  elpa-git-commit                            2.90.1-2                            all          Major mode for editing git commit message
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-all                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (all subpackages)
+ii  git-cvs                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (cvs interoperability)
+ii  git-daemon-run                             1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (git-daemon service)
+ii  git-doc                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (documentation)
+ii  git-el                                     1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (emacs support)
+ii  git-email                                  1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (email add-on)
+ii  git-gui                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (GUI)
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  git-mediawiki                              1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (MediaWiki remote helper)
+ii  git-svn                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (svn interoperability)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>mishal
+hostname
+   Static hostname: mishal-a.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: fb48a3070f114ff5ba8e5b9df846e7a4
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-40-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+mishal:x:1002:1002:Mishal Alarifi,,,:/home/mishal:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,mishal
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>nael
+hostname
+   Static hostname: naelsagel.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: b092727997a344b2b179ed3ff8f426f7
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:tricia,,,:/home/tricia:/bin/bash
+nael:x:1002:1002:Nael Louis,,,:/home/nael:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,nael
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>neil
+hostname
+   Static hostname: neilvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: fe8ac1b5880a432f8d181c7951a9e062
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+neil:x:1001:1001:Neil Fisher,2,,:/home/neil:/bin/bash
+tricia:x:1002:1002:Tricia,,,:/home/tricia:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,neil,tricia
+uid=1002(tricia) gid=1002(tricia) groups=1002(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>nicolae
+hostname
+   Static hostname: nicolaevm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 43d2a8ecefbd4789b5d1f39b20a73f14
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-40-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,:/home/tricia:/bin/bash
+nicolae:x:1002:1002:Nicolae Rusu,,,:/home/nicolae:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,nicolae
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>rkeren
+hostname
+   Static hostname: keren.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 20b1cf324a804df593488bd02e3d4361
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:Patricia Campbell,,,,teacher:/home/tricia:/bin/bash
+rkeren:x:1002:1002:Keren Rivera,,,,student:/home/rkeren:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:Jim Henson,,,,Creator:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,rkeren
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>sammy
+hostname
+   Static hostname: sammyvm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 51ed9310b82d47b0bd83c142f38b0690
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-44-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+sammy:x:1002:1002:Sammy Pantaleon-Hernandez,,,,student:/home/sammy:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,sammy
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>sergio
+hostname
+   Static hostname: sergiosegrera.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 9e1ba236b22f47e09004803fbcb1a5ce
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+sergio:x:1002:1002:Sergio Segrera,,,:/home/sergio:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:jimh,,,:/home/jimh:/bin/bash
+gonzo:x:1004:1004:gonzo,,,:/home/gonzo:/bin/bash
+sudo for both
+sudo:x:27:dawson,sergio,tricia
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>shiv
+hostname
+   Static hostname: shiv.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: b7078157e34a4c1a9f610d2413221ada
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-40-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:Patricia Campbellll,3F.33,,,teacher:/home/tricia:/bin/bash
+shiv:x:1002:1002:Shiv Patel,,,,student:/home/shiv:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,shiv
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>shlomy
+hostname
+   Static hostname: shlomyb.dawsoncollege.qc.ca
+   Pretty hostname: shlomy_b.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 9976858c1d6841d4a56d92e2eb474999
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+shlomy:x:1002:1002:,,,:/home/shlomy:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,shlomy
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+START>>>thomas
+hostname
+   Static hostname: thomas.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 9b3a171c89d54bfe9aff16f153da63e7
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-43-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+thomas:x:1002:1002:,,,,student:/home/thomas:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,thomas
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3                   amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3                   all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+START>>>vashti
+hostname
+   Static hostname: vashtivm.dawsoncollege.qc.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8a83735b366346baaa432b1ec276a88d
+           Boot ID: 0cc7841e5db149fb955c14f3070a31aa
+    Virtualization: vmware
+  Operating System: Ubuntu 20.04.1 LTS
+            Kernel: Linux 5.8.0-44-generic
+      Architecture: x86-64
+own userid & tricia
+dawson:x:1000:1000:Dawson College,,,:/home/dawson:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+tricia:x:1001:1001:,,,,teacher:/home/tricia:/bin/bash
+vashti:x:1002:1002:Vashti Lanz Rubio,,,,student:/home/vashti:/bin/bash
+sshd:x:126:65534::/run/sshd:/usr/sbin/nologin
+jimh:x:1003:1003:,,,:/home/jimh:/bin/bash
+sudo for both
+sudo:x:27:dawson,tricia,vashti
+uid=1001(tricia) gid=1001(tricia) groups=1001(tricia),27(sudo)
+enabled
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+install asciiquarium
+/usr/local/bin/asciiquarium
+install git, dos2unix, etc
+ii  git                                        1:2.25.1-1ubuntu3.1                 amd64        fast, scalable, distributed revision control system
+ii  git-man                                    1:2.25.1-1ubuntu3.1                 all          fast, scalable, distributed revision control system (manual pages)
+ii  dos2unix                                   7.4.0-2                             amd64        convert text file line endings between CRLF and LF
+ii  cowsay                                     3.03+dfsg2-7                        all          configurable talking cow
+success 0
+fail 0
