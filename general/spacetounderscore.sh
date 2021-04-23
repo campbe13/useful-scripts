@@ -8,9 +8,15 @@
 # 2021-04-23
 # add option to rename 1 file
 #
+usage () {
+    echo $(basename $0) Rename file or from list of files, change blanks to underscores
+    echo
+    echo $(basename $0) file_that_is_list_of_filenames
+    echo or
+    echo $(basename $0) -f file with spacecs in name
+}
 if [[ $# -le 0 ]] ; then
-    echo $(basename $0) Rename file list, change blanks to underscores
-    echo $(basename $0 ) file_that_is_list_of_filenames
+    usage
     exit 1
 fi
 rename () { 
@@ -25,14 +31,13 @@ rename () {
     fi
 }
 # check for single file rename
-if [[ $1  == -t ]] && [[ $# -eq 2 ]]  ; then
+if [[ $1  == -f ]] && [[ $# -eq 2 ]]  ; then
         rename $2
         exit 0 
 # check for file 
 elif [[ ! -f $1 ]] ; then
-    echo $(basename $0 ) file_that_is_list_of_filenames
-    echo first arg must be a file
-    exit 1
+    usage
+    exit 2
 fi
 # read from file
 while  read -r fn
