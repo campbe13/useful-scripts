@@ -13,11 +13,13 @@
 # my key has no password so that I can run it automatically
 # I usually run it as a cron job just after the deadline 
 #
+# change the dir=, fn= and err= as you wish
+#
 date=$(date +%F)
 time=$(date +%H.%M)
-dir=~/droid/project.$date.H$time
+dir=project2.$date.H$time
 err=error.$date.H$time
-fn=~/droid/project.list.txt
+fn=list.txt
 if   [[ ! -f $fn ]] ;  then
      echo $(basename $0) needs a list of repos in $fn
      exit 5
@@ -25,13 +27,14 @@ fi
 if   [[ ! -d $dir ]] ;  then
  mkdir $dir
 fi
+cp $fn $dir
 cd $dir
 count=0
 errct=0
 for i in $(cat $fn) ;  do
 	((count++))
 	echo cloning $i 
-        git clone $i
+        git clone $i 
 	err=$?
         if [[ $err -ne 0 ]] ; then
 		(( errct++ ))
