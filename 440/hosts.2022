@@ -1,0 +1,53 @@
+127.0.0.1	localhost
+127.0.1.1	dc0.dawsoncollege.qc.ca	dc0
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.172.10.201	mady.dawsoncollege.qc.ca	Mady
+10.172.11.194	danyvm.dawsoncollege.qc.ca	dany
+10.172.11.205	GabrielDinosaur.dawsoncollege.qc.ca	Gabriel
+10.172.11.59	raagavvm.dawsoncollege.qc.ca	Raagav
+10.172.12.166	maximerayvichvm.dawsoncollege.qc.ca	Maxime
+10.172.12.209	danvm.dawsoncollege.qc.ca	DanW
+10.172.12.238	aidancatriel.dawsoncollege.qc.ca	Aidan
+10.172.12.56	mariamariavm.dawsoncollege.qc.ca	Maria
+10.172.12.92	maedehH.dawsoncollege.qc.ca	Maedeh
+10.172.13.171	kylevm.dawsoncollege.qc.ca	Kyle
+10.172.13.197	natalielalala.dawsoncollege.qc.ca	Natalie
+10.172.13.28	paulvm.dawsoncollege.qc.ca	Paul
+10.172.14.110	robertgutkowski.dawsoncollege.qc.ca	Robert
+10.172.14.235	mykytavm.dawsoncollege.qc.ca	Mykyta
+10.172.14.35	gui.dawsoncollege.qc.ca	Guilherme
+10.172.14.97	johnnyhoang.dawsoncollege.qc.ca	Johnny
+10.172.15.154	davitvm.dawsoncollege.qc.ca	davit
+10.172.15.232	vinhdat.dawsoncollege.qc.ca	vinh vinhdat 
+10.172.16.101	veronikavm.dawsoncollege.qc.ca	Veronika
+10.172.16.128	andrewT.dawsoncollege.qc.ca	Andrew
+10.172.16.76	mathieuvm.dawsoncollege.qc.ca	Mathieu
+10.172.17.66	KatharinaVM.dawsoncollege.qc.ca	Katharina
+10.172.18.197	marianVM.dawsoncollege.qc.ca	Marian
+10.172.19.15	qiuning.dawsoncollege.qc.ca	Qiuning
+10.172.19.164	noahlabvm.dawsoncollege.qc.ca	Noah
+10.172.20.16	raphaelcanciani.dawsoncollege.qc.ca	raphael
+10.172.20.23	haroutvm.dawsoncollege.qc.ca	Harout
+10.172.20.236	tomasvm.dawsoncollege.qc.ca	Tomas
+10.172.20.241	BogdanOS.dawsoncollege.qc.ca	Bogdan
+10.172.21.108	adamat.dawsoncollege.qc.ca	Adam
+10.172.21.110	bastian.dawsoncollege.qc.ca	Bastian
+10.172.21.113	wantingvm.dawsoncollege.qc.ca	Wanting
+10.172.21.131	santivm.dawsoncollege.qc.ca	Santiago
+10.172.21.211	octaviovm.dawsoncollege.qc.ca	Octavio
+10.172.21.220	noLAN.dawsoncollege.qc.ca	Nolan
+10.172.22.143	tuandanhvm.dawsoncollege.qc.ca	tuan tuandanh
+10.172.22.167	domenicovm.dawsoncollege.qc.ca	Domenico
+10.172.22.72	christopherhu.dawsoncollege.qc.ca	Christopherh
+10.172.23.107	maashirley.dawsoncollege.qc.ca	Shirley
+10.172.23.122	minhduchoang.dawsoncollege.qc.ca	minh
+10.172.23.53	michaelo.dawsoncollege.qc.ca	Michael
+10.172.24.228	chrisdage.dawsoncollege.qc.ca	Christopherd 
+10.172.25.117	vinuyanvm.dawsoncollege.qc.ca	Vinuyan
+10.172.25.139	mauricioVM.dawsoncollege.qc.ca	Mauricio
+10.172.25.216	cuneytvm.dawsoncollege.qc.ca	Cuneyt
+10.172.25.52	kelseyseeme.dawsoncollege.qc.ca	Kelsey
