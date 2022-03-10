@@ -9,6 +9,11 @@ if [[ $# < 1 ]] ; then
    exit 1
 fi
 
+if [[ ! -f .password ]] ; then
+   echo $(basename $0) need a file .password containing your password on the remote
+   exit 1
+fi
+
 echo "checking ssh "
 countok=0
 countbad=0

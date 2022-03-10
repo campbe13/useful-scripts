@@ -9,7 +9,7 @@
 
 USERNAME=tricia
 echo you must cache the keys from the remote host in order to run this w/o interaction
-echo run getsshkeys.sh first this will get the remote pubkeys & you can run this after
+echo run getsshkeys.sh first this will get the remote pubkeys \& you can run this after
 
 if [[ $# < 1 ]] ; then
    echo $(basename $0) need a file of hosts to check as cli arg

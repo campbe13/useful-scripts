@@ -2,3 +2,4 @@
 .groupid
 token.and.groupid
 org.access_token
+.*password

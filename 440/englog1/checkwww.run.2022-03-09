@@ -1,0 +1,631 @@
+checking ports
+START--- adam
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for adam (10.172.21.108)
+Host is up (0.00049s latency).
+rDNS record for 10.172.21.108: adamat.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+adam 8855 1 is good: 1
+adam 8805 1 is good: 1
+START--- Aidan
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Aidan (10.172.12.238)
+Host is up (0.00032s latency).
+rDNS record for 10.172.12.238: aidancatriel.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Aidan 8855 1 is good: 1
+Aidan 8805 1 is good: 1
+START--- Andrew
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Andrew (10.172.16.128)
+Host is up (0.00042s latency).
+rDNS record for 10.172.16.128: andrewT.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Andrew 8855 1 is good: 1
+Andrew 8805 1 is good: 1
+START--- Bastian
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Bastian (10.172.21.110)
+Host is up (0.00056s latency).
+rDNS record for 10.172.21.110: bastian.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Bastian 8855 1 is good: 1
+Bastian 8805 1 is good: 1
+START--- Bogdan
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Bogdan (10.172.20.241)
+Host is up (0.00043s latency).
+rDNS record for 10.172.20.241: BogdanOS.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Bogdan 8855 1 is good: 1
+Bogdan 8805 1 is good: 1
+START--- Christopherh
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Christopherh (10.172.22.72)
+Host is up (0.00026s latency).
+rDNS record for 10.172.22.72: christopherhu.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Christopherh 8855 1 is good: 1
+Christopherh 8805 1 is good: 2
+START--- Christopherd
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Christopherd (10.172.24.228)
+Host is up (0.00048s latency).
+rDNS record for 10.172.24.228: chrisdage.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Christopherd 8855 1 is good: 1
+Christopherd 8805 1 is good: 1
+START--- Cuneyt
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Cuneyt (10.172.25.216)
+Host is up (0.00043s latency).
+rDNS record for 10.172.25.216: cuneytvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Cuneyt 8855 1 is good: 1
+Cuneyt 8805 1 is good: 1
+START--- DanW
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for DanW (10.172.12.209)
+Host is up (0.00028s latency).
+rDNS record for 10.172.12.209: danvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+DanW 8855 1 is good: 1
+DanW 8805 1 is good: 1
+START--- dany
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for dany (10.172.11.194)
+Host is up (0.00063s latency).
+rDNS record for 10.172.11.194: danyvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+dany 8855 1 is good: 1
+dany 8805 1 is good: 1
+START--- davit
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for davit (10.172.15.154)
+Host is up (0.00032s latency).
+rDNS record for 10.172.15.154: davitvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+davit 8855 1 is good: 1
+davit 8805 1 is good: 1
+START--- Domenico
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Domenico (10.172.22.167)
+Host is up (0.00050s latency).
+rDNS record for 10.172.22.167: domenicovm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Domenico 8855 1 is good: 0
+Domenico 8805 1 is good: 0
+START--- Gabriel
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Gabriel (10.172.11.205)
+Host is up (0.00041s latency).
+rDNS record for 10.172.11.205: GabrielDinosaur.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Gabriel 8855 1 is good: 1
+Gabriel 8805 1 is good: 1
+START--- Guilherme
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Guilherme (10.172.14.35)
+Host is up (0.00051s latency).
+rDNS record for 10.172.14.35: gui.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Guilherme 8855 1 is good: 1
+Guilherme 8805 1 is good: 1
+START--- Harout
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Harout (10.172.20.23)
+Host is up (0.00094s latency).
+rDNS record for 10.172.20.23: haroutvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Harout 8855 1 is good: 1
+Harout 8805 1 is good: 1
+START--- Johnny
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Johnny (10.172.14.97)
+Host is up (0.00049s latency).
+rDNS record for 10.172.14.97: johnnyhoang.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Johnny 8855 1 is good: 1
+Johnny 8805 1 is good: 1
+START--- Katharina
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Katharina (10.172.17.66)
+Host is up (0.00067s latency).
+rDNS record for 10.172.17.66: KatharinaVM.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Katharina 8855 1 is good: 1
+Katharina 8805 1 is good: 1
+START--- Kelsey
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:25 EST
+Nmap scan report for Kelsey (10.172.25.52)
+Host is up (0.00056s latency).
+rDNS record for 10.172.25.52: kelseyseeme.dawsoncollege.qc.ca
+
+PORT     STATE    SERVICE
+80/tcp   open     http
+8805/tcp filtered pfcp
+8855/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 1.24 seconds
+Kelsey 8855 1 is good: 0
+Kelsey 8805 1 is good: 0
+START--- Kyle
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Kyle (10.172.13.171)
+Host is up (0.00045s latency).
+rDNS record for 10.172.13.171: kylevm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Kyle 8855 1 is good: 3
+Kyle 8805 1 is good: 3
+START--- Mady
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Mady (10.172.10.201)
+Host is up (0.00056s latency).
+rDNS record for 10.172.10.201: mady.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+Mady 8855 1 is good: 1
+Mady 8805 1 is good: 1
+START--- Maedeh
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Maedeh (10.172.12.92)
+Host is up (0.00049s latency).
+rDNS record for 10.172.12.92: maedehH.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Maedeh 8855 1 is good: 2
+Maedeh 8805 1 is good: 3
+START--- Maria
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Maria (10.172.12.56)
+Host is up (0.00028s latency).
+rDNS record for 10.172.12.56: mariamariavm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Maria 8855 1 is good: 1
+Maria 8805 1 is good: 1
+START--- Marian
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Marian (10.172.18.197)
+Host is up (0.00036s latency).
+rDNS record for 10.172.18.197: marianVM.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Marian 8855 1 is good: 1
+Marian 8805 1 is good: 1
+START--- Mathieu
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Mathieu (10.172.16.76)
+Host is up (0.00033s latency).
+rDNS record for 10.172.16.76: mathieuvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Mathieu 8855 1 is good: 1
+Mathieu 8805 1 is good: 1
+START--- Mauricio
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Mauricio (10.172.25.139)
+Host is up (0.00052s latency).
+rDNS record for 10.172.25.139: mauricioVM.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Mauricio 8855 1 is good: 1
+Mauricio 8805 1 is good: 1
+START--- Maxime
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Maxime (10.172.12.166)
+Host is up (0.00068s latency).
+rDNS record for 10.172.12.166: maximerayvichvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Maxime 8855 1 is good: 1
+Maxime 8805 1 is good: 1
+START--- Michael
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Michael (10.172.23.53)
+Host is up (0.00049s latency).
+rDNS record for 10.172.23.53: michaelo.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+Michael 8855 1 is good: 1
+Michael 8805 1 is good: 0
+START--- Mykyta
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Mykyta (10.172.14.235)
+Host is up (0.00036s latency).
+rDNS record for 10.172.14.235: mykytavm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Mykyta 8855 1 is good: 0
+Mykyta 8805 1 is good: 1
+START--- Noah
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Noah (10.172.19.164)
+Host is up (0.00043s latency).
+rDNS record for 10.172.19.164: noahlabvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Noah 8855 1 is good: 1
+Noah 8805 1 is good: 1
+START--- Nolan
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Nolan (10.172.21.220)
+Host is up (0.00056s latency).
+rDNS record for 10.172.21.220: noLAN.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Nolan 8855 1 is good: 1
+Nolan 8805 1 is good: 1
+START--- Octavio
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Octavio (10.172.21.211)
+Host is up (0.00059s latency).
+rDNS record for 10.172.21.211: octaviovm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Octavio 8855 1 is good: 1
+Octavio 8805 1 is good: 1
+START--- Paul
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Paul (10.172.13.28)
+Host is up (0.00029s latency).
+rDNS record for 10.172.13.28: paulvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Paul 8855 1 is good: 1
+Paul 8805 1 is good: 1
+START--- Qiuning
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Qiuning (10.172.19.15)
+Host is up (0.00031s latency).
+rDNS record for 10.172.19.15: qiuning.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Qiuning 8855 1 is good: 2
+Qiuning 8805 1 is good: 2
+START--- Raagav
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Raagav (10.172.11.59)
+Host is up (0.00038s latency).
+rDNS record for 10.172.11.59: raagavvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Raagav 8855 1 is good: 0
+Raagav 8805 1 is good: 1
+START--- raphael
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for raphael (10.172.20.16)
+Host is up (0.00049s latency).
+rDNS record for 10.172.20.16: raphaelcanciani.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+raphael 8855 1 is good: 1
+raphael 8805 1 is good: 1
+START--- Robert
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Robert (10.172.14.110)
+Host is up (0.00082s latency).
+rDNS record for 10.172.14.110: robertgutkowski.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Robert 8855 1 is good: 1
+Robert 8805 1 is good: 1
+START--- Santiago
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Santiago (10.172.21.131)
+Host is up (0.00037s latency).
+rDNS record for 10.172.21.131: santivm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Santiago 8855 1 is good: 1
+Santiago 8805 1 is good: 1
+START--- Shirley
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Shirley (10.172.23.107)
+Host is up (0.00051s latency).
+rDNS record for 10.172.23.107: maashirley.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Shirley 8855 1 is good: 1
+Shirley 8805 1 is good: 1
+START--- Tomas
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Tomas (10.172.20.236)
+Host is up (0.00056s latency).
+rDNS record for 10.172.20.236: tomasvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+Tomas 8855 1 is good: 1
+Tomas 8805 1 is good: 0
+START--- tuan
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for tuan (10.172.22.143)
+Host is up (0.00036s latency).
+rDNS record for 10.172.22.143: tuandanhvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+tuan 8855 1 is good: 1
+tuan 8805 1 is good: 0
+START--- Veronika
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Veronika (10.172.16.101)
+Host is up (0.00062s latency).
+rDNS record for 10.172.16.101: veronikavm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Veronika 8855 1 is good: 1
+Veronika 8805 1 is good: 1
+START--- vinh
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for vinh (10.172.15.232)
+Host is up (0.00038s latency).
+rDNS record for 10.172.15.232: vinhdat.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+vinh 8855 1 is good: 0
+vinh 8805 1 is good: 1
+START--- Vinuyan
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Vinuyan (10.172.25.117)
+Host is up (0.00073s latency).
+rDNS record for 10.172.25.117: vinuyanvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Vinuyan 8855 1 is good: 1
+Vinuyan 8805 1 is good: 1
+START--- Wanting
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for Wanting (10.172.21.113)
+Host is up (0.00039s latency).
+rDNS record for 10.172.21.113: wantingvm.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Wanting 8855 1 is good: 2
+Wanting 8805 1 is good: 2
+START--- minh
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-03-09 12:26 EST
+Nmap scan report for minh (10.172.23.122)
+Host is up (0.00035s latency).
+rDNS record for 10.172.23.122: minhduchoang.dawsoncollege.qc.ca
+
+PORT     STATE SERVICE
+80/tcp   open  http
+8805/tcp open  pfcp
+8855/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+minh 8855 1 is good: 1
+minh 8805 1 is good: 1

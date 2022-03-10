@@ -1,0 +1,72 @@
+--2022-03-09 16:15:19--  http://bastian/secret
+Resolving bastian (bastian)... 10.172.21.110
+Connecting to bastian (bastian)|10.172.21.110|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Secret Files"
+Reusing existing connection to bastian:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://dany/secret
+Resolving dany (dany)... 10.172.11.194
+Connecting to dany (dany)|10.172.11.194|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Restricted Files"
+Reusing existing connection to dany:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://domenico/secret
+Resolving domenico (domenico)... 10.172.22.167
+Connecting to domenico (domenico)|10.172.22.167|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Restricted Content"
+Reusing existing connection to domenico:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://johnny/secret
+Resolving johnny (johnny)... 10.172.14.97
+Connecting to johnny (johnny)|10.172.14.97|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Restricted Content"
+Reusing existing connection to johnny:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://mauricio/secret
+Resolving mauricio (mauricio)... 10.172.25.139
+Connecting to mauricio (mauricio)|10.172.25.139|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Private"
+Reusing existing connection to mauricio:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://octavio/secret
+Resolving octavio (octavio)... 10.172.21.211
+Connecting to octavio (octavio)|10.172.21.211|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Restricted File"
+Reusing existing connection to octavio:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://santiago/secret
+Resolving santiago (santiago)... 10.172.21.131
+Connecting to santiago (santiago)|10.172.21.131|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Restricted files"
+Reusing existing connection to santiago:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
+--2022-03-09 16:15:19--  http://vinuyan/secret
+Resolving vinuyan (vinuyan)... 10.172.25.117
+Connecting to vinuyan (vinuyan)|10.172.25.117|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="Restricted Files"
+Reusing existing connection to vinuyan:80.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
