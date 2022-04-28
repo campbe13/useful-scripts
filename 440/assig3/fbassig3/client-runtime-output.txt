@@ -1,0 +1,103 @@
+
+tricia@teacher2022:~/useful-scripts/440/assig3$ !1999
+./cka3client.sh clients.txt domain-client.txt
+mkdir: cannot create directory ‘fbassig3/CultOfFozzie.ca’: File exists
+domain=CultOfFozzie.ca on vinh
+client.sh                                                         100%  288   596.4KB/s   00:00
+args.client                                                       100%   23    53.5KB/s   00:00
+dig: parse of /etc/resolv.conf failed
+mkdir: cannot create directory ‘fbassig3/dhcplovers.ca’: File exists
+domain=dhcplovers.ca on Cuneyt
+client.sh                                                         100%  288    28.9KB/s   00:00
+args.client                                                       100%   21     4.2KB/s   00:00
+domain=epicpew.ca on Katharina
+client.sh                                                         100%  288   367.3KB/s   00:00
+args.client                                                       100%   18     1.6KB/s   00:00
+domain=forkbomb.ca on Santiago
+client.sh                                                         100%  288   562.4KB/s   00:00
+args.client                                                       100%   19    46.6KB/s   00:00
+tail: cannot open '/etc/resolv.conf' for reading: No such file or directory
+domain=kna.ca on andrew
+client.sh                                                         100%  288   401.9KB/s   00:00
+args.client                                                       100%   14    23.5KB/s   00:00
+domain=linuxishard.ca on raphael
+client.sh                                                         100%  288    35.9KB/s   00:00
+args.client                                                       100%   22     2.0KB/s   00:00
+domain=mid.ca on Noah
+client.sh                                                         100%  288    45.9KB/s   00:00
+args.client                                                       100%   14     7.5KB/s   00:00
+domain=mlpsm.ca on Mathieu
+client.sh                                                         100%  288    61.8KB/s   00:00
+args.client                                                       100%   16     2.8KB/s   00:00
+domain=muppetchurch.ca on domenico
+client.sh                                                         100%  288    52.3KB/s   00:00
+args.client                                                       100%   23     4.8KB/s   00:00
+domain=onmeow.ca on Tomas
+client.sh                                                         100%  288   319.3KB/s   00:00
+args.client                                                       100%   17    30.4KB/s   00:00
+mkdir: cannot create directory ‘fbassig3/onmeow.ca’: File exists
+domain=onmeow.ca on Danh
+ssh: Could not resolve hostname danh: No address associated with hostname
+lost connection
+ssh: Could not resolve hostname danh: No address associated with hostname
+domain=PG13.ca on dany
+client.sh                                                         100%  288    33.3KB/s   00:00
+args.client                                                       100%   15     2.1KB/s   00:00
+domain=ProjectBlank.ca on qiuning
+client.sh                                                         100%  288   233.4KB/s   00:00
+args.client                                                       100%   23    15.4KB/s   00:00
+domain=responsiblewaiter.ca on bastian
+client.sh                                                         100%  288   334.8KB/s   00:00
+args.client                                                       100%   28    45.4KB/s   00:00
+mkdir: cannot create directory ‘thefunnyguys.ca’: File exists
+domain=rocket.ca
+thefunnyguys.ca
+thefunnyguys.ca on Maria
+client.sh                                                         100%  288    43.3KB/s   00:00
+args.client                                                       100%   49     4.4KB/s   00:00
+./cka3client.sh: line 39: $feedback: ambiguous redirect
+./cka3client.sh: line 40: $feedback: ambiguous redirect
+domain=turnbite.ca on christopherd
+client.sh                                                         100%  288   271.2KB/s   00:00
+args.client                                                       100%   19     1.3KB/s   00:00
+domain=vin8.ca on vinuyan
+client.sh                                                         100%  288   394.5KB/s   00:00
+args.client                                                       100%   15    27.5KB/s   00:00
+domain=wanma.ca on maedeh
+client.sh                                                         100%  288   158.2KB/s   00:00
+args.client                                                       100%   16    12.4KB/s   00:00
+domain=dnaofthesoul.ca on Mykyta
+client.sh                                                         100%  288    25.3KB/s   00:00
+args.client                                                       100%   23    21.4KB/s   00:00
+mkdir: cannot create directory ‘thefunnyguys.ca’: File exists
+domain=thefunnyguys.ca
+thefunnyguys.ca on Mauricio
+client.sh                                                         100%  288   352.7KB/s   00:00
+args.client                                                       100%   39    69.9KB/s   00:00
+./cka3client.sh: line 39: $feedback: ambiguous redirect
+./cka3client.sh: line 40: $feedback: ambiguous redirect
+domain=top.ca on Kelsey
+client.sh                                                         100%  288   243.4KB/s   00:00
+args.client                                                       100%   14    16.4KB/s   00:00
+mkdir: cannot create directory ‘fbassig3/thefunnyguys.ca’: File exists
+mkdir: cannot create directory ‘thefunnyguys.ca’: File exists
+domain=thefunnyguys.ca
+thefunnyguys.ca on Mauricio
+client.sh                                                         100%  288   358.3KB/s   00:00
+args.client                                                       100%   39    52.8KB/s   00:00
+./cka3client.sh: line 39: $feedback: ambiguous redirect
+./cka3client.sh: line 40: $feedback: ambiguous redirect
+mkdir: cannot create directory ‘fbassig3/onmeow.ca’: File exists
+mkdir: cannot create directory ‘PG13.ca’: File exists
+domain=onmeow.ca
+PG13.ca
+bestdomain.ca
+PG13.ca
+dnaofthesoul.ca on dan
+ssh: Could not resolve hostname dan: No address associated with hostname
+lost connection
+./cka3client.sh: line 39: $feedback: ambiguous redirect
+./cka3client.sh: line 40: $feedback: ambiguous redirect
+domain=brdr.ca on davit
+client.sh                                                         100%  288   384.3KB/s   00:00
+args.client                                                       100%   15    25.8KB/s   00:00

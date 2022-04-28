@@ -1,0 +1,48 @@
+START>>>Kelsey top.ca
+----hostname
+kelsey-see-me.dawsoncollege.qc.ca
+--resolv.conf
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.top.ca
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tricia.top.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53711
+;; flags: qr rd ra; QUERY: 1, ANSWER: 12, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tricia.top.ca.			IN	A
+
+;; ANSWER SECTION:
+tricia.top.ca.		361	IN	A	45.33.30.197
+tricia.top.ca.		361	IN	A	173.255.194.134
+tricia.top.ca.		361	IN	A	45.79.19.196
+tricia.top.ca.		361	IN	A	45.33.18.44
+tricia.top.ca.		361	IN	A	72.14.178.174
+tricia.top.ca.		361	IN	A	96.126.123.244
+tricia.top.ca.		361	IN	A	45.33.2.79
+tricia.top.ca.		361	IN	A	45.56.79.23
+tricia.top.ca.		361	IN	A	198.58.118.167
+tricia.top.ca.		361	IN	A	45.33.23.183
+tricia.top.ca.		361	IN	A	72.14.185.43
+tricia.top.ca.		361	IN	A	45.33.20.235
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Thu Apr 28 12:58:50 EDT 2022
+;; MSG SIZE  rcvd: 234
+
+ret code 0

@@ -1,0 +1,27 @@
+START>>> domain epicpew.ca server Gabriel
+----hostname
+gabrieldinosaur.epicpew.ca
+----netstat
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      22397/dnsmasq       
+tcp        0      0 10.172.11.205:53        0.0.0.0:*               LISTEN      22397/dnsmasq       
+tcp        0      0 172.17.0.1:53           0.0.0.0:*               LISTEN      22397/dnsmasq       
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           22397/dnsmasq       
+udp        0      0 10.172.11.205:53        0.0.0.0:*                           22397/dnsmasq       
+udp        0      0 172.17.0.1:53           0.0.0.0:*                           22397/dnsmasq       
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           815/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

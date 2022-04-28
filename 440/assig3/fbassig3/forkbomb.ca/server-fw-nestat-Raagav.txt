@@ -1,0 +1,29 @@
+START>>> domain forkbomb.ca server Raagav
+----hostname
+raagavvm.dawsoncollege.qc.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      951/dnsmasq         
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      53094/cupsd         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           809/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           951/dnsmasq         
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           53095/cups-browsed  
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23                         ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23 (v6)                    ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

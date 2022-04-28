@@ -1,0 +1,28 @@
+START>>>Santiago forkbomb.ca
+----hostname
+santivm.dawsoncollege.qc.ca
+--resolv.conf
+----dns
+command: dig tricia.forkbomb.ca
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tricia.forkbomb.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4145
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;tricia.forkbomb.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.forkbomb.ca.	400	IN	A	10.172.11.136
+tricia.forkbomb.ca.	400	IN	A	198.168.52.64
+
+;; Query time: 0 msec
+;; SERVER: ::1#53(::1)
+;; WHEN: Thu Apr 28 12:58:16 EDT 2022
+;; MSG SIZE  rcvd: 79
+
+ret code 0

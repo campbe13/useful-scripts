@@ -1,0 +1,36 @@
+START>>> domain bestdomain.ca server paul
+----hostname
+paulVM.bestdomain.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      960/dnsmasq         
+tcp        0      0 10.172.13.28:53292      44.240.216.68:443       ESTABLISHED 94702/firefox       
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           960/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           814/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+53/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+8111                       ALLOW       Anywhere                  
+8600                       ALLOW       Anywhere                  
+8708                       ALLOW       Anywhere                  
+8709                       ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+53/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+8111 (v6)                  ALLOW       Anywhere (v6)             
+8600 (v6)                  ALLOW       Anywhere (v6)             
+8708 (v6)                  ALLOW       Anywhere (v6)             
+8709 (v6)                  ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

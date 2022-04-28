@@ -1,0 +1,33 @@
+START>>> domain vin8.ca server nolan
+----hostname
+noLAN.vin8.ca
+----netstat
+tcp        0      0 127.0.0.1:38919         0.0.0.0:*               LISTEN      45360/containerd    
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      970/dnsmasq         
+tcp        0      0 10.172.21.220:22        10.172.12.214:53610     ESTABLISHED 74604/sshd: tricia  
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           970/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           813/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+8113/tcp                   ALLOW       Anywhere                  
+8114/tcp                   ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+8113/tcp (v6)              ALLOW       Anywhere (v6)             
+8114/tcp (v6)              ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

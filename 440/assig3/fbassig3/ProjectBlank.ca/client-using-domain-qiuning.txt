@@ -1,0 +1,38 @@
+START>>>qiuning ProjectBlank.ca
+----hostname
+qiuning.dawsoncollege.qc.ca
+--resolv.conf
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+#nameserver 127.0.0.53
+nameserver 10.172.14.110
+#options edns0 trust-ad
+search dawsoncollege.qc.ca ProjectBlank.ca
+----dns
+command: dig tricia.ProjectBlank.ca
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tricia.ProjectBlank.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38400
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;tricia.ProjectBlank.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.ProjectBlank.ca.	400	IN	A	10.172.11.136
+tricia.ProjectBlank.ca.	400	IN	A	198.168.52.64
+
+;; Query time: 4 msec
+;; SERVER: 10.172.14.110#53(10.172.14.110)
+;; WHEN: Thu Apr 28 12:58:27 EDT 2022
+;; MSG SIZE  rcvd: 83
+
+ret code 0

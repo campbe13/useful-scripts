@@ -1,0 +1,102 @@
+cia@teacher2022:~/useful-scripts/440/assig3$ ./cka3server.sh servers.txt domain-client.txt domain CultOfFozzie.ca
+ckufwdns.sh                                                       100%  383   166.3KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/CultOfFozzie.ca/server-fw-nestat-christopherh.txt
+domain dhcplovers.ca
+ckufwdns.sh                                                       100%  383   235.7KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/dhcplovers.ca/server-fw-nestat-Octavio.txt
+domain epicpew.ca
+ckufwdns.sh                                                       100%  383    33.0KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/epicpew.ca/server-fw-nestat-Gabriel.txt
+domain forkbomb.ca
+ckufwdns.sh                                                       100%  383   797.5KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/forkbomb.ca/server-fw-nestat-Raagav.txt
+domain kna.ca
+ckufwdns.sh                                                       100%  383    39.1KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/kna.ca/server-fw-nestat-kyle.txt
+domain linuxishard.ca
+ckufwdns.sh                                                       100%  383    48.7KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/linuxishard.ca/server-fw-nestat-adam.txt
+domain mid.ca
+ckufwdns.sh                                                       100%  383    56.7KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/mid.ca/server-fw-nestat-Mady.txt
+domain mlpsm.ca
+ckufwdns.sh                                                       100%  383    41.4KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/mlpsm.ca/server-fw-nestat-Shirley.txt
+domain muppetchurch.ca
+ckufwdns.sh                                                       100%  383    10.8KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/muppetchurch.ca/server-fw-nestat-johnny.txt
+domain onmeow.ca
+ckufwdns.sh                                                       100%  383   311.7KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/onmeow.ca/server-fw-nestat-Harout.txt
+domain PG13.ca
+ckufwdns.sh                                                       100%  383   204.1KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/PG13.ca/server-fw-nestat-aidan.txt
+domain ProjectBlank.ca
+ckufwdns.sh                                                       100%  383   240.7KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/ProjectBlank.ca/server-fw-nestat-Robert.txt
+domain responsiblewaiter.ca
+ckufwdns.sh                                                       100%  383   232.1KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/responsiblewaiter.ca/server-fw-nestat-maxime.txt
+domain rocket.ca
+ckufwdns.sh                                                       100%  383    51.0KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/rocket.ca/server-fw-nestat-Veronika.txt
+domain turnbite.ca
+ckufwdns.sh                                                       100%  383   122.0KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/turnbite.ca/server-fw-nestat-michael.txt
+domain vin8.ca
+ckufwdns.sh                                                       100%  383    58.0KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/vin8.ca/server-fw-nestat-nolan.txt
+domain wanma.ca
+ckufwdns.sh                                                       100%  383   104.1KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/wanma.ca/server-fw-nestat-wanting.txt
+domain dnaofthesoul.ca
+ckufwdns.sh                                                       100%  383    37.4KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/dnaofthesoul.ca/server-fw-nestat-Bogdan.txt
+domain thefunnyguys.ca thefunnyguys.ca
+mkdir: cannot create directory ‘fbassig3/thefunnyguys.ca’: File exists
+mkdir: cannot create directory ‘thefunnyguys.ca’: File exists
+ckufwdns.sh                                                       100%  383    53.1KB/s   00:00
+./cka3server.sh: line 39: $feedback: ambiguous redirect
+./cka3server.sh: line 40: $feedback: ambiguous redirect
+client
+feedback fbassig3/thefunnyguys.ca thefunnyguys.ca/server-fw-nestat-Marian.txt
+domain top.ca
+ckufwdns.sh                                                       100%  383   116.0KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/top.ca/server-fw-nestat-Guilherme.txt
+domain thefunnyguys.ca thefunnyguys.ca
+mkdir: cannot create directory ‘fbassig3/thefunnyguys.ca’: File exists
+mkdir: cannot create directory ‘thefunnyguys.ca’: File exists
+ckufwdns.sh                                                       100%  383   479.4KB/s   00:00
+./cka3server.sh: line 39: $feedback: ambiguous redirect
+./cka3server.sh: line 40: $feedback: ambiguous redirect
+client
+feedback fbassig3/thefunnyguys.ca thefunnyguys.ca/server-fw-nestat-Marian.txt
+domain bestdomain.ca
+ckufwdns.sh                                                       100%  383   387.2KB/s   00:00
+[sudo] password for tricia: client
+feedback fbassig3/bestdomain.ca/server-fw-nestat-paul.txt
+domain brdr.ca
+ckufwdns.sh                                                       100%  383    70.7KB/s   00:00
+sudo: unable to resolve host minhduchoang.dawsoncollege.qc.ca: Name or service not known
+[sudo] password for tricia: sudo: unable to resolve host minhduchoang.dawsoncollege.qc.ca: Name or service not known
+client
+feedback fbassig3/brdr.ca/server-fw-nestat-minh.txt

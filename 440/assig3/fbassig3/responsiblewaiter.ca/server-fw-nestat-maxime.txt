@@ -1,0 +1,27 @@
+START>>> domain responsiblewaiter.ca server maxime
+----hostname
+maxime.responsiblewaiter.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      1005/dnsmasq        
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           818/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           1005/dnsmasq        
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

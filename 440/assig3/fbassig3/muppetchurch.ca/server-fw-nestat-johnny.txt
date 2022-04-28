@@ -1,0 +1,45 @@
+START>>> domain muppetchurch.ca server johnny
+----hostname
+johnnyserver.muppetchurch.ca
+----netstat
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      958/dnsmasq         
+tcp        0      0 127.0.0.1:6010          0.0.0.0:*               LISTEN      53801/sshd: johnny@ 
+tcp        0      0 10.172.14.97:22         10.49.10.26:50564       ESTABLISHED 53723/sshd: johnny  
+tcp        0      0 10.172.14.97:22         10.49.10.26:50565       ESTABLISHED 53745/sshd: johnny  
+tcp        0      0 10.172.14.97:53666      34.117.237.239:443      ESTABLISHED 50738/firefox       
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           958/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           815/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+8765/tcp                   DENY        Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+8005/tcp                   ALLOW       Anywhere                  
+8111/tcp                   ALLOW       Anywhere                  
+8010/tcp                   ALLOW       Anywhere                  
+8500                       ALLOW       Anywhere                  
+53                         ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+9999                       ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+80                         DENY        Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+8765/tcp (v6)              DENY        Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+8005/tcp (v6)              ALLOW       Anywhere (v6)             
+8111/tcp (v6)              ALLOW       Anywhere (v6)             
+8010/tcp (v6)              ALLOW       Anywhere (v6)             
+8500 (v6)                  ALLOW       Anywhere (v6)             
+53 (v6)                    ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+9999 (v6)                  ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+80 (v6)                    DENY        Anywhere (v6)             
+

@@ -1,0 +1,29 @@
+START>>> domain dnaofthesoul.ca server Bogdan
+----hostname
+boggy.dnaofthesoul.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      965/dnsmasq         
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           965/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           813/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+53                         ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+23                         ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+53 (v6)                    ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+23 (v6)                    ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+

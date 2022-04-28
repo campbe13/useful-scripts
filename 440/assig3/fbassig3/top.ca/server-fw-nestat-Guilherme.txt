@@ -1,0 +1,26 @@
+START>>> domain top.ca server Guilherme
+----hostname
+gui.top.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      981/dnsmasq         
+tcp        0      0 10.172.14.35:22         10.172.12.214:36536     ESTABLISHED 64448/sshd: tricia  
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           981/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           812/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW       Anywhere                  
+23                         ALLOW       Anywhere                  
+53                         ALLOW       Anywhere                  
+80                         ALLOW       Anywhere                  
+8000                       ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+22 (v6)                    ALLOW       Anywhere (v6)             
+23 (v6)                    ALLOW       Anywhere (v6)             
+53 (v6)                    ALLOW       Anywhere (v6)             
+80 (v6)                    ALLOW       Anywhere (v6)             
+8000 (v6)                  ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+

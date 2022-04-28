@@ -1,0 +1,25 @@
+START>>> domain brdr.ca server minh
+----hostname
+minhduchoang.dawsoncollege.qc.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      980/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           810/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           980/dnsmasq         
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+8765/tcp                   DENY        Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+8765/tcp (v6)              DENY        Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+

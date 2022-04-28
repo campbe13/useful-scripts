@@ -1,0 +1,33 @@
+START>>> domain PG13.ca server aidan
+----hostname
+aidan.catriel.dawsoncollege.qc.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      997/dnsmasq         
+tcp        0      0 10.172.12.238:53448     52.96.88.226:443        ESTABLISHED 44367/firefox       
+tcp        0      0 10.172.12.238:53412     52.96.88.226:443        ESTABLISHED 44367/firefox       
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           997/dnsmasq         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           812/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+8123                       ALLOW       Anywhere                  
+8129                       ALLOW       Anywhere                  
+8765                       ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+80                         ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+8123 (v6)                  ALLOW       Anywhere (v6)             
+8129 (v6)                  ALLOW       Anywhere (v6)             
+8765 (v6)                  ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+80 (v6)                    ALLOW       Anywhere (v6)             
+

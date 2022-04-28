@@ -1,0 +1,29 @@
+START>>> domain mid.ca server Mady
+----hostname
+mady.mid.ca
+----netstat
+tcp        0      0 0.0.0.0:8222            0.0.0.0:*               LISTEN      53819/docker-proxy  
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      986/dnsmasq         
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           986/dnsmasq         
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           68053/cups-browsed  
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           819/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

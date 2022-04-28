@@ -1,0 +1,48 @@
+START>>> domain kna.ca server kyle
+----hostname
+kyle.kna.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      963/dnsmasq         
+tcp        0      0 10.172.13.171:22        10.172.12.214:56254     ESTABLISHED 69535/sshd: tricia  
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           811/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           963/dnsmasq         
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+8000                       ALLOW       Anywhere                  
+8005/tcp                   ALLOW       Anywhere                  
+8111                       ALLOW       Anywhere                  
+8111/tcp                   ALLOW       Anywhere                  
+8569                       ALLOW       Anywhere                  
+8569/tcp                   ALLOW       Anywhere                  
+8570                       ALLOW       Anywhere                  
+8570/tcp                   ALLOW       Anywhere                  
+8571/tcp                   ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+8856/tcp                   ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+8000 (v6)                  ALLOW       Anywhere (v6)             
+8005/tcp (v6)              ALLOW       Anywhere (v6)             
+8111 (v6)                  ALLOW       Anywhere (v6)             
+8111/tcp (v6)              ALLOW       Anywhere (v6)             
+8569 (v6)                  ALLOW       Anywhere (v6)             
+8569/tcp (v6)              ALLOW       Anywhere (v6)             
+8570 (v6)                  ALLOW       Anywhere (v6)             
+8570/tcp (v6)              ALLOW       Anywhere (v6)             
+8571/tcp (v6)              ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+8856/tcp (v6)              ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

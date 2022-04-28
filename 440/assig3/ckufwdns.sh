@@ -7,6 +7,9 @@
 echo ----hostname
 hostname
 echo ----netstat
-echo tricia |sudo -S netstat -plan4 |grep 53 
+# echo password (-S take password from stdin)
+echo linuxrocks |sudo -S netstat -plan4 |grep 53 
+#echo linuxrocks2022 |sudo -S netstat -plan4 |grep 53 
 echo ----ufw
-echo tricia |sudo -S ufw status 
+echo linuxrocks |sudo -S ufw status 
+#echo linuxrocks2022 |sudo -S ufw status 

@@ -1,0 +1,73 @@
+START>>> domain turnbite.ca server michael
+----hostname
+michael.turnbite.ca
+----netstat
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      958/dnsmasq         
+tcp        0      0 10.172.23.53:60848      209.205.197.154:443     ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:44544      54.146.135.192:443      TIME_WAIT   -                   
+tcp        0      0 10.172.23.53:52984      34.202.83.113:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:55508      104.70.185.112:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:51484      18.204.159.112:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:60752      172.217.13.206:443      TIME_WAIT   -                   
+tcp        0      0 10.172.23.53:44026      3.222.163.155:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:53233      10.149.0.21:53          TIME_WAIT   -                   
+tcp        0      0 10.172.23.53:36606      35.162.162.226:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:47440      34.149.20.76:443        ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:22         10.172.12.214:52456     ESTABLISHED 84347/sshd: tricia  
+tcp        0      0 10.172.23.53:50586      172.217.13.130:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:41734      172.67.4.237:443        ESTABLISHED 15565/firefox       
+tcp        0      0 127.0.0.1:46542         127.0.0.1:53            TIME_WAIT   -                   
+tcp        0      0 10.172.23.53:51454      104.154.142.214:443     ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:59086      142.251.32.66:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:47282      142.251.33.174:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:47938      23.227.146.234:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:52986      34.202.83.113:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:43090      104.18.2.114:443        ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:36446      3.216.186.91:443        ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:34454      193.122.130.38:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:54750      34.230.132.145:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:36954      104.22.37.96:443        ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:40672      204.237.133.116:443     ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:34540      51.222.239.230:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:37638      209.205.201.34:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:36404      104.16.190.66:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:54728      147.75.38.124:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:34972      54.84.170.87:443        ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:41426      162.55.236.225:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:54652      8.43.72.41:443          ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:47532      23.200.197.46:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:33780      44.196.255.73:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:34452      193.122.130.38:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:45978      35.211.165.199:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:46692      34.107.148.139:443      ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:36682      44.240.18.233:443       ESTABLISHED 15565/firefox       
+tcp        0      0 10.172.23.53:50558      142.251.41.66:443       ESTABLISHED 15565/firefox       
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           817/avahi-daemon: r 
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           958/dnsmasq         
+udp        0      0 10.172.23.53:68         10.149.0.20:67          ESTABLISHED 822/NetworkManager  
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+53                         ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+8805                       ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+8765                       ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+53 (v6)                    ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+8805 (v6)                  ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+8765 (v6)                  ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+

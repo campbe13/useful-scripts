@@ -11,5 +11,6 @@ hostname
 echo --resolv.conf
 tail /etc/resolv.conf
 echo ----dns
+echo "command: dig tricia.$domain"
 dig tricia.$domain
 echo ret code $?

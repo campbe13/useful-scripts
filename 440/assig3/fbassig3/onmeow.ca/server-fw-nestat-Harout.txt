@@ -1,0 +1,27 @@
+START>>> domain onmeow.ca server Harout
+----hostname
+haroutvm.dawsoncollege.qc.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      1018/dnsmasq        
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           848/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           1018/dnsmasq        
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+23/tcp                     ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+80                         ALLOW       Anywhere                  
+8805                       ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+23/tcp (v6)                ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+80 (v6)                    ALLOW       Anywhere (v6)             
+8805 (v6)                  ALLOW       Anywhere (v6)             
+

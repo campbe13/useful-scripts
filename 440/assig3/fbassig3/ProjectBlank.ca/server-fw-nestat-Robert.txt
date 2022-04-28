@@ -1,0 +1,43 @@
+START>>> domain ProjectBlank.ca server Robert
+----hostname
+robert.ProjectBlank.ca
+----netstat
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      3365/dnsmasq        
+tcp        0      0 10.172.14.110:53        0.0.0.0:*               LISTEN      3365/dnsmasq        
+tcp        0      0 172.17.0.1:53           0.0.0.0:*               LISTEN      3365/dnsmasq        
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      95333/cupsd         
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           3365/dnsmasq        
+udp        0      0 10.172.14.110:53        0.0.0.0:*                           3365/dnsmasq        
+udp        0      0 172.17.0.1:53           0.0.0.0:*                           3365/dnsmasq        
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           95335/cups-browsed  
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           816/avahi-daemon: r 
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+23                         ALLOW       Anywhere                  
+43/tcp                     ALLOW       Anywhere                  
+53/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443                        ALLOW       Anywhere                  
+8855                       ALLOW       Anywhere                  
+8805                       ALLOW       Anywhere                  
+80                         ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+8998                       DENY        Anywhere                  
+8997                       DENY        Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+23 (v6)                    ALLOW       Anywhere (v6)             
+43/tcp (v6)                ALLOW       Anywhere (v6)             
+53/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443 (v6)                   ALLOW       Anywhere (v6)             
+8855 (v6)                  ALLOW       Anywhere (v6)             
+8805 (v6)                  ALLOW       Anywhere (v6)             
+80 (v6)                    ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+8998 (v6)                  DENY        Anywhere (v6)             
+8997 (v6)                  DENY        Anywhere (v6)             
+

@@ -1,0 +1,30 @@
+START>>> domain wanma.ca server wanting
+----hostname
+wanting.wanma.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      993/dnsmasq         
+tcp        0      0 0.0.0.0:23              0.0.0.0:*               LISTEN      85153/inetd         
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           817/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           993/dnsmasq         
+----ufw
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+53/udp                     ALLOW       Anywhere                  
+443/tcp                    ALLOW       Anywhere                  
+8765/tcp                   ALLOW       Anywhere                  
+8805/tcp                   ALLOW       Anywhere                  
+8855/tcp                   ALLOW       Anywhere                  
+8997                       ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+53/udp (v6)                ALLOW       Anywhere (v6)             
+443/tcp (v6)               ALLOW       Anywhere (v6)             
+8765/tcp (v6)              ALLOW       Anywhere (v6)             
+8805/tcp (v6)              ALLOW       Anywhere (v6)             
+8855/tcp (v6)              ALLOW       Anywhere (v6)             
+8997 (v6)                  ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+
