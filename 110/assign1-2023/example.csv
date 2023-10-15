@@ -1,0 +1,4 @@
+,,,,20,80,below is the,10,,,10,,10,10,10,10,10,5,5,
+,name,name,total mark on Lea,for reflection,for code,breakdown of the 80,Naming std & attention to detail,,,comments,,methods (5 + main()),,,,main(),runtime,,Notes
+id,first ,last,on 100,total,total,marks for code,class name,"check naming, style guide",Here is your webpage: (-1 if missing),at top/class description ,methods: before header and inline ,"String surroundWithTag(tag,text):",String calculateTime(seconds),String createHead(name):,"String createBody (name, seconds, animal):",void createWebpage():,compiles & runs,output,
+1234567,Sybil,N Gineer,80,20,60,marks for code,ok,y,-1 missing,missing 1 line w name & id at top,-6 none,y,y,-5 missing title & head tags,-5 logic error',"-3 input requested out of order, missing some'",y,y,"I need to talk to you about createHead(), please see me"
