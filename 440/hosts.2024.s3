@@ -1,0 +1,35 @@
+127.0.0.1	localhost
+127.0.1.1	dawson-virtual-machine
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.172.25.187   teachers3.dawsoncollege.qc.ca teacher tricia patricia
+10.172.19.154	minhvm.dawsoncollege.qc.ca	DangMinh	Nguyen
+10.172.19.125	emmanuellelin.dawsoncollege.qc.ca	Emmanuelle	Lin
+10.172.19.78	patrivm.dawsoncollege.qc.ca	Patricia	Bourjeily
+10.172.255.255	nicholaspouliezos.dawsoncollege.qc.ca	Nicholas 	Pouliezos
+10.172.19.121	TonyDo.dawsoncollege.qc.ca	Tony	Do
+10.172.19.9	    dmitriykim.dawsoncollege.qc.ca	Dmitriy	Kim
+10.172.19.216	manilhmd.dawsoncollege.qc.ca	Manil	Hammadouche
+10.172.19.59	chen.dawsoncollege.qc.ca	Yun Chen	Qian
+10.172.18.245	eliasvm.dawsoncollege.qc.ca	Elias	Dif
+10.172.19.57	YanniAthanasoulias.dawsoncollege.qc.ca	Yanni	Athanasoulias
+10.172.19.95	amyvm.dawsoncollege.qc.ca	Amy	Tan
+10.172.19.204	adamvm.dawsoncollege.qc.ca	Adam	Winter
+10.172.19.200	abdullahvm.dawsoncollege.qc.ca	Abdullah	Badat
+10.172.19.139	ivanaz.dawsoncollege.qc.ca 	Ivana	Zhekova
+10.172.19.115	tanjacksontranvm.dawsoncollege.qc.ca	Tan-Jackson	Tran
+10.172.19.22	biancas-mojo-dojo-casa-house.dawsoncollege.qc.ca	Bianca	Rossetti
+10.172.19.162	harisvm.dawsoncollege.qc.ca	Haris	Hussain
+10.172.19.190	anthony.dawsoncollege.qc.ca	Anthony	Reale
+10.172.19.128	vijaypatel.dawsoncollege.qc.ca	Vijay 	Patel
+10.172.19.185	ameenakhokhar.dawsoncollege.qc.ca	Ameena	Khokhar
+10.172.19.168	aholmes.dawsoncollege.qc.ca	Aidan	Holmes
+10.172.19.3	    christina.dawsoncollege.qc.ca	Christina	Chiappini
+10.172.19.174	sriraamnad.dawsoncollege.qc.ca	Sriraam	Nadarajah
+10.172.17.147	alexandervm.dawsoncollege.qc.ca	Alexander	Roxas
+10.172.19.146	aman.dawsoncollege.qc.ca	Aman	Sood

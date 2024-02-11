@@ -10,7 +10,7 @@ if [[ $# < 1 ]] ; then
    exit 1
 fi
 
-CMD='echo -e "linuxrocks\ncovidsucks" | passwd $i'
+CMD='echo -e "linuxyay!\nilovelinux+" | passwd $i'
 echo "over ssh running $CMD "
 countok=0
 countbad=0

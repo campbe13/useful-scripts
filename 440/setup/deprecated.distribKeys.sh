@@ -7,7 +7,7 @@
 # must be installed 
 # 2022-02-10
 
-USERNAME=tricia
+USERNAME=teacher
 
 if [[ ! -f $1 ]] ; then
   echo $(basename $0) we need a file argument 1 with the name of a desktop to test
