@@ -6,6 +6,9 @@
 # check for docker installed 
 # check for container running
 
+
+echo " you may want to redirect stderr & stdtout to file reminder \&> result.file"
+
 if [[ $# < 1 ]] ; then
    echo $(basename $0) need a file of hosts to check as cli arg
    exit 1
@@ -24,6 +27,9 @@ countbad=0
        continue
     fi
     echo -e "START>>>$i  "
-    ssh teacher@$i which docker 
-    ssh teacher@$i docker ps -a  
+    ssh teacher@$i "which docker && ( echo "docker installed"; docker ps -a; docker images ) || ( echo "docker MISSING" )"
+#    ssh teacher@$i "docker ps -a ; docker images" 
+#    ssh teacher@$i docker ps -a  
+#    ssh teacher@$i docker images  
 done
+
