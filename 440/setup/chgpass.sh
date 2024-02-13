@@ -7,6 +7,7 @@
 
 if [[ $# < 1 ]] ; then
    echo $(basename $0) need a file of hosts to check as cli arg
+   echo will ssh to the hosts \& change the password for current user
    exit 1
 fi
 
