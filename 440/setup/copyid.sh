@@ -7,7 +7,7 @@
 # must be installed 
 # 2022-02-10
 
-USERNAME=tricia
+USERNAME=teacher
 echo you must cache the keys from the remote host in order to run this w/o interaction
 echo run getsshkeys.sh first this will get the remote pubkeys \& you can run this after
 

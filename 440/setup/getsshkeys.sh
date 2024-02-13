@@ -3,6 +3,7 @@
 # 2021-02-10
 # given a list of hosts, run this to cache the ssh keys
 # you cannot run ssh-copy-id silently unless you have the key cached already
+# put the password for the remote in .password
 
 if [[ $# < 1 ]] ; then
    echo $(basename $0) need a file of hosts to check as cli arg

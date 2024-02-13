@@ -10,12 +10,13 @@ if [[ $# < 1 ]] ; then
    exit 1
 fi
 
-CMD='echo -e "linuxyay!\nilovelinux+" | passwd $i'
+CMD='echo -e "linuxyay!\nilovelinux+" | passwd'
 echo "over ssh running $CMD "
 countok=0
 countbad=0
 for i in  `cat $1` ; do
-    ssh $i  echo -e "linuxrocks\ncovidsucks" | passwd
+    ssh $i  $CMD 
+    #ssh $i  echo -e "linuxrocks\ncovidsucks" | passwd
     if [[ $? -eq 0 ]] ; then
        echo success   $i 
        ((countok++))
@@ -25,5 +26,4 @@ for i in  `cat $1` ; do
     fi
 done
 
-echo success $countok
-echo fail  $countbad
+echo $(basename $0) success $countok  fail  $countbad
