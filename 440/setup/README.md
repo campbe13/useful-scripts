@@ -2,15 +2,14 @@
 I usually run this on my VM as I do most of my marking from there
 
 ### Distribute teacher keys to student VMs
-Note currenhtly userid is teacher 2024 could be changed to any you wish
+Note currently userid is teacher 2024 could be changed to any you wish
 students were asked to create the userid teacher on their systems
 they were given a password to assgin (put that in .sshpassword)
 
 #### prep
 
 1. use the form information submitted after the vm setup to create a hosts file
-2.  makesure all systems are booted
-   * run [checkup.sh](checkup.sh)  if some are down you need to use the vsphere console to start them or figure out why ssh is not connecting
+2. makesure all systems are booted, run [checkup.sh](checkup.sh)  if some are down you need to use the vsphere console to start them or figure out why ssh is not connecting
 
 #### setup 
 Run the following on the system you will be using to access student VMs 
@@ -26,7 +25,6 @@ Run the following on the system you will be using to access student VMs
 
 optional --- not working right now and not needed as keys installed
 1. run [chgpass.sh](chgpass.sh) to change the password of teacher id, edit the script to put in passwords & USERNAME
-
 
 ## [addto.bashrc](addto.bashrc)
 `cat addto.bashrc >> ~/.bashrc`
