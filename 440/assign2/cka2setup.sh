@@ -27,7 +27,7 @@ countbad=0
        continue
     fi
     echo -e "START>>>$i  "
-    ssh teacher@$i "which docker && ( echo "docker installed"; docker ps -a; docker images ) || ( echo "docker MISSING" )"
+    ssh teacher@$i "which docker && ( echo "docker installed"; docker ps -a|grep elbow2 ) || ( echo "docker MISSING" )"
 #    ssh teacher@$i "docker ps -a ; docker images" 
 #    ssh teacher@$i docker ps -a  
 #    ssh teacher@$i docker images  
