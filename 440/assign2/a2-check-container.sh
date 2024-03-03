@@ -2,9 +2,8 @@
 # script to check work on the container
 # copied to & run on student container
 
-
-echo student $(hostnamectl --static) 
-
+pwd
+ls -la |grep student
 # ticket 1 
 
 # manually check ssh
@@ -14,9 +13,10 @@ echo student $(hostnamectl --static)
 #     systemctl enable ssh
 
 # ticket 2  (bonus if they verify ??)
-apt search audacity  
+#apt search audacity  
 # or
-apt list |grep audacity
+echo "ticket 2"
+apt list 2>/dev/null|grep audacity 
 # ticket 3
 # The first field is the user's loginname. 
 # The second field indicates if the user account has a locked password (L), has no password (NP), or has a usable password (P). 
@@ -27,25 +27,34 @@ apt list |grep audacity
 # 7  inactivity period for the password.
 # These ages are expressed in days.
 # result of -S:   bruno L 01/29/2023 0 99999 7 -1
+echo "ticket 3"
+echo "expect:   bruno L 01/29/2023 0 99999 7 -1"
 sudo passwd -S bruno  
 # ticket 4 
 # passwd changed & expired:  01/01/1970 
 # result of -S elena P 01/01/1970 0 99999 7 -1
 # passwd -e or usermod 
+echo "ticket 4"
+echo "expect:  elena P 01/01/1970 0 99999 7 -1"
 sudo passwd -S elena
 # ticket 5
 # s/sam/samira/
 # usermod samira -l sam
 # groupmod -n sam samira
 # usermod  sam -d /home/sam -m
+echo "ticket 5"
 grep sam /etc/group /etc/passwd  # groupmod -n sam samira changed
 ls -la /home/sam # no samira
 # ticket 6
+echo "ticket 6"
+echo expect: userid  P 02/14/2024 0 7 7 -1
 passwd -aS  |egrep "(ozz|rov|erm)"
 #fozzie P 02/14/2024 0 7 7 -1
 #grover P 02/14/2024 0 7 7 -1
 #kermit P 02/23/2024 0 7 7 -1
+echo 'expect: student (3), 3xgroups, muppets (3)'
 egrep "(ozz|rov|erm)"  /etc/group
+
 #student:x:1000:andrew,dirk,ally,bruno,carlos,deanne,elena,ellie,sam,fozzie,grover,kermit,trix
 #fozzie:x:1013:
 #grover:x:1014:
@@ -53,28 +62,22 @@ egrep "(ozz|rov|erm)"  /etc/group
 #muppets:x:1016:kermit,fozzie,grover
 
 #ticket 7 
-ls -la /muppets_share
-ls -la /muppets_share/* 
+echo "ticket 7"
+if [[ ! -e /muppets_share ]] ; then 
+    echo "error not at / i"
+    dir=`find  /home/ -name muppets_share`
+    ls -lad $dir
+    ls -la $dir 
+else
+    ls -lad /muppets_share
+    ls -la /muppets_share
+fi
 
 #ticket 8
+echo "ticket 8"
+echo "expect trica ALL=(ALL) /usr/bin/apt /usr/bin/apt-get"
 egrep "(tricia|dirk)" /etc/sudoers
+grep  -i  apt /etc/sudoers
+echo "bonus for user_alias"
 #tricia ALL=(ALL) /usr/bin/apt /usr/bin/apt-get
 #dirk ALL=(ALL) /usr/bin/apt /usr/bin/apt-get
-a
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-
