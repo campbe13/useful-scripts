@@ -9,10 +9,5 @@ if [[ $# < 1 ]] ; then
 fi
 
 for i in  `cat $1` ; do
-    run=$(ssh tricia@$i systemctl status apache2 |grep -i active|grep -c running)
-    if [[ $run -eq 0 ]] ; then
-        echo $i apache2  dead
-    else
-        echo $i apache2  running
-    fi
+    wget --tries=1 --timeout=2 $i:8001  -O $i.html
 done

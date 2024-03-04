@@ -8,7 +8,7 @@ run
 
 I redirect the results of cka2setup into a file named `results*` then use [whohas.sh](whohas.sh) type greps to check it
 
-#### copy scripts to student VMs 
+#### scripts for  student VMs 
 
 * [cp-scripts.sh](cp-scripts.sh) copies a2-*.sh to student VMs
 * [a2-run.sh](a2-run.sh) copies a2-check-container.sh to container then runs the script on the container

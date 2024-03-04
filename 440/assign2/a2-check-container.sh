@@ -4,6 +4,7 @@
 
 pwd
 ls -la |grep student
+cat .student_name
 # ticket 1 
 
 # manually check ssh
@@ -43,8 +44,8 @@ sudo passwd -S elena
 # groupmod -n sam samira
 # usermod  sam -d /home/sam -m
 echo "ticket 5"
-grep sam /etc/group /etc/passwd  # groupmod -n sam samira changed
-ls -la /home/sam # no samira
+grep -i sam /etc/group /etc/passwd  # groupmod -n sam samira changed
+ls -la /home/[Ss]am # no samira
 # ticket 6
 echo "ticket 6"
 echo expect: userid  P 02/14/2024 0 7 7 -1
@@ -60,11 +61,14 @@ egrep "(ozz|rov|erm)"  /etc/group
 #grover:x:1014:
 #kermit:x:1015:
 #muppets:x:1016:kermit,fozzie,grover
+chage -l fozzie
+chage -l grover
+chage -l kermit
 
 #ticket 7 
 echo "ticket 7"
 if [[ ! -e /muppets_share ]] ; then 
-    echo "error not at / i"
+    echo "error not at / "
     dir=`find  /home/ -name muppets_share`
     ls -lad $dir
     ls -la $dir 
@@ -78,6 +82,8 @@ echo "ticket 8"
 echo "expect trica ALL=(ALL) /usr/bin/apt /usr/bin/apt-get"
 egrep "(tricia|dirk)" /etc/sudoers
 grep  -i  apt /etc/sudoers
+grep  -i  teach /etc/sudoers
+sudo su - dirk -c ' apt install cowsay -y'
 echo "bonus for user_alias"
 #tricia ALL=(ALL) /usr/bin/apt /usr/bin/apt-get
 #dirk ALL=(ALL) /usr/bin/apt /usr/bin/apt-get
