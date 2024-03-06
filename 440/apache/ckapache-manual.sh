@@ -1,8 +1,7 @@
 #!/bin/bash
 # pmcampbell
-# 2021-01-12
-# given a list of hosts, check which are ssh accessible
-
+# 2024-03-01
+# given a list of hosts, check if the apache manual was installed
 if [[ $# < 1 ]] ; then
    echo $(basename $0) need a file of hosts to check as cli arg
    exit 1
