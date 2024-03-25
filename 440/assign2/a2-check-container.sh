@@ -43,9 +43,9 @@ sudo passwd -S elena
 # usermod samira -l sam
 # groupmod -n sam samira
 # usermod  sam -d /home/sam -m
-echo "ticket 5"
+echo "ticket 5 s/samira/sam"
 grep -i sam /etc/group /etc/passwd  # groupmod -n sam samira changed
-ls -la /home/[Ss]am # no samira
+ls -lad /home/[Ss]am # no samira
 # ticket 6
 echo "ticket 6"
 echo expect: userid  P 02/14/2024 0 7 7 -1
@@ -61,9 +61,9 @@ egrep "(ozz|rov|erm)"  /etc/group
 #grover:x:1014:
 #kermit:x:1015:
 #muppets:x:1016:kermit,fozzie,grover
-chage -l fozzie
-chage -l grover
-chage -l kermit
+chage -l fozzie || chage -l Fozzie
+chage -l grover || chage -l Grover
+chage -l kermit || chage -l Kermit
 
 #ticket 7 
 echo "ticket 7"

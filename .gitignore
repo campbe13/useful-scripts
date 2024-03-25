@@ -4,3 +4,4 @@ token.and.groupid
 org.access_token
 .*password
 *.log
+*.swp
