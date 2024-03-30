@@ -1,0 +1,279 @@
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.power.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 57645
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1c7f925f14578a01010000006604895fedf5ec01ec29ce11 (good)
+;; QUESTION SECTION:
+;linux1.power.ca.		IN	A
+
+;; Query time: 56 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:02:23 EDT 2024
+;; MSG SIZE  rcvd: 72
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.uwuntu.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45251
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.uwuntu.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.uwuntu.ca.	246	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:57 EDT 2024
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.littleponi.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55968
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.littleponi.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:57 EDT 2024
+;; MSG SIZE  rcvd: 49
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.universe.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7037
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.universe.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.universe.ca.	375	IN	A	198.169.50.64
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:57 EDT 2024
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.casahouse.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45863
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.casahouse.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.casahouse.ca.	374	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.mhcp3dns.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42766
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.mhcp3dns.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 47
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.chopper.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48195
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.chopper.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.chopper.ca.	3089	IN	A	76.223.54.146
+linux1.chopper.ca.	3089	IN	A	13.248.169.48
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 78
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.thestrongest.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47117
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.thestrongest.ca.		IN	A
+
+;; AUTHORITY SECTION:
+ca.			3089	IN	SOA	prd-czp-05.corp.cira.ca. admin-dns.cira.ca. 2403272030 2100 900 3456000 3600
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.galaxy.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48847
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.galaxy.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 45
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.soremuscles.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65208
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.soremuscles.ca.	374	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.bubbles.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61415
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.bubbles.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 46
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.assign3dom.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9987
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.assign3dom.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.assign3dom.ca.	374	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.sri.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18471
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.sri.ca.			IN	A
+
+;; ANSWER SECTION:
+linux1.sri.ca.		374	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 58
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> @localhost linux1.power.ca
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 24210
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 2cf76f1e937d3f4001000000660489face3a4035034dc033 (good)
+;; QUESTION SECTION:
+;linux1.power.ca.		IN	A
+
+;; Query time: 56 msec
+;; SERVER: 127.0.0.1#53(localhost) (UDP)
+;; WHEN: Wed Mar 27 17:04:58 EDT 2024
+;; MSG SIZE  rcvd: 72
+
