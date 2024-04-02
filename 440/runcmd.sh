@@ -10,10 +10,14 @@ if [[ $# < 1 ]] ; then
    exit 1
 fi
 
-CMD="docker ps"
+#CMD="docker ps"
 # using start, not run
 #CMD="docker start assignment2"
-
+if [[ -e .CMD ]] ; then 
+    CMD=$(cat .CMD)
+else
+    echo need a command to run remotely in \.CMD
+fi
 echo "over ssh running $CMD "
 countok=0
 countbad=0
