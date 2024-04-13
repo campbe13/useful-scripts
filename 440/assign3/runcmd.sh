@@ -13,8 +13,8 @@ fi
 #CMD="docker ps"
 # using start, not run
 #CMD="docker start assignment2"
-if [[ -e .CMD ]] ; then 
-    CMD=$(cat .CMD)
+if [[ -e CMD ]] ; then 
+    CMD=$(cat CMD)
 else
     echo need a command to run remotely in \.CMD
 fi

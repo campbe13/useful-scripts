@@ -1,0 +1,134 @@
+START>>> domain soremuscles.ca server tony
+----hostname
+TonyDo.soremuscles.ca
+----netstat
+tcp        0      0 0.0.0.0:5006            0.0.0.0:*               LISTEN      25535/docker-proxy  
+tcp        0      0 0.0.0.0:5005            0.0.0.0:*               LISTEN      5393/docker-proxy   
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      27313/dnsmasq       
+udp        0      0 0.0.0.0:53557           0.0.0.0:*                           789/avahi-daemon: r 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           789/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           27313/dnsmasq       
+----ufw
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+2022/tcp                   ALLOW IN    Anywhere                  
+80/tcp (Apache)            DENY IN     Anywhere                  
+5003                       ALLOW IN    Anywhere                  
+8001                       ALLOW IN    Anywhere                  
+4444                       ALLOW IN    Anywhere                  
+53/udp                     ALLOW IN    Anywhere                  
+5005                       ALLOW IN    Anywhere                  
+5004                       ALLOW IN    Anywhere                  
+5006                       ALLOW IN    Anywhere                  
+8805/tcp                   ALLOW IN    Anywhere                  
+8805                       ALLOW IN    Anywhere                  
+8855/tcp                   ALLOW IN    Anywhere                  
+443/tcp                    ALLOW IN    Anywhere                  
+80/tcp                     DENY IN     Anywhere                  
+80                         DENY IN     Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+2022/tcp (v6)              ALLOW IN    Anywhere (v6)             
+80/tcp (Apache (v6))       DENY IN     Anywhere (v6)             
+5003 (v6)                  ALLOW IN    Anywhere (v6)             
+8001 (v6)                  ALLOW IN    Anywhere (v6)             
+4444 (v6)                  ALLOW IN    Anywhere (v6)             
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+5005 (v6)                  ALLOW IN    Anywhere (v6)             
+5004 (v6)                  ALLOW IN    Anywhere (v6)             
+5006 (v6)                  ALLOW IN    Anywhere (v6)             
+8805/tcp (v6)              ALLOW IN    Anywhere (v6)             
+8805 (v6)                  ALLOW IN    Anywhere (v6)             
+8855/tcp (v6)              ALLOW IN    Anywhere (v6)             
+443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+80/tcp (v6)                DENY IN     Anywhere (v6)             
+80 (v6)                    DENY IN     Anywhere (v6)             
+
+command: dig tricia.
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27798
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.soremuscles.ca.	400	IN	A	10.172.19.121
+teacher.soremuscles.ca.	400	IN	A	10.172.19.125
+teacher.soremuscles.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17285
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.soremuscles.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52684
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.soremuscles.ca.	400	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tony.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50575
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tony.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+tony.soremuscles.ca.	400	IN	A	10.172.19.121
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; MSG SIZE  rcvd: 64
+

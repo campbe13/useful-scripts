@@ -1,0 +1,120 @@
+START>>> domain chopper.ca server vijay
+----hostname
+vj.chopper.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      285648/dnsmasq      
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           285648/dnsmasq      
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           783/avahi-daemon: r 
+----ufw
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+2022/tcp                   ALLOW IN    Anywhere                  
+8001                       ALLOW IN    Anywhere                  
+4242                       ALLOW IN    Anywhere                  
+8888                       ALLOW IN    Anywhere                  
+53                         ALLOW IN    Anywhere                  
+8805/tcp                   ALLOW IN    Anywhere                  
+8855/tcp                   ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+80/tcp (Apache)            ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+2022/tcp (v6)              ALLOW IN    Anywhere (v6)             
+8001 (v6)                  ALLOW IN    Anywhere (v6)             
+4242 (v6)                  ALLOW IN    Anywhere (v6)             
+8888 (v6)                  ALLOW IN    Anywhere (v6)             
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+8805/tcp (v6)              ALLOW IN    Anywhere (v6)             
+8855/tcp (v6)              ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+80/tcp (Apache (v6))       ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+
+command: dig tricia.
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.chopper.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5878
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.chopper.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.chopper.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
+;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.chopper.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65172
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.chopper.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.chopper.ca.	400	IN	A	10.172.11.136
+tricia.chopper.ca.	400	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
+;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; MSG SIZE  rcvd: 78
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.chopper.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47033
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.chopper.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.chopper.ca.	400	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
+;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> vijay.chopper.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64816
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;vijay.chopper.ca.		IN	A
+
+;; ANSWER SECTION:
+vijay.chopper.ca.	400	IN	A	10.172.19.128
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
+;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; MSG SIZE  rcvd: 61
+

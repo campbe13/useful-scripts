@@ -1,0 +1,74 @@
+START>>>yunchen thestrongest.ca
+----hostname
+chen.dawsoncollege.qc.ca
+--resolv.conf
+
+nameserver 10.172.17.147
+search thestrongest.ca
+nameserver 127.0.0.53
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.thestrongest.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64375
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.thestrongest.ca.	IN	A
+
+;; ANSWER SECTION:
+teacher.thestrongest.ca. 400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 12:47:31 EDT 2024
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30818
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.thestrongest.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.thestrongest.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 12:47:31 EDT 2024
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22869
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 9359260537a433ba01000000661ab72316e8cf96fe27e019 (good)
+;; QUESTION SECTION:
+;linux1.thestrongest.ca.		IN	A
+
+;; AUTHORITY SECTION:
+ca.			3600	IN	SOA	prd-czp-05.corp.cira.ca. admin-dns.cira.ca. 2404131630 2100 900 3456000 3600
+
+;; Query time: 4 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 12:47:31 EDT 2024
+;; MSG SIZE  rcvd: 157
+
+ret code 0

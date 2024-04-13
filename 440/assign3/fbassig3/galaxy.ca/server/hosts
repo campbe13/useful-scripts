@@ -1,0 +1,13 @@
+127.0.0.1	localhost
+127.0.1.1	dawson-virtual-machine
+127.0.1.1       eliasvm.galaxy.ca
+10.172.11.136   tricia pcampbell teacher
+198.168.50.64   sonic
+10.172.18.245   dawson teacher eliasvm elias abdullah
+10.172.19.200   dawson teacher abdullah elias
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

@@ -8,5 +8,9 @@ elif [[ ! -f $1 ]] ; then
 fi
 
 
-for i in `cat $1` ; do dig @localhost linux1.$i >> dns.linux1.results ; done
+for i in `cat $1` ; do 
+  dig @localhost linux1.$i >> $i.results 
+  dig @localhost teacher.$i >> $i.results 
+  dig @localhost sonic.$i >> $i.results 
+done
 

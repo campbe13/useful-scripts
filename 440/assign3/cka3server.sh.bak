@@ -1,0 +1,46 @@
+#!/bin/bash
+# pmcampbell
+# 2021-01-12
+# given a list of hosts, 
+# copy a script   & run it on the remote
+
+if [[ $# -ne 1 ]] ; then
+   echo $(basename $0) need a file of hosts to check as cli arg
+   echo file contains domain and server as fields 1 and 2
+   exit 1
+fi
+
+
+copyfile=ckufwdns.sh
+if [[ ! -f $copyfile ]]  ; then
+    exit 2
+fi
+countok=0
+countbad=0
+if [[  ! -d fbassig3 ]] ; then
+    mkdir fbassig3
+fi
+   
+# single host name in file, use for
+for i in  `cat $1` ; do
+    if [[ $i =~ ^# ]] ; then
+       echo comment $i
+       continue
+    fi
+    echo $i
+    domain=$(echo $i |cut -f 1 -d ' ')
+    server=$(echo $i |cut -f 2 -d ' ')
+    echo domain $domain
+    echo server  $server
+    exit
+    echo $domain > arg.server
+    if [[ ! -d fbassig3/$domain  ]] ; then 
+	mkdir fbassig3/$domain
+    fi
+    feedback=fbassig3/$domain/server-host-$server.txt
+    scp $copyfile $server:~/
+    echo "START>>> domain $domain server $server" >$feedback
+    ssh $i ~/$copyfile >> $feedback
+    echo server $server 
+    echo feedback $feedback 
+done

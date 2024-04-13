@@ -1,0 +1,74 @@
+START>>>emmanuelle soremuscles.ca
+----hostname
+emmanuellelin.dawsoncollege.qc.ca
+--resolv.conf
+nameserver 10.172.19.121
+search soremuscles.ca
+nameserver 127.0.0.53
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.soremuscles.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14617
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.soremuscles.ca.	400	IN	A	10.172.19.125
+teacher.soremuscles.ca.	400	IN	A	10.172.19.121
+teacher.soremuscles.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 12:47:33 EDT 2024
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46890
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.soremuscles.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 12:47:33 EDT 2024
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.soremuscles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55009
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.soremuscles.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.soremuscles.ca.	400	IN	A	198.168.50.64
+
+;; Query time: 4 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 12:47:33 EDT 2024
+;; MSG SIZE  rcvd: 66
+
+ret code 0

@@ -1,0 +1,73 @@
+START>>>adam assign3dom.ca
+----hostname
+adamvm.dawsoncollege.qc.ca
+--resolv.conf
+
+nameserver 10.172.19.146
+search assign3dom.ca
+nameserver 127.0.0.53
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.assign3dom.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.assign3dom.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53397
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.assign3dom.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.assign3dom.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.146#53(10.172.19.146) (UDP)
+;; WHEN: Sat Apr 13 12:47:35 EDT 2024
+;; MSG SIZE  rcvd: 66
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.assign3dom.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32004
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.assign3dom.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.assign3dom.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.146#53(10.172.19.146) (UDP)
+;; WHEN: Sat Apr 13 12:47:35 EDT 2024
+;; MSG SIZE  rcvd: 65
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.assign3dom.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52272
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.assign3dom.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.assign3dom.ca.	400	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.146#53(10.172.19.146) (UDP)
+;; WHEN: Sat Apr 13 12:47:35 EDT 2024
+;; MSG SIZE  rcvd: 65
+
+ret code 0

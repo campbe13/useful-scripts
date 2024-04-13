@@ -1,0 +1,69 @@
+START>>>yanni mhcp3dns.ca
+----hostname
+yannivm.dawsoncollege.qc.ca
+--resolv.conf
+
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+nameserver 10.172.19.216
+search mhcp3dns.ca
+----dns
+command: dig tricia.mhcp3dns.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.mhcp3dns.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43752
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.mhcp3dns.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.mhcp3dns.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 4 msec
+;; SERVER: 10.172.19.216#53(10.172.19.216) (UDP)
+;; WHEN: Sat Apr 13 12:47:29 EDT 2024
+;; MSG SIZE  rcvd: 64
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.mhcp3dns.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38305
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.mhcp3dns.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.mhcp3dns.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 4 msec
+;; SERVER: 10.172.19.216#53(10.172.19.216) (UDP)
+;; WHEN: Sat Apr 13 12:47:29 EDT 2024
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.mhcp3dns.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62264
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.mhcp3dns.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.216#53(10.172.19.216) (UDP)
+;; WHEN: Sat Apr 13 12:47:29 EDT 2024
+;; MSG SIZE  rcvd: 47
+
+ret code 0

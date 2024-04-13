@@ -1,0 +1,130 @@
+START>>> domain galaxy.ca server elias
+----hostname
+eliasvm.galaxy.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      135648/dnsmasq      
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           776/avahi-daemon: r 
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           135648/dnsmasq      
+udp        0      0 10.172.18.245:68        10.149.0.20:67          ESTABLISHED 138539/NetworkManag 
+----ufw
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+2022/tcp                   ALLOW IN    Anywhere                  
+5002                       ALLOW IN    Anywhere                  
+5000                       ALLOW IN    Anywhere                  
+80/tcp (Apache)            ALLOW IN    Anywhere                  
+8001                       ALLOW IN    Anywhere                  
+5004                       ALLOW IN    Anywhere                  
+53                         ALLOW IN    Anywhere                  
+53/udp                     ALLOW IN    Anywhere                  
+5006                       ALLOW IN    Anywhere                  
+8805                       ALLOW IN    Anywhere                  
+8855                       ALLOW IN    Anywhere                  
+8855/tcp                   ALLOW IN    Anywhere                  
+8805/tcp                   ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+80/tcp                     ALLOW IN    Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+2022/tcp (v6)              ALLOW IN    Anywhere (v6)             
+5002 (v6)                  ALLOW IN    Anywhere (v6)             
+5000 (v6)                  ALLOW IN    Anywhere (v6)             
+80/tcp (Apache (v6))       ALLOW IN    Anywhere (v6)             
+8001 (v6)                  ALLOW IN    Anywhere (v6)             
+5004 (v6)                  ALLOW IN    Anywhere (v6)             
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+5006 (v6)                  ALLOW IN    Anywhere (v6)             
+8805 (v6)                  ALLOW IN    Anywhere (v6)             
+8855 (v6)                  ALLOW IN    Anywhere (v6)             
+8855/tcp (v6)              ALLOW IN    Anywhere (v6)             
+8805/tcp (v6)              ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+
+command: dig tricia.
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10876
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.galaxy.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.galaxy.ca.	400	IN	A	10.172.19.200
+teacher.galaxy.ca.	400	IN	A	10.172.18.245
+teacher.galaxy.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
+;; WHEN: Sat Apr 13 14:58:15 EDT 2024
+;; MSG SIZE  rcvd: 94
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64419
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.galaxy.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.galaxy.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
+;; WHEN: Sat Apr 13 14:58:15 EDT 2024
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9934
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.galaxy.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
+;; WHEN: Sat Apr 13 14:58:15 EDT 2024
+;; MSG SIZE  rcvd: 45
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> elias.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63645
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;elias.galaxy.ca.		IN	A
+
+;; ANSWER SECTION:
+elias.galaxy.ca.	400	IN	A	10.172.18.245
+elias.galaxy.ca.	400	IN	A	10.172.19.200
+
+;; Query time: 0 msec
+;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
+;; WHEN: Sat Apr 13 14:58:15 EDT 2024
+;; MSG SIZE  rcvd: 76
+

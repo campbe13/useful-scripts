@@ -1,0 +1,81 @@
+over ssh running hostnamectl hostname 
+HOST dmitriy
+dmitriy.uwuntu.ca
+success dmitriy
+HOST haris
+harisvm.dawsoncollege.qc.ca
+success haris
+HOST amy
+amyjackson.littleponi.ca
+success amy
+HOST tan-jackson
+tanjacksontranvm.dawsoncollege.qc.ca
+success tan-jackson
+HOST Ivana
+ivana.universe.ca
+success Ivana
+HOST ameena
+ameena.khokhardawsoncollege.qc.ca
+success ameena
+HOST bianca
+biancas-mojo-dojo-casa-house.casahouse.ca
+success bianca
+HOST anthony
+myhostname
+success anthony
+HOST manil
+manil.mhcp3dns.ca
+success manil
+HOST yanni
+yannivm.dawsoncollege.qc.ca
+success yanni
+HOST vijay
+vj.chopper.ca
+success vijay
+HOST nicholas
+NicholasPouliezos.dawsoncollege.qc.ca
+success nicholas
+HOST alexander
+satoru.thestrongest.ca
+success alexander
+HOST yunchen
+chen.dawsoncollege.qc.ca
+success yunchen
+HOST abdullah
+abdullahvm.dawsoncollege.qc.ca
+success abdullah
+HOST elias
+eliasvm.galaxy.ca
+success elias
+HOST tony
+TonyDo.soremuscles.ca
+success tony
+HOST emmanuelle
+emmanuellelin.dawsoncollege.qc.ca
+success emmanuelle
+HOST christina
+christina.bubbles.ca
+success christina
+HOST minh
+minhvm.dawsoncollege.qc.ca
+success minh
+HOST aman
+aman.assign3dom.ca
+success aman
+HOST adam
+adamvm.dawsoncollege.qc.ca
+success adam
+HOST sriraam
+nada.sri.ca
+success sriraam
+HOST giancarlo
+carlo.dawsoncollege.qc.ca
+success giancarlo
+HOST patricia
+Patricia.Power.ca
+success patricia
+HOST aidan
+aholmes.dawsoncollege.qc.ca
+success aidan
+success 26
+fail 0

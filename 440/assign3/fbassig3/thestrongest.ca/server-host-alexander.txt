@@ -1,0 +1,129 @@
+START>>> domain thestrongest.ca server alexander
+----hostname
+satoru.thestrongest.ca
+----netstat
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      109205/dnsmasq      
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           109205/dnsmasq      
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           778/avahi-daemon: r 
+----ufw
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+5002                       ALLOW IN    Anywhere                  
+2022/tcp                   ALLOW IN    Anywhere                  
+5003                       ALLOW IN    Anywhere                  
+8001                       ALLOW IN    Anywhere                  
+5004                       ALLOW IN    Anywhere                  
+4242                       ALLOW IN    Anywhere                  
+8888                       ALLOW IN    Anywhere                  
+5005                       ALLOW IN    Anywhere                  
+53                         ALLOW IN    Anywhere                  
+5006                       ALLOW IN    Anywhere                  
+8805                       ALLOW IN    Anywhere                  
+8855                       ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+80/tcp (Apache)            ALLOW IN    Anywhere                  
+80/tcp                     ALLOW IN    Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+5002 (v6)                  ALLOW IN    Anywhere (v6)             
+2022/tcp (v6)              ALLOW IN    Anywhere (v6)             
+5003 (v6)                  ALLOW IN    Anywhere (v6)             
+8001 (v6)                  ALLOW IN    Anywhere (v6)             
+5004 (v6)                  ALLOW IN    Anywhere (v6)             
+4242 (v6)                  ALLOW IN    Anywhere (v6)             
+8888 (v6)                  ALLOW IN    Anywhere (v6)             
+5005 (v6)                  ALLOW IN    Anywhere (v6)             
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+5006 (v6)                  ALLOW IN    Anywhere (v6)             
+8805 (v6)                  ALLOW IN    Anywhere (v6)             
+8855 (v6)                  ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+80/tcp (Apache (v6))       ALLOW IN    Anywhere (v6)             
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+
+command: dig tricia.
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51198
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.thestrongest.ca.	IN	A
+
+;; ANSWER SECTION:
+teacher.thestrongest.ca. 400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 14:58:27 EDT 2024
+;; MSG SIZE  rcvd: 68
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42086
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.thestrongest.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.thestrongest.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 14:58:27 EDT 2024
+;; MSG SIZE  rcvd: 67
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24885
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.thestrongest.ca.		IN	A
+
+;; AUTHORITY SECTION:
+ca.			3110	IN	SOA	prd-czp-05.corp.cira.ca. admin-dns.cira.ca. 2404131830 2100 900 3456000 3600
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 14:58:27 EDT 2024
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> alexander.thestrongest.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48794
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;alexander.thestrongest.ca.	IN	A
+
+;; AUTHORITY SECTION:
+ca.			3110	IN	SOA	prd-czp-05.corp.cira.ca. admin-dns.cira.ca. 2404131830 2100 900 3456000 3600
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 14:58:27 EDT 2024
+;; MSG SIZE  rcvd: 132
+

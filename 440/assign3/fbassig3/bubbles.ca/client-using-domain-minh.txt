@@ -1,0 +1,68 @@
+START>>>minh bubbles.ca
+----hostname
+minhvm.dawsoncollege.qc.ca
+--resolv.conf
+
+nameserver 10.172.19.3
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.bubbles.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.bubbles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37784
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.bubbles.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.bubbles.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.3#53(10.172.19.3) (UDP)
+;; WHEN: Sat Apr 13 12:47:34 EDT 2024
+;; MSG SIZE  rcvd: 63
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.bubbles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18828
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.bubbles.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.bubbles.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.3#53(10.172.19.3) (UDP)
+;; WHEN: Sat Apr 13 12:47:34 EDT 2024
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.bubbles.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 12580
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.bubbles.ca.		IN	A
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.3#53(10.172.19.3) (UDP)
+;; WHEN: Sat Apr 13 12:47:34 EDT 2024
+;; MSG SIZE  rcvd: 46
+
+ret code 0

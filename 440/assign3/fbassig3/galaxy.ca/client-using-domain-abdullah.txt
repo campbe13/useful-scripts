@@ -1,0 +1,71 @@
+START>>>abdullah galaxy.ca
+----hostname
+abdullahvm.dawsoncollege.qc.ca
+--resolv.conf
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.galaxy.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50029
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;teacher.galaxy.ca.		IN	A
+
+;; AUTHORITY SECTION:
+galaxy.ca.		3600	IN	SOA	dns.internic.ca. noc.internic.ca. 2024041101 10800 3600 604800 3600
+
+;; Query time: 23 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sat Apr 13 12:47:32 EDT 2024
+;; MSG SIZE  rcvd: 99
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29339
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tricia.galaxy.ca.		IN	A
+
+;; AUTHORITY SECTION:
+galaxy.ca.		3600	IN	SOA	dns.internic.ca. noc.internic.ca. 2024041101 10800 3600 604800 3600
+
+;; Query time: 23 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sat Apr 13 12:47:32 EDT 2024
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.galaxy.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52401
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;linux1.galaxy.ca.		IN	A
+
+;; AUTHORITY SECTION:
+galaxy.ca.		3600	IN	SOA	dns.internic.ca. noc.internic.ca. 2024041101 10800 3600 604800 3600
+
+;; Query time: 23 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sat Apr 13 12:47:32 EDT 2024
+;; MSG SIZE  rcvd: 98
+
+ret code 0

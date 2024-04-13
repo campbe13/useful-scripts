@@ -1,0 +1,75 @@
+START>>>haris uwuntu.ca
+----hostname
+harisvm.dawsoncollege.qc.ca
+--resolv.conf
+
+
+nameserver 10.172.19.9
+options edns0 trust-ad
+search uwuntu.ca
+
+nameserver 127.0.0.53
+search dawsoncollege.qc.ca
+----dns
+command: dig tricia.uwuntu.ca
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.uwuntu.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48158
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;teacher.uwuntu.ca.		IN	A
+
+;; ANSWER SECTION:
+teacher.uwuntu.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.9#53(10.172.19.9) (UDP)
+;; WHEN: Sat Apr 13 12:47:26 EDT 2024
+;; MSG SIZE  rcvd: 62
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.uwuntu.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14154
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;tricia.uwuntu.ca.		IN	A
+
+;; ANSWER SECTION:
+tricia.uwuntu.ca.	400	IN	A	10.172.11.136
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.9#53(10.172.19.9) (UDP)
+;; WHEN: Sat Apr 13 12:47:26 EDT 2024
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.uwuntu.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4628
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;linux1.uwuntu.ca.		IN	A
+
+;; ANSWER SECTION:
+linux1.uwuntu.ca.	400	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.9#53(10.172.19.9) (UDP)
+;; WHEN: Sat Apr 13 12:47:26 EDT 2024
+;; MSG SIZE  rcvd: 61
+
+ret code 0
