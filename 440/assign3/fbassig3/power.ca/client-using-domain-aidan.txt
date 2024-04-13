@@ -10,63 +10,101 @@ options edns0 trust-ad
 search dawsoncollege.qc.ca
 
 ----dns
-command: dig tricia.power.ca
+command: dig tricia.
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.power.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24899
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4756
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;teacher.power.ca.		IN	A
+;teacher.			IN	A
 
 ;; ANSWER SECTION:
-teacher.power.ca.	400	IN	A	10.172.11.136
+teacher.		400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.78#53(10.172.19.78) (UDP)
-;; WHEN: Sat Apr 13 12:47:38 EDT 2024
-;; MSG SIZE  rcvd: 61
+;; WHEN: Sat Apr 13 15:28:44 EDT 2024
+;; MSG SIZE  rcvd: 52
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.power.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51234
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52305
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;tricia.power.ca.		IN	A
+;tricia.				IN	A
 
 ;; ANSWER SECTION:
-tricia.power.ca.	400	IN	A	10.172.11.136
+tricia.			400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.78#53(10.172.19.78) (UDP)
-;; WHEN: Sat Apr 13 12:47:38 EDT 2024
-;; MSG SIZE  rcvd: 60
+;; WHEN: Sat Apr 13 15:28:44 EDT 2024
+;; MSG SIZE  rcvd: 51
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.power.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 48933
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 25301
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
-; COOKIE: c27fba9913c752a701000000661ab72ac368fb479b245038 (good)
 ;; QUESTION SECTION:
-;linux1.power.ca.		IN	A
+;linux1.				IN	A
 
-;; Query time: 91 msec
+;; Query time: 0 msec
 ;; SERVER: 10.172.19.78#53(10.172.19.78) (UDP)
-;; WHEN: Sat Apr 13 12:47:38 EDT 2024
-;; MSG SIZE  rcvd: 72
+;; WHEN: Sat Apr 13 15:28:44 EDT 2024
+;; MSG SIZE  rcvd: 35
 
-ret code 0
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> sonic.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55627
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;sonic.				IN	A
+
+;; ANSWER SECTION:
+sonic.			400	IN	A	198.168.50.64
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.78#53(10.172.19.78) (UDP)
+;; WHEN: Sat Apr 13 15:28:44 EDT 2024
+;; MSG SIZE  rcvd: 50
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> aidan.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59765
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;aidan.				IN	A
+
+;; ANSWER SECTION:
+aidan.			400	IN	A	10.172.19.168
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.78#53(10.172.19.78) (UDP)
+;; WHEN: Sat Apr 13 15:28:44 EDT 2024
+;; MSG SIZE  rcvd: 50
+

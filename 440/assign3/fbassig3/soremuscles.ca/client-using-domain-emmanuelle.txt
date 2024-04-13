@@ -8,67 +8,103 @@ nameserver 127.0.0.53
 options edns0 trust-ad
 search dawsoncollege.qc.ca
 ----dns
-command: dig tricia.soremuscles.ca
+command: dig tricia.
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.soremuscles.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14617
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42759
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;teacher.soremuscles.ca.		IN	A
+;teacher.			IN	A
 
 ;; ANSWER SECTION:
-teacher.soremuscles.ca.	400	IN	A	10.172.19.125
-teacher.soremuscles.ca.	400	IN	A	10.172.19.121
-teacher.soremuscles.ca.	400	IN	A	10.172.11.136
+teacher.		400	IN	A	10.172.19.121
+teacher.		400	IN	A	10.172.19.125
+teacher.		400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 12:47:33 EDT 2024
-;; MSG SIZE  rcvd: 99
+;; WHEN: Sat Apr 13 15:28:40 EDT 2024
+;; MSG SIZE  rcvd: 84
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.soremuscles.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46890
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11785
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;tricia.soremuscles.ca.		IN	A
+;tricia.				IN	A
 
 ;; ANSWER SECTION:
-tricia.soremuscles.ca.	400	IN	A	10.172.11.136
+tricia.			400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 12:47:33 EDT 2024
-;; MSG SIZE  rcvd: 66
+;; WHEN: Sat Apr 13 15:28:40 EDT 2024
+;; MSG SIZE  rcvd: 51
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.soremuscles.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55009
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19251
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;linux1.soremuscles.ca.		IN	A
+;linux1.				IN	A
 
 ;; ANSWER SECTION:
-linux1.soremuscles.ca.	400	IN	A	198.168.50.64
+linux1.			400	IN	A	198.168.50.64
 
-;; Query time: 4 msec
+;; Query time: 0 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 12:47:33 EDT 2024
-;; MSG SIZE  rcvd: 66
+;; WHEN: Sat Apr 13 15:28:40 EDT 2024
+;; MSG SIZE  rcvd: 51
 
-ret code 0
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> sonic.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 43386
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;sonic.				IN	A
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 15:28:40 EDT 2024
+;; MSG SIZE  rcvd: 34
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> emmanuelle.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37518
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;emmanuelle.			IN	A
+
+;; ANSWER SECTION:
+emmanuelle.		400	IN	A	10.172.19.125
+
+;; Query time: 0 msec
+;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
+;; WHEN: Sat Apr 13 15:28:40 EDT 2024
+;; MSG SIZE  rcvd: 55
+

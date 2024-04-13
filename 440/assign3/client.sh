@@ -16,4 +16,5 @@ echo "command: dig tricia.$domain"
 dig teacher.$domain
 dig tricia.$domain
 dig linux1.$domain
-echo ret code $?
+dig sonic.$domain
+dig $client.$domain

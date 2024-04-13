@@ -3,6 +3,8 @@ START>>> domain uwuntu.ca server dmitriy
 dmitriy.uwuntu.ca
 ----netstat
 tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      928/dnsmasq         
+tcp        0      0 10.172.19.9:53946       23.215.24.142:443       ESTABLISHED 4254/firefox        
+tcp        0      0 10.172.19.9:53444       34.107.243.93:443       ESTABLISHED 4254/firefox        
 udp        0      0 0.0.0.0:53              0.0.0.0:*                           928/dnsmasq         
 udp        0      0 0.0.0.0:5353            0.0.0.0:*                           775/avahi-daemon: r 
 ----ufw
@@ -51,7 +53,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.uwuntu.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2281
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33619
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -64,14 +66,14 @@ teacher.uwuntu.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 14:58:30 EDT 2024
+;; WHEN: Sat Apr 13 15:25:55 EDT 2024
 ;; MSG SIZE  rcvd: 62
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.uwuntu.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45835
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47507
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -82,16 +84,16 @@ teacher.uwuntu.ca.	400	IN	A	10.172.11.136
 ;; ANSWER SECTION:
 tricia.uwuntu.ca.	400	IN	A	10.172.11.136
 
-;; Query time: 3 msec
+;; Query time: 0 msec
 ;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 14:58:30 EDT 2024
+;; WHEN: Sat Apr 13 15:25:55 EDT 2024
 ;; MSG SIZE  rcvd: 61
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.uwuntu.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48262
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5497
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -104,14 +106,14 @@ linux1.uwuntu.ca.	400	IN	A	198.168.50.64
 
 ;; Query time: 0 msec
 ;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 14:58:30 EDT 2024
+;; WHEN: Sat Apr 13 15:25:55 EDT 2024
 ;; MSG SIZE  rcvd: 61
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> dmitriy.uwuntu.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27729
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37961
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -124,6 +126,6 @@ dmitriy.uwuntu.ca.	400	IN	A	10.172.19.9
 
 ;; Query time: 0 msec
 ;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 14:58:30 EDT 2024
+;; WHEN: Sat Apr 13 15:25:55 EDT 2024
 ;; MSG SIZE  rcvd: 62
 

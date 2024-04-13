@@ -2,15 +2,18 @@
 # pmcampbell
 # 2021-01-12
 # given a list of hosts, 
-# copy a script   & run it on the remote
 
-if [[ $# < 2 ]] ; then
+# copy a script   & run it on the remote
+# this one does the client check
+# IMPORTANT file must be space delimited (tab reads only 1st )
+
+if [[ $# -ne  1 ]] ; then
    echo $(basename $0) need a file of hosts to check as cli arg
    echo and a file with domain and line as fields 1 \& 2
    exit 1
 fi
 
-copyfile=line.sh
+copyfile=client.sh
 if [[ ! -f $copyfile ]]  ; then
     exit 2
 fi
@@ -19,27 +22,17 @@ if [[ ! -d fbassig3 ]]  ; then
     mkdir fbassig3
 fi
 
+# need the -u 5 for io or it uses stdin & reads only 1st line
 # multi args use while
-# can't use read & ssh as it ends the output after 1st line ???
-#while read -r domain line ; do
-# single host name in file, use for
-#domain=x.ca
-for line in  `cat $1` ; do
-#    if [[ $domain =~ ^# ]] ; then
-#       continue
-#    fi
-# tab delimiter
-    domain=$(grep -i $line $2 |cut -f 1 )
-    #domain=$(grep -i $line $2 |cut -f 1 -d ' ')
+while read -u 5 -r domain client ; do
+    echo "domain=$domain on $client" 
     if [[ ! -d fbassig3/$domain ]] ; then
        mkdir fbassig3/$domain
     fi
-    client=$(cat $line |cut -f 2)
-    feedback=fbassig3/$domain/line-using-domain-$client.txt
-    echo "domain=$domain on $client" 
+    feedback=fbassig3/$domain/client-using-domain-$client.txt
     echo "domain=$domain" > args.client
-    scp $copyfile args.line teacher@$client:~/
+    echo "client=$client" > args.client
+    scp $copyfile args.client teacher@$client:~/
     echo "START>>>$client $domain" >$feedback
     ssh teacher@$client ~/$copyfile >> $feedback
-#done < $1
-done
+done 5< $1

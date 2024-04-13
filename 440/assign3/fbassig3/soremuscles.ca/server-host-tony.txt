@@ -54,7 +54,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.soremuscles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27798
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44745
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -63,20 +63,20 @@ command: dig tricia.
 ;teacher.soremuscles.ca.		IN	A
 
 ;; ANSWER SECTION:
-teacher.soremuscles.ca.	400	IN	A	10.172.19.121
 teacher.soremuscles.ca.	400	IN	A	10.172.19.125
+teacher.soremuscles.ca.	400	IN	A	10.172.19.121
 teacher.soremuscles.ca.	400	IN	A	10.172.11.136
 
-;; Query time: 0 msec
+;; Query time: 4 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; WHEN: Sat Apr 13 15:25:47 EDT 2024
 ;; MSG SIZE  rcvd: 99
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.soremuscles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17285
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21857
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -89,14 +89,14 @@ tricia.soremuscles.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; WHEN: Sat Apr 13 15:25:47 EDT 2024
 ;; MSG SIZE  rcvd: 66
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.soremuscles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52684
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64513
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -109,14 +109,14 @@ linux1.soremuscles.ca.	400	IN	A	198.168.50.64
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; WHEN: Sat Apr 13 15:25:47 EDT 2024
 ;; MSG SIZE  rcvd: 66
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tony.soremuscles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50575
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58887
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -129,6 +129,6 @@ tony.soremuscles.ca.	400	IN	A	10.172.19.121
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.121#53(10.172.19.121) (UDP)
-;; WHEN: Sat Apr 13 14:58:23 EDT 2024
+;; WHEN: Sat Apr 13 15:25:47 EDT 2024
 ;; MSG SIZE  rcvd: 64
 

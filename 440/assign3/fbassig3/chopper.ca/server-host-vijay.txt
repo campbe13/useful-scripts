@@ -3,6 +3,7 @@ START>>> domain chopper.ca server vijay
 vj.chopper.ca
 ----netstat
 tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      285648/dnsmasq      
+tcp        0      0 10.172.19.128:22        10.172.25.187:41322     ESTABLISHED 353155/sshd: teache 
 udp        0      0 0.0.0.0:53              0.0.0.0:*                           285648/dnsmasq      
 udp        0      0 0.0.0.0:5353            0.0.0.0:*                           783/avahi-daemon: r 
 ----ufw
@@ -41,7 +42,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.chopper.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5878
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23689
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -54,14 +55,14 @@ teacher.chopper.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
-;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; WHEN: Sat Apr 13 15:25:37 EDT 2024
 ;; MSG SIZE  rcvd: 63
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.chopper.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65172
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36986
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -75,14 +76,14 @@ tricia.chopper.ca.	400	IN	A	198.168.50.64
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
-;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; WHEN: Sat Apr 13 15:25:37 EDT 2024
 ;; MSG SIZE  rcvd: 78
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.chopper.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47033
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13999
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -95,14 +96,14 @@ linux1.chopper.ca.	400	IN	A	198.168.50.64
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
-;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; WHEN: Sat Apr 13 15:25:37 EDT 2024
 ;; MSG SIZE  rcvd: 62
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> vijay.chopper.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64816
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10486
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -115,6 +116,6 @@ vijay.chopper.ca.	400	IN	A	10.172.19.128
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.128#53(10.172.19.128) (UDP)
-;; WHEN: Sat Apr 13 14:58:13 EDT 2024
+;; WHEN: Sat Apr 13 15:25:37 EDT 2024
 ;; MSG SIZE  rcvd: 61
 

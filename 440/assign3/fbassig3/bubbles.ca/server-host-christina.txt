@@ -3,7 +3,7 @@ START>>> domain bubbles.ca server christina
 christina.bubbles.ca
 ----netstat
 tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      141915/dnsmasq      
-tcp        0      0 10.172.19.3:22          10.172.25.187:53008     ESTABLISHED 210995/sshd: teache 
+tcp        0      1 10.172.19.3:49532       10.172.2.132:80         SYN_SENT    -                   
 udp        0      0 0.0.0.0:53              0.0.0.0:*                           141915/dnsmasq      
 udp        0      0 0.0.0.0:5353            0.0.0.0:*                           786/avahi-daemon: r 
 ----ufw
@@ -34,7 +34,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.bubbles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10117
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64521
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -47,14 +47,14 @@ teacher.bubbles.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 14:58:09 EDT 2024
+;; WHEN: Sat Apr 13 15:25:33 EDT 2024
 ;; MSG SIZE  rcvd: 63
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.bubbles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60037
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39177
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -67,14 +67,14 @@ tricia.bubbles.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 14:58:09 EDT 2024
+;; WHEN: Sat Apr 13 15:25:33 EDT 2024
 ;; MSG SIZE  rcvd: 62
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.bubbles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33455
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24875
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -84,14 +84,14 @@ tricia.bubbles.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 14:58:09 EDT 2024
+;; WHEN: Sat Apr 13 15:25:33 EDT 2024
 ;; MSG SIZE  rcvd: 46
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> christina.bubbles.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52309
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40785
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -105,6 +105,6 @@ christina.bubbles.ca.	400	IN	A	127.0.0.1
 
 ;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 14:58:09 EDT 2024
+;; WHEN: Sat Apr 13 15:25:33 EDT 2024
 ;; MSG SIZE  rcvd: 81
 

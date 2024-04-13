@@ -7,65 +7,89 @@ nameserver 127.0.0.53
 options edns0 trust-ad
 search dawsoncollege.qc.ca
 ----dns
-command: dig tricia.galaxy.ca
+command: dig tricia.
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.galaxy.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50029
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 28678
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 65494
 ;; QUESTION SECTION:
-;teacher.galaxy.ca.		IN	A
+;teacher.			IN	A
 
-;; AUTHORITY SECTION:
-galaxy.ca.		3600	IN	SOA	dns.internic.ca. noc.internic.ca. 2024041101 10800 3600 604800 3600
-
-;; Query time: 23 msec
+;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 12:47:32 EDT 2024
-;; MSG SIZE  rcvd: 99
+;; WHEN: Sat Apr 13 15:28:39 EDT 2024
+;; MSG SIZE  rcvd: 36
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.galaxy.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29339
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 16803
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 65494
 ;; QUESTION SECTION:
-;tricia.galaxy.ca.		IN	A
+;tricia.				IN	A
 
-;; AUTHORITY SECTION:
-galaxy.ca.		3600	IN	SOA	dns.internic.ca. noc.internic.ca. 2024041101 10800 3600 604800 3600
-
-;; Query time: 23 msec
+;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 12:47:32 EDT 2024
-;; MSG SIZE  rcvd: 98
+;; WHEN: Sat Apr 13 15:28:39 EDT 2024
+;; MSG SIZE  rcvd: 35
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.galaxy.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52401
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 59721
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 65494
 ;; QUESTION SECTION:
-;linux1.galaxy.ca.		IN	A
+;linux1.				IN	A
 
-;; AUTHORITY SECTION:
-galaxy.ca.		3600	IN	SOA	dns.internic.ca. noc.internic.ca. 2024041101 10800 3600 604800 3600
-
-;; Query time: 23 msec
+;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 12:47:32 EDT 2024
-;; MSG SIZE  rcvd: 98
+;; WHEN: Sat Apr 13 15:28:39 EDT 2024
+;; MSG SIZE  rcvd: 35
 
-ret code 0
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> sonic.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 64867
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sonic.				IN	A
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sat Apr 13 15:28:39 EDT 2024
+;; MSG SIZE  rcvd: 34
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> abdullah.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 2767
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;abdullah.			IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sat Apr 13 15:28:39 EDT 2024
+;; MSG SIZE  rcvd: 37
+

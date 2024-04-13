@@ -49,7 +49,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.littleponi.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65532
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23701
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -62,14 +62,14 @@ teacher.littleponi.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.95#53(10.172.19.95) (UDP)
-;; WHEN: Sat Apr 13 14:58:17 EDT 2024
+;; WHEN: Sat Apr 13 15:25:41 EDT 2024
 ;; MSG SIZE  rcvd: 66
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.littleponi.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5918
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4505
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -82,14 +82,14 @@ tricia.littleponi.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.95#53(10.172.19.95) (UDP)
-;; WHEN: Sat Apr 13 14:58:17 EDT 2024
+;; WHEN: Sat Apr 13 15:25:41 EDT 2024
 ;; MSG SIZE  rcvd: 65
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.littleponi.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 57545
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35638
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -99,14 +99,14 @@ tricia.littleponi.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.95#53(10.172.19.95) (UDP)
-;; WHEN: Sat Apr 13 14:58:17 EDT 2024
+;; WHEN: Sat Apr 13 15:25:41 EDT 2024
 ;; MSG SIZE  rcvd: 49
 
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> amy.littleponi.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26841
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13467
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -119,6 +119,6 @@ amy.littleponi.ca.	400	IN	A	10.172.19.95
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.19.95#53(10.172.19.95) (UDP)
-;; WHEN: Sat Apr 13 14:58:17 EDT 2024
+;; WHEN: Sat Apr 13 15:25:41 EDT 2024
 ;; MSG SIZE  rcvd: 62
 

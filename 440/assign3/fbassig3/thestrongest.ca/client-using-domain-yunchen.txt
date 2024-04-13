@@ -9,66 +9,98 @@ nameserver 127.0.0.53
 options edns0 trust-ad
 search dawsoncollege.qc.ca
 ----dns
-command: dig tricia.thestrongest.ca
+command: dig tricia.
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.thestrongest.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64375
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65188
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;teacher.thestrongest.ca.	IN	A
+;teacher.			IN	A
 
 ;; ANSWER SECTION:
-teacher.thestrongest.ca. 400	IN	A	10.172.11.136
+teacher.		400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
-;; WHEN: Sat Apr 13 12:47:31 EDT 2024
-;; MSG SIZE  rcvd: 68
+;; WHEN: Sat Apr 13 15:28:38 EDT 2024
+;; MSG SIZE  rcvd: 52
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.thestrongest.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30818
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33515
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;tricia.thestrongest.ca.		IN	A
+;tricia.				IN	A
 
 ;; ANSWER SECTION:
-tricia.thestrongest.ca.	400	IN	A	10.172.11.136
+tricia.			400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
-;; WHEN: Sat Apr 13 12:47:31 EDT 2024
-;; MSG SIZE  rcvd: 67
+;; WHEN: Sat Apr 13 15:28:38 EDT 2024
+;; MSG SIZE  rcvd: 51
 
 
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.thestrongest.ca
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 22869
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39638
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
-; COOKIE: 9359260537a433ba01000000661ab72316e8cf96fe27e019 (good)
 ;; QUESTION SECTION:
-;linux1.thestrongest.ca.		IN	A
+;linux1.				IN	A
 
-;; AUTHORITY SECTION:
-ca.			3600	IN	SOA	prd-czp-05.corp.cira.ca. admin-dns.cira.ca. 2404131630 2100 900 3456000 3600
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 15:28:38 EDT 2024
+;; MSG SIZE  rcvd: 35
+
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> sonic.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48171
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;sonic.				IN	A
+
+;; ANSWER SECTION:
+sonic.			400	IN	A	198.168.50.64
 
 ;; Query time: 4 msec
 ;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
-;; WHEN: Sat Apr 13 12:47:31 EDT 2024
-;; MSG SIZE  rcvd: 157
+;; WHEN: Sat Apr 13 15:28:38 EDT 2024
+;; MSG SIZE  rcvd: 50
 
-ret code 0
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> yunchen.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 55207
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;yunchen.			IN	A
+
+;; Query time: 0 msec
+;; SERVER: 10.172.17.147#53(10.172.17.147) (UDP)
+;; WHEN: Sat Apr 13 15:28:38 EDT 2024
+;; MSG SIZE  rcvd: 36
+
