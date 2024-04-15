@@ -52,7 +52,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.galaxy.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29961
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33307
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -61,70 +61,15 @@ command: dig tricia.
 ;teacher.galaxy.ca.		IN	A
 
 ;; ANSWER SECTION:
-teacher.galaxy.ca.	400	IN	A	10.172.18.245
 teacher.galaxy.ca.	400	IN	A	10.172.11.136
 teacher.galaxy.ca.	400	IN	A	10.172.19.200
+teacher.galaxy.ca.	400	IN	A	10.172.18.245
 
 ;; Query time: 0 msec
 ;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
-;; WHEN: Sat Apr 13 15:25:39 EDT 2024
+;; WHEN: Sat Apr 13 16:19:56 EDT 2024
 ;; MSG SIZE  rcvd: 94
 
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.galaxy.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13722
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;tricia.galaxy.ca.		IN	A
-
-;; ANSWER SECTION:
 tricia.galaxy.ca.	400	IN	A	10.172.11.136
-
-;; Query time: 0 msec
-;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
-;; WHEN: Sat Apr 13 15:25:39 EDT 2024
-;; MSG SIZE  rcvd: 61
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.galaxy.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10626
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;linux1.galaxy.ca.		IN	A
-
-;; Query time: 0 msec
-;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
-;; WHEN: Sat Apr 13 15:25:39 EDT 2024
-;; MSG SIZE  rcvd: 45
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> elias.galaxy.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4135
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;elias.galaxy.ca.		IN	A
-
-;; ANSWER SECTION:
-elias.galaxy.ca.	400	IN	A	10.172.19.200
 elias.galaxy.ca.	400	IN	A	10.172.18.245
-
-;; Query time: 0 msec
-;; SERVER: 10.172.18.245#53(10.172.18.245) (UDP)
-;; WHEN: Sat Apr 13 15:25:39 EDT 2024
-;; MSG SIZE  rcvd: 76
-
+elias.galaxy.ca.	400	IN	A	10.172.19.200

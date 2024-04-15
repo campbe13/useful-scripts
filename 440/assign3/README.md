@@ -5,6 +5,8 @@ and
 
 client is the host that acted as the client
 
+server is the host that acted as the server
+
 domain is domain chosen by the students
 
 IMPORTANT the  input files for cka3*.sh must be space delimited (will not work if tab delimited)
@@ -15,7 +17,7 @@ IMPORTANT the  input files for cka3*.sh must be space delimited (will not work i
 * runs the file & results in fbassig3/ local host
 #### server.sh
 * copied to the server & run there 
-### cka3server.sh
+### cka3client.sh
 * cli arg file with 2x fields domain client
 * creates an arg.line file containing the domain  (sourced in client.sh)
 * copies the arg file & client.sh to the server

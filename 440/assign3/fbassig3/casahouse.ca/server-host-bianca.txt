@@ -37,7 +37,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.casahouse.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3121
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52527
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -50,66 +50,9 @@ teacher.casahouse.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:35 EDT 2024
+;; WHEN: Sat Apr 13 16:19:53 EDT 2024
 ;; MSG SIZE  rcvd: 65
 
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.casahouse.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30456
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;tricia.casahouse.ca.		IN	A
-
-;; ANSWER SECTION:
 tricia.casahouse.ca.	400	IN	A	10.172.11.136
-
-;; Query time: 0 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:35 EDT 2024
-;; MSG SIZE  rcvd: 64
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.casahouse.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29283
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;linux1.casahouse.ca.		IN	A
-
-;; ANSWER SECTION:
 linux1.casahouse.ca.	400	IN	A	198.168.50.64
-
-;; Query time: 0 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:35 EDT 2024
-;; MSG SIZE  rcvd: 64
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> bianca.casahouse.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25366
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;bianca.casahouse.ca.		IN	A
-
-;; ANSWER SECTION:
 bianca.casahouse.ca.	400	IN	A	10.172.19.22
-
-;; Query time: 0 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:35 EDT 2024
-;; MSG SIZE  rcvd: 64
-

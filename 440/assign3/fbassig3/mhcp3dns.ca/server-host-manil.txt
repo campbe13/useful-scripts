@@ -35,7 +35,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.mhcp3dns.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50891
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5859
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -48,63 +48,8 @@ teacher.mhcp3dns.ca.	400	IN	A	10.172.11.136
 
 ;; Query time: 0 msec
 ;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 15:25:42 EDT 2024
+;; WHEN: Sat Apr 13 16:20:00 EDT 2024
 ;; MSG SIZE  rcvd: 64
 
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.mhcp3dns.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15322
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;tricia.mhcp3dns.ca.		IN	A
-
-;; ANSWER SECTION:
 tricia.mhcp3dns.ca.	400	IN	A	10.172.11.136
-
-;; Query time: 0 msec
-;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 15:25:43 EDT 2024
-;; MSG SIZE  rcvd: 63
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.mhcp3dns.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46330
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;linux1.mhcp3dns.ca.		IN	A
-
-;; Query time: 0 msec
-;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 15:25:43 EDT 2024
-;; MSG SIZE  rcvd: 47
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> manil.mhcp3dns.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57924
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;manil.mhcp3dns.ca.		IN	A
-
-;; ANSWER SECTION:
 manil.mhcp3dns.ca.	400	IN	A	10.172.19.216
-
-;; Query time: 0 msec
-;; SERVER: ::1#53(::1) (UDP)
-;; WHEN: Sat Apr 13 15:25:43 EDT 2024
-;; MSG SIZE  rcvd: 62
-

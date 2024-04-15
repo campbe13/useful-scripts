@@ -43,7 +43,7 @@ command: dig tricia.
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.sri.ca
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13331
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53493
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -54,68 +54,11 @@ command: dig tricia.
 ;; ANSWER SECTION:
 teacher.sri.ca.		400	IN	A	10.172.11.136
 
-;; Query time: 0 msec
+;; Query time: 4 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:49 EDT 2024
+;; WHEN: Sat Apr 13 16:20:06 EDT 2024
 ;; MSG SIZE  rcvd: 59
 
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> tricia.sri.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15993
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;tricia.sri.ca.			IN	A
-
-;; ANSWER SECTION:
 tricia.sri.ca.		400	IN	A	10.172.11.136
-
-;; Query time: 0 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:49 EDT 2024
-;; MSG SIZE  rcvd: 58
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> linux1.sri.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10913
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;linux1.sri.ca.			IN	A
-
-;; ANSWER SECTION:
 linux1.sri.ca.		400	IN	A	198.168.50.64
-
-;; Query time: 0 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:49 EDT 2024
-;; MSG SIZE  rcvd: 58
-
-
-; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> sriraam.sri.ca
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14511
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 1232
-;; QUESTION SECTION:
-;sriraam.sri.ca.			IN	A
-
-;; ANSWER SECTION:
 sriraam.sri.ca.		400	IN	A	10.172.19.174
-
-;; Query time: 0 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 15:25:49 EDT 2024
-;; MSG SIZE  rcvd: 59
-

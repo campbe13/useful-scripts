@@ -19,6 +19,6 @@ echo "command: dig tricia.$domain"
 # server=server
 . arg.server
 dig teacher.$domain
-dig tricia.$domain
-dig linux1.$domain
-dig $server.$domain
+dig +noall +answer tricia.$domain
+dig +noall +answer linux1.$domain
+dig +noall +answer $server.$domain
