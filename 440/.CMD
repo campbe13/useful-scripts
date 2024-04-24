@@ -1,1 +1,1 @@
-hostnamectl hostname
+df  -h |grep sda3

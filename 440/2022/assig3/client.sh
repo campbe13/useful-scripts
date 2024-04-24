@@ -10,6 +10,7 @@ echo ----hostname
 hostname
 echo --resolv.conf
 tail /etc/resolv.conf
+cat  /etc/resolv.conf |grep -v "^#"
 echo ----dns
 echo "command: dig tricia.$domain"
 dig tricia.$domain

@@ -1,0 +1,81 @@
+over ssh running df  -h |grep sda3 
+HOST Abdullah
+/dev/sda3        24G   17G  6.5G  72% /
+success Abdullah
+HOST Adam
+/dev/sda3        24G   20G  3.3G  86% /
+success Adam
+HOST Aidan
+/dev/sda3        24G   17G  6.3G  73% /
+success Aidan
+HOST Alexander
+/dev/sda3        24G   18G  5.1G  78% /
+success Alexander
+HOST Aman
+/dev/sda3        24G   17G  6.2G  73% /
+success Aman
+HOST Ameena
+/dev/sda3        24G   20G  3.7G  84% /
+success Ameena
+HOST Amy
+/dev/sda3        24G   18G  5.4G  77% /
+success Amy
+HOST Anthony
+/dev/sda3        24G   18G  5.7G  76% /
+success Anthony
+HOST Bianca
+/dev/sda3        24G   18G  5.6G  76% /
+success Bianca
+HOST Christina
+/dev/sda3        24G   17G  6.5G  72% /
+success Christina
+HOST DangMinh
+/dev/sda3        24G   18G  5.0G  79% /
+success DangMinh
+HOST Dmitriy
+/dev/sda3        24G   19G  4.3G  82% /
+success Dmitriy
+HOST Elias
+/dev/sda3        24G   18G  5.5G  76% /
+success Elias
+HOST Emmanuelle
+/dev/sda3        24G   17G  6.0G  74% /
+success Emmanuelle
+HOST Haris
+/dev/sda3        24G   18G  5.3G  78% /
+success Haris
+HOST Ivana
+/dev/sda3        24G   18G  4.8G  80% /
+success Ivana
+HOST Manil
+/dev/sda3        24G   16G  6.9G  70% /
+success Manil
+HOST Nicholas
+/dev/sda3        24G   18G  5.7G  76% /
+success Nicholas
+HOST Patricia
+/dev/sda3        24G   18G  5.4G  77% /
+success Patricia
+HOST Sriraam
+/dev/sda3        24G   18G  5.1G  78% /
+success Sriraam
+HOST Tan-Jackson
+/dev/sda3        24G   18G  4.8G  79% /
+success Tan-Jackson
+HOST Tony
+/dev/sda3        24G   17G  6.0G  74% /
+success Tony
+HOST Vijay
+/dev/sda3        24G   20G  3.3G  86% /
+success Vijay
+HOST Yanni
+/dev/sda3        24G   17G  6.0G  74% /
+success Yanni
+HOST YunChen
+/dev/sda3        24G   18G  5.3G  77% /
+success YunChen
+HOST Giancarlo
+/dev/sda3        24G   19G  4.6G  80% /
+success Giancarlo
+success 26
+fail 0
