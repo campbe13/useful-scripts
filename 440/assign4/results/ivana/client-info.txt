@@ -1,0 +1,37 @@
+START>>>ivana 
+ivana.universe.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── css
+│   │   │   ├── game.css
+│   │   │   ├── layout.css
+│   │   │   └── media.css
+│   │   ├── index.html
+│   │   ├── README.md
+│   │   └── script
+│   │       ├── board.js
+│   │       ├── cheatMode.js
+│   │       ├── form.js
+│   │       ├── gameMessageFunctions.js
+│   │       └── highscore.js
+│   ├── main.html
+│   └── site_backup.zip
+├── newvhost
+│   └── index.html
+├── newvhost.zip
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+7 directories, 19 files
+total 28
+-rw-r--r-- 1 root root 1332 Apr  3 17:17 000-default.conf
+-rw-r--r-- 1 root root  244 Apr  3 16:42 001-port8805.conf
+-rw-r--r-- 1 root root  243 Apr  3 17:14 002-port8855.conf
+-rw-r--r-- 1 root root 6367 Apr  7 23:05 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  7 20:43 default-ssl.conf.backup

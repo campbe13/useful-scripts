@@ -1,0 +1,2 @@
+dig @localhost www.mcgill.ca
+dig @localhost google.ca

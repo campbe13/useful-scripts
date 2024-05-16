@@ -1,0 +1,35 @@
+START>>>nicholas 
+NicholasPouliezos.dawsoncollege.qc.ca
+/var/www
+├── html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── index.html
+│   │   ├── script
+│   │   │   ├── cheat.js
+│   │   │   ├── completionMessage.js
+│   │   │   ├── createTable.js
+│   │   │   ├── highscore.js
+│   │   │   ├── index.js
+│   │   │   ├── selectATile.js
+│   │   │   ├── setStartButton.js
+│   │   │   └── utility.js
+│   │   └── style
+│   │       ├── index.css
+│   │       └── mobile.css
+│   └── main.html
+├── https
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+7 directories, 17 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root 1346 Apr  3 16:33 001-port8805.conf
+-rw-r--r-- 1 root root 1346 Apr  3 22:01 002-port8855.conf
+-rw-r--r-- 1 root root 6333 Apr  8 16:40 chopper-ssl.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf

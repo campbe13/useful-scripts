@@ -6,13 +6,20 @@ NicholasPouliezos.dawsoncollege.qc.ca
 nameserver 127.0.0.53
 options edns0 trust-ad
 search dawsoncollege.qc.ca
+----NetworkManager.conf
+[main]
+plugins=ifupdown,keyfile
+dns=none
+
+[ifupdown]
+managed=false
 ----dns
 command: dig tricia.
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> teacher.
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 61501
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 53897
 ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -22,7 +29,7 @@ command: dig tricia.
 
 ;; Query time: 0 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Sat Apr 13 16:19:32 EDT 2024
+;; WHEN: Sun May 05 16:47:14 EDT 2024
 ;; MSG SIZE  rcvd: 36
 
 linux1.			0	IN	A	198.168.50.64

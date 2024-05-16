@@ -1,0 +1,34 @@
+START>>>alexander 
+satoru.thestrongest.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── css
+│   │   │   ├── game.css
+│   │   │   └── mobile.css
+│   │   ├── index.html
+│   │   └── scripts
+│   │       ├── board.js
+│   │       ├── cheatmode.js
+│   │       ├── highscore.js
+│   │       └── setup.js
+│   └── main.html
+├── https
+│   └── index.html
+├── port8805
+│   ├── cantaccess.html
+│   └── index.html
+└── port8855
+    ├── cantaccess.html
+    └── index.html
+
+7 directories, 16 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  201 Apr  8 18:56 001-port8805.conf
+-rw-r--r-- 1 root root  201 Apr  8 19:00 002-port8855.conf
+-rw-r--r-- 1 root root 6478 Apr  9 23:15 alexthestrongest-ssl.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf

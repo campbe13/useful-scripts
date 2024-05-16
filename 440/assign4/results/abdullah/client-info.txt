@@ -1,0 +1,43 @@
+START>>>abdullah 
+abdullahvm.dawsoncollege.qc.ca
+/var/www
+├── galaxy.ca
+│   └── index.html
+├── html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── error.html
+│   │   └── web_project
+│   │       ├── css
+│   │       │   ├── cheatCode.css
+│   │       │   ├── form.css
+│   │       │   ├── gameBoard.css
+│   │       │   ├── highScore.css
+│   │       │   ├── mobile.css
+│   │       │   └── styles.css
+│   │       ├── error.html
+│   │       ├── index.html
+│   │       ├── index.html.1
+│   │       ├── index.html.2
+│   │       ├── js
+│   │       │   ├── cheatCode.js
+│   │       │   ├── form.js
+│   │       │   ├── gameBoard.js
+│   │       │   ├── highScore.js
+│   │       │   └── utilities.js
+│   │       └── README.md
+│   └── main.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+8 directories, 23 files
+total 36
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  239 Apr  3 16:26 001-port8805.conf
+-rw-r--r-- 1 root root  203 Apr  3 17:12 001-port8855.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  9 02:04 default-ssl.conf.backup
+-rw-r--r-- 1 root root 6461 Apr  9 03:23 galaxy-ssl.conf

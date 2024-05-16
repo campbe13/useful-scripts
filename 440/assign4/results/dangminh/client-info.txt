@@ -1,0 +1,21 @@
+START>>>dangminh 
+minhvm.dawsoncollege.qc.ca
+/var/www
+├── html
+│   ├── index.html
+│   └── index.html.bak
+├── https
+│   └── index.html
+├── port8805
+│   └── index.html
+├── port8855
+│   └── index.html
+└── varwww_backup.tar.gz
+
+4 directories, 6 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  200 Apr  4 16:35 001-port8805.conf
+-rw-r--r-- 1 root root  199 Apr  4 16:54 001-port8855.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf
+-rw-r--r-- 1 root root 6455 Apr 10 15:37 minh-ssl.conf

@@ -1,0 +1,38 @@
+START>>>yunchen 
+chen.dawsoncollege.qc.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── css
+│   │   │   ├── mobile.css
+│   │   │   └── style.css
+│   │   ├── html
+│   │   │   └── page.html
+│   │   ├── js
+│   │   │   ├── game_settings.js
+│   │   │   └── utilities.js
+│   │   ├── ProjectSpecs_JS320_Nasr_F23.pdf
+│   │   ├── README.md
+│   │   └── sounds
+│   │       ├── lose.mp3
+│   │       └── win.mp3
+│   └── main.html
+├── html.zip
+├── https
+│   └── index.html
+├── port8805
+│   └── index.html
+├── port8855
+│   └── index.html
+└── sum
+
+10 directories, 17 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root 1345 Apr  3 17:26 001-port8805.conf
+-rw-r--r-- 1 root root 1345 Apr  4 20:13 002-port8855.conf
+-rw-r--r-- 1 root root 6351 Apr  4 21:07 8855-ssl.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf

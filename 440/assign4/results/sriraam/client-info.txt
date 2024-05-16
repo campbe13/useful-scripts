@@ -1,0 +1,39 @@
+START>>>sriraam 
+nada.sri.ca
+/var/www
+├── crtHTML
+│   └── index.html
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.1
+│   ├── index.html.bak
+│   ├── js
+│   │   └── webdev2project
+│   │       ├── css
+│   │       │   ├── gameboard.css
+│   │       │   ├── gamesetup.css
+│   │       │   ├── highscore.css
+│   │       │   ├── index.css
+│   │       │   └── mobile.css
+│   │       ├── index.html
+│   │       ├── js
+│   │       │   ├── gameboard.js
+│   │       │   ├── gamesetup.js
+│   │       │   └── highscore.js
+│   │       └── README.md
+│   └── main.html
+├── port8805
+│   ├── file.txt
+│   └── index.html
+└── port8855
+    ├── file.txt
+    └── index.html
+
+8 directories, 20 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  201 Apr  5 10:21 001-port8805.conf
+-rw-r--r-- 1 root root  201 Apr  5 11:19 002-port8855.conf
+-rw-r--r-- 1 root root 6343 Apr 10 00:52 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr 10 00:34 default-ssl.conf.bak

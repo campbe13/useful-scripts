@@ -1,0 +1,362 @@
+over ssh running tree /tmp/lab11 
+HOST Abdullah
+/tmp/lab11
+└── hash
+    ├── lab11-abdullah.tar.gz
+    ├── lab11-elias.tar.gz
+    └── tryhash-elias
+        ├── mchecksums.txt
+        ├── message.txt
+        ├── msg.txt
+        ├── mymessage.txt
+        └── passwd
+
+2 directories, 7 files
+success Abdullah
+HOST Adam
+/tmp/lab11
+├── adam.gpg
+├── hash
+│   └── tryhash-adam.tar.gz
+└── secret-adam.txt.asc
+
+1 directory, 3 files
+success Adam
+HOST Aidan
+/tmp/lab11
+├── hash
+│   ├── lab11-aidan.tar.gz
+│   └── tryhash-aidan
+│       ├── aidan_lame_message.txt
+│       ├── aidan_message.txt
+│       ├── aidan_peculiar_message.txt
+│       ├── checksums.txt
+│       └── passwd
+└── publickey
+    └── aidan.key.gpg
+
+3 directories, 7 files
+success Aidan
+HOST Alexander
+/tmp/lab11
+├── gpg
+│   └── alex.key.gpg
+├── hash
+│   └── lab11-alex.tar.gz
+└── secret-alex.txt.gpg
+
+2 directories, 3 files
+success Alexander
+HOST Aman
+/tmp/lab11
+├── aman.gpg
+├── hash
+│   └── tryhash-aman.tar.gz
+└── secret-aman.txt.gpg
+
+1 directory, 3 files
+success Aman
+HOST Ameena
+/tmp/lab11
+└── hash
+    ├── checksums.txt
+    ├── dear-ivana2.txt
+    ├── dear-ivana3.txt
+    ├── dear-ivana.txt
+    ├── home
+    │   ├── ameenakhokhar
+    │   │   └── tryhashameena
+    │   │       ├── checksums.txt
+    │   │       ├── dear-ivana2.txt
+    │   │       ├── dear-ivana3.txt
+    │   │       ├── dear-ivana.txt
+    │   │       ├── lab11.tar.gz
+    │   │       └── passwd
+    │   └── ivanaz
+    │       └── tryhash-ivana
+    │           ├── lab11.tar.gz
+    │           ├── mchecksums.txt
+    │           ├── message2.txt
+    │           ├── message3.txt
+    │           ├── message.txt
+    │           └── passwd
+    ├── lab11-ameena.tar.gz
+    ├── lab11.tar.gz
+    └── passwd
+
+6 directories, 19 files
+success Ameena
+HOST Amy
+/tmp/lab11
+└── hash
+    ├── lab11-amy.tar.gz
+    ├── lab11-jackson.tar.gz
+    └── tryhash-jackson
+        ├── lab11-jackson.tar.gz
+        ├── mchecksums.txt
+        ├── passwd
+        ├── textCopied1.txt
+        ├── textCopied2.txt
+        └── text.txt
+
+2 directories, 8 files
+success Amy
+HOST Anthony
+/tmp/lab11
+├── anthony.pub.gpg
+├── hash
+│   ├── lab11-anthony.gz
+│   ├── lab11-bianca.tar.gz
+│   └── tryhash-bianca
+│       ├── checksums.txt
+│       ├── message1.txt
+│       ├── message2.txt
+│       ├── message.txt
+│       └── passwd
+└── text.txt.gpg
+
+2 directories, 9 files
+success Anthony
+HOST Bianca
+/tmp/lab11
+├── bianca.pub.gpg
+├── hash
+│   └── lab11-bianca.tar.gz
+└── secret-bianca.txt.gpg
+
+1 directory, 3 files
+success Bianca
+HOST Christina
+/tmp/lab11
+├── christina.key.gpg
+├── hash
+│   ├── lab11-christina.tar.gz
+│   └── lab11-minh.tar.gz
+└── secret-christina.txt.gpg
+
+1 directory, 4 files
+success Christina
+HOST DangMinh
+/tmp/lab11
+├── christina.key.gpg
+├── hash
+│   ├── lab11-christina.tar.gz
+│   ├── lab11-minh.tar.gz
+│   └── tryhash-christina
+│       ├── also_message_for_minh.txt
+│       ├── another_message_for_minh.txt
+│       ├── mchecksums.txt
+│       ├── message_for_minh.txt
+│       └── passwd
+├── hello
+├── minh.key.gpg
+├── secret-christina.txt
+├── secret-christina.txt.gpg
+├── secret-minh.txt
+└── secret-minh.txt.gpg
+
+2 directories, 14 files
+success DangMinh
+HOST Dmitriy
+/tmp/lab11
+├── dmitriy.key.gpg
+└── hash
+    └── lab11-dmitriykim.tar.gz
+
+1 directory, 2 files
+success Dmitriy
+HOST Elias
+/tmp/lab11
+└── hash
+    ├── lab11-abdullah.tar.gz
+    └── lab11-elias.tar.gz
+
+1 directory, 2 files
+success Elias
+HOST Emmanuelle
+/tmp/lab11
+├── doc
+├── gpg
+│   ├── emmanuelles.key.gpg
+│   ├── secret-emmanuelle.txt
+│   ├── secret-emmanuelle.txt.asc
+│   ├── tony.key.gpg
+│   └── tony.key.gpg.gpg
+├── hash
+│   └── lab11-emmanuelle.tar.gz
+├── secret-tony.txt
+└── secret-tony.txt.gpg
+
+2 directories, 9 files
+success Emmanuelle
+HOST Haris
+/tmp/lab11
+├── haris.key.gpg
+├── hash
+│   └── lab11-haris.tar.gz
+└── msgtodk
+
+1 directory, 3 files
+success Haris
+HOST Ivana
+/tmp/lab11
+└── hash
+    ├── checksums.txt
+    ├── dear-ivana2.txt
+    ├── dear-ivana3.txt
+    ├── dear-ivana.txt
+    ├── home
+    │   ├── ameenakhokhar
+    │   │   └── tryhashameena
+    │   │       ├── checksums.txt
+    │   │       ├── dear-ivana2.txt
+    │   │       ├── dear-ivana3.txt
+    │   │       ├── dear-ivana.txt
+    │   │       ├── lab11.tar.gz
+    │   │       └── passwd
+    │   └── ivanaz
+    │       └── tryhash-ivana
+    │           ├── lab11.tar.gz
+    │           ├── mchecksums.txt
+    │           ├── message2.txt
+    │           ├── message3.txt
+    │           ├── message.txt
+    │           └── passwd
+    ├── lab11-ameena.tar.gz
+    ├── lab11.tar.gz
+    └── passwd
+
+6 directories, 19 files
+success Ivana
+HOST Manil
+/tmp/lab11
+├── hash
+│   └── lab11-manil.tar.gz
+├── manils.key.gpg
+├── secret-manil.txt
+├── secret-manil.txt.asc
+├── secret-yanni.txt.asc
+└── yanni.key.gpg
+
+1 directory, 6 files
+success Manil
+HOST Nicholas
+/tmp/lab11
+├── gpg-02
+│   ├── msg.txt
+│   ├── msg.txt.gpg
+│   ├── nicholas.key
+│   ├── nick.gpg
+│   ├── sEcReTmEsSaGe.gpg
+│   ├── secret-nicholas.gpg
+│   ├── secret-nicholas.txt
+│   ├── secret-vj.txt
+│   └── vijay.gpg
+└── hash
+    └── lab11-Nicholas.gzip
+
+2 directories, 10 files
+success Nicholas
+HOST Patricia
+/tmp/lab11
+├── hash
+│   └── lab11-patricia.tar.bzip2
+└── rose.key.gpg
+
+1 directory, 2 files
+success Patricia
+HOST Sriraam
+/tmp/lab11
+├── gpg
+│   ├── carlos.key.gpg
+│   ├── secret-giancarlo.txt
+│   ├── secret-giancarlo.txt.gpg
+│   ├── secret-sriraam.txt.gpg
+│   └── sriraams.key.gpg
+├── hash
+│   ├── lab11-giancarlo.tar.gz
+│   ├── lab11-sriraam.tar.gz
+│   └── tryhash-giancarlo
+│       ├── mchecksums.txt
+│       ├── msg2.txt
+│       ├── msg3.txt
+│       ├── msg.txt
+│       └── passwd
+├── secret-sriraam.txt
+└── secret-sriraam.txt.gpg
+
+3 directories, 14 files
+success Sriraam
+HOST Tan-Jackson
+/tmp/lab11
+└── hash
+    ├── lab11-amy.tar.gz
+    ├── lab11-jackson.tar.gz
+    ├── mchecksums.txt
+    ├── message1.txt
+    ├── message2.txt
+    ├── message.txt
+    └── passwd
+
+1 directory, 7 files
+success Tan-Jackson
+HOST Tony
+/tmp/lab11
+├── gpg
+│   ├── secret-tony.txt.gpg
+│   └── tony.key.gpg
+└── hash
+    └── lab11-tony.tar.gz
+
+2 directories, 3 files
+success Tony
+HOST Vijay
+/tmp/lab11
+├── gpg-02
+│   ├── msg.txt.gpg
+│   ├── nick.gpg
+│   ├── sEcReTmEsSaGe.gpg
+│   ├── sEcReTmEsSaGe.txt
+│   ├── secret-nicholas.gpg
+│   └── vijay.gpg
+└── hash
+    └── lab11-vijay.gzip
+
+2 directories, 7 files
+success Vijay
+HOST Yanni
+/tmp/lab11
+├── manils.key.gpg
+├── secret-manil.txt
+├── secret-manil.txt.asc
+├── secret-yanni.txt
+├── secret-yanni.txt.asc
+└── yanni.key.gpg
+
+0 directories, 6 files
+success Yanni
+HOST YunChen
+/tmp/lab11
+├── chens.key.gpg
+├── hash
+│   └── lab11-chen.tar.gz
+├── ls
+└── secret-chen.txt.gpg
+
+1 directory, 4 files
+success YunChen
+HOST Giancarlo
+/tmp/lab11
+├── gpg
+│   ├── carlos.key.gpg
+│   └── secret-giancarlo.txt.gpg
+├── hash
+│   ├── abcd
+│   └── lab11-giancarlo.tar.gz
+├── secret-sriraam.txt
+└── secret-sriraam.txt.gpg
+
+2 directories, 6 files
+success Giancarlo
+success 26
+fail 0

@@ -1,0 +1,29 @@
+START>>>vijay 
+vj.chopper.ca
+/var/www
+├── html
+│   ├── 320
+│   │   └── Assignment6
+│   │       ├── grandson.png
+│   │       ├── Index.html
+│   │       ├── main.jsx
+│   │       ├── react-fetch.css
+│   │       └── read.md
+│   ├── index.html
+│   ├── index.html.bak
+│   └── main.html
+├── port8805
+│   ├── index.html
+│   └── nopermission.html
+├── port8855
+│   └── index.html
+└── tls
+    └── index.html
+
+6 directories, 12 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root 1346 Apr  3 16:52 001-port8805.conf
+-rw-r--r-- 1 root root 1346 Apr  4 12:05 002-port8855.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf
+-rw-r--r-- 1 root root 6333 Apr  9 21:25 tls-default-ssl.conf

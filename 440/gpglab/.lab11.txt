@@ -1,0 +1,118 @@
+over ssh running tree /tmp/lab11 
+HOST Abdullah
+/tmp/lab11
+└── hash
+    ├── lab11-abdullah.tar.gz
+    ├── lab11-elias.tar.gz
+    └── tryhash-elias
+        ├── mchecksums.txt
+        ├── message.txt
+        ├── msg.txt
+        ├── mymessage.txt
+        └── passwd
+
+2 directories, 7 files
+success Abdullah
+HOST Adam
+/tmp/lab11
+├── adam.gpg
+├── hash
+│   └── tryhash-adam.tar.gz
+└── secret-adam.txt.asc
+
+1 directory, 3 files
+success Adam
+HOST Aidan
+/tmp/lab11
+├── hash
+│   ├── lab11-aidan.tar.gz
+│   └── tryhash-aidan
+│       ├── aidan_lame_message.txt
+│       ├── aidan_message.txt
+│       ├── aidan_peculiar_message.txt
+│       ├── checksums.txt
+│       └── passwd
+└── publickey
+    └── aidan.key.gpg
+
+3 directories, 7 files
+success Aidan
+HOST Alexander
+/tmp/lab11
+├── gpg
+│   └── alex.key.gpg
+├── hash
+│   └── lab11-alex.tar.gz
+└── secret-alex.txt.gpg
+
+2 directories, 3 files
+success Alexander
+HOST Aman
+/tmp/lab11
+├── aman.gpg
+├── hash
+│   └── tryhash-aman.tar.gz
+└── secret-aman.txt.gpg
+
+1 directory, 3 files
+success Aman
+HOST Ameena
+/tmp/lab11
+└── hash
+    ├── checksums.txt
+    ├── dear-ivana2.txt
+    ├── dear-ivana3.txt
+    ├── dear-ivana.txt
+    ├── home
+    │   ├── ameenakhokhar
+    │   │   └── tryhashameena
+    │   │       ├── checksums.txt
+    │   │       ├── dear-ivana2.txt
+    │   │       ├── dear-ivana3.txt
+    │   │       ├── dear-ivana.txt
+    │   │       ├── lab11.tar.gz
+    │   │       └── passwd
+    │   └── ivanaz
+    │       └── tryhash-ivana
+    │           ├── lab11.tar.gz
+    │           ├── mchecksums.txt
+    │           ├── message2.txt
+    │           ├── message3.txt
+    │           ├── message.txt
+    │           └── passwd
+    ├── lab11-ameena.tar.gz
+    ├── lab11.tar.gz
+    └── passwd
+
+6 directories, 19 files
+success Ameena
+HOST Amy
+fail Amy
+HOST Anthony
+fail Anthony
+HOST Bianca
+fail Bianca
+HOST Christina
+fail Christina
+HOST DangMinh
+/tmp/lab11
+├── christina.key.gpg
+├── hash
+│   ├── lab11-christina.tar.gz
+│   ├── lab11-minh.tar.gz
+│   └── tryhash-christina
+│       ├── also_message_for_minh.txt
+│       ├── another_message_for_minh.txt
+│       ├── mchecksums.txt
+│       ├── message_for_minh.txt
+│       └── passwd
+├── hello
+├── minh.key.gpg
+├── secret-christina.txt
+├── secret-christina.txt.gpg
+├── secret-minh.txt
+└── secret-minh.txt.gpg
+
+2 directories, 14 files
+success DangMinh
+HOST Dmitriy

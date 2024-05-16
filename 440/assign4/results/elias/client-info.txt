@@ -1,0 +1,55 @@
+START>>>elias 
+eliasvm.galaxy.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   └── GuessTheColour
+│   │       ├── css
+│   │       │   ├── gameboard.css
+│   │       │   ├── highscore.css
+│   │       │   ├── layout.css
+│   │       │   ├── mobile.css
+│   │       │   └── setup.css
+│   │       ├── index.html
+│   │       ├── js
+│   │       │   ├── cheatcode.js
+│   │       │   ├── gameboard.js
+│   │       │   ├── highscore.js
+│   │       │   └── setup.js
+│   │       └── Project Planning.docx
+│   ├── lab04-03
+│   │   ├── app
+│   │   │   └── js
+│   │   │       └── GuessTheColour
+│   │   │           ├── css
+│   │   │           │   ├── gameboard.css
+│   │   │           │   ├── highscore.css
+│   │   │           │   ├── layout.css
+│   │   │           │   ├── mobile.css
+│   │   │           │   └── setup.css
+│   │   │           ├── index.html
+│   │   │           ├── js
+│   │   │           │   ├── cheatcode.js
+│   │   │           │   ├── gameboard.js
+│   │   │           │   ├── highscore.js
+│   │   │           │   └── setup.js
+│   │   │           └── Project Planning.docx
+│   │   └── Dockerfile
+│   └── main.html
+├── new_vhost
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+14 directories, 30 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root 1346 Apr  3 16:15 001-port8805.conf
+-rw-r--r-- 1 root root 1346 Apr  3 16:24 001-port8855.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf
+-rw-r--r-- 1 root root 6455 Apr  7 19:13 galaxy-ssl.conf

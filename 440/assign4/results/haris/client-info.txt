@@ -1,0 +1,29 @@
+START>>>haris 
+harisvm.dawsoncollege.qc.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── epic.css
+│   │   ├── epic.js
+│   │   └── index.html
+│   ├── main.html
+│   └── styles.css
+├── new-vhost
+│   └── index.html
+├── port8805
+│   ├── genError.html
+│   └── index.html
+└── port8855
+    ├── genError.html
+    └── index.html
+
+5 directories, 13 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  276 Apr  3 16:43 001-port8805.conf
+-rw-r--r-- 1 root root  246 Apr  3 16:47 002-port8855.conf
+-rw-r--r-- 1 root root 6341 Apr  6 22:07 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  6 22:01 default-ssl.conf.backup

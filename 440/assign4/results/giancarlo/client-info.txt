@@ -1,0 +1,33 @@
+START>>>giancarlo 
+carlo.dawsoncollege.qc.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── CSS
+│   │   │   ├── mobile.css
+│   │   │   └── style.css
+│   │   ├── index.html
+│   │   ├── JavaScript
+│   │   │   ├── board.js
+│   │   │   ├── score.js
+│   │   │   ├── setup.js
+│   │   │   └── utilities.js
+│   │   └── README.md
+│   └── main.html
+├── port8805
+│   └── index.html
+├── port8855
+│   └── index.html
+└── securedHTML
+    └── index.html
+
+7 directories, 15 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  201 Apr  3 16:34 001-port8805.conf
+-rw-r--r-- 1 root root  201 Apr  4 16:27 002-port8855.conf
+-rw-r--r-- 1 root root 6353 Apr  7 00:10 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  7 00:03 default-ssl.conf.bak

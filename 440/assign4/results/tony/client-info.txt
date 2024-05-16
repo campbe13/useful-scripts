@@ -1,0 +1,26 @@
+START>>>tony 
+TonyDo.soremuscles.ca
+/var/www
+├── assign4
+│   └── index.html
+├── html
+│   ├── Errors
+│   │   └── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── epic.css
+│   │   ├── epic.js
+│   │   └── index.html
+│   └── main.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+6 directories, 10 files
+total 20
+-rw-r--r-- 1 root root 1358 Apr  5 10:02 000-default.conf
+-rw-r--r-- 1 root root  300 Apr  5 09:56 001-port8805.conf
+-rw-r--r-- 1 root root  245 Apr  3 16:04 002-port8855.conf
+-rw-r--r-- 1 root root 6355 Apr  5 11:12 default-ssl.conf

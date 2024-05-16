@@ -1,0 +1,31 @@
+START>>>christina 
+christina.bubbles.ca
+/var/www
+├── html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── html
+│   │   │   └── index.html
+│   │   ├── js
+│   │   │   ├── exchange_rate.js
+│   │   │   └── utilities.js
+│   │   ├── json
+│   │   │   └── currency.json
+│   │   └── styles
+│   │       └── page.css
+│   ├── main_page
+│   │   └── index.html
+│   ├── port8805
+│   │   └── index.html
+│   └── port8855
+│       └── index.html
+└── https
+    └── index.html
+
+10 directories, 11 files
+total 20
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  249 Apr 10 16:37 001-port8805.conf
+-rw-r--r-- 1 root root  249 Apr  4 17:22 002-port8855.conf
+-rw-r--r-- 1 root root 6484 Apr 10 16:56 christina-ssl.conf

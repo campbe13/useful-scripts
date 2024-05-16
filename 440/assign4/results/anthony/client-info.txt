@@ -1,0 +1,26 @@
+START>>>anthony 
+anthony
+/var/www
+├── html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── epic.css
+│   │   ├── epic.js
+│   │   └── index.html
+│   └── main.html
+├── https
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+5 directories, 9 files
+total 36
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  198 Apr  4 13:15 001-port8855.conf
+-rw-r--r-- 1 root root 1347 Apr  4 15:54 002-port8805.conf
+-rw-r--r-- 1 root root 6333 Apr  9 23:03 anthony-ssl.conf
+-rw-r--r-- 1 root root 6327 Apr 10 00:58 anthony-ssl.conf.save
+-rw-r--r-- 1 root root 6338 Apr  9 22:18 default-ssl.conf

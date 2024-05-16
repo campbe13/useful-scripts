@@ -1,0 +1,107 @@
+over ssh running df -h |grep sd 
+HOST dmitriy
+/dev/sda3        24G   19G  3.8G  84% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success dmitriy
+HOST haris
+/dev/sda3        24G   18G  5.1G  78% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success haris
+HOST amy
+/dev/sda3        24G   18G  5.1G  78% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success amy
+HOST tan-jackson
+/dev/sda3        24G   18G  5.0G  79% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success tan-jackson
+HOST Ivana
+/dev/sda3        24G   19G  4.1G  83% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success Ivana
+HOST ameena
+/dev/sda3        24G   20G  3.5G  85% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success ameena
+HOST bianca
+/dev/sda3        24G   18G  5.0G  79% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success bianca
+HOST anthony
+/dev/sda3        24G   18G  5.6G  76% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success anthony
+HOST manil
+/dev/sda3        24G   17G  6.6G  72% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success manil
+HOST yanni
+/dev/sda3        24G   17G  6.3G  73% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success yanni
+HOST vijay
+/dev/sda3        24G   20G  3.0G  87% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success vijay
+HOST nicholas
+/dev/sda3        24G   18G  5.7G  76% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success nicholas
+HOST alexander
+/dev/sda3        24G   19G  4.7G  80% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success alexander
+HOST yunchen
+/dev/sda3        24G   18G  5.4G  77% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success yunchen
+HOST elias
+/dev/sda3        24G   18G  5.4G  77% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success elias
+HOST abdullah
+/dev/sda3        24G   17G  6.3G  73% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success abdullah
+HOST tony
+/dev/sda3        24G   18G  5.0G  79% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success tony
+HOST emmanuelle
+/dev/sda3        24G   17G  5.9G  75% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success emmanuelle
+HOST christina
+/dev/sda3        24G   17G  6.0G  74% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success christina
+HOST minh
+/dev/sda3        24G   19G  4.6G  80% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success minh
+HOST aman
+/dev/sda3        24G   18G  5.4G  77% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success aman
+HOST adam
+/dev/sda3        24G   21G  2.6G  89% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success adam
+HOST sriraam
+/dev/sda3        24G   18G  5.0G  79% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success sriraam
+HOST giancarlo
+/dev/sda3        24G   19G  3.8G  84% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success giancarlo
+HOST patricia
+/dev/sda3        24G   18G  5.0G  79% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success patricia
+HOST aidan
+/dev/sda3        24G   17G  6.4G  73% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+success aidan
+success 26
+fail 0

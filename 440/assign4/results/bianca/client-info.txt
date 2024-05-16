@@ -1,0 +1,47 @@
+START>>>bianca 
+biancas-mojo-dojo-casa-house.casahouse.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── fonts
+│   │   │   ├── Gotham-Black.otf
+│   │   │   ├── GothamBoldItalic.ttf
+│   │   │   ├── Gotham-Bold.otf
+│   │   │   ├── GothamBold.ttf
+│   │   │   ├── Gotham-BookItalic.otf
+│   │   │   ├── GothamBookItalic.ttf
+│   │   │   ├── GothamBook.ttf
+│   │   │   ├── GothamLightItalic.ttf
+│   │   │   ├── Gotham-Light.otf
+│   │   │   ├── GothamLight.ttf
+│   │   │   ├── GothamMedium_1.ttf
+│   │   │   ├── GothamMediumItalic.ttf
+│   │   │   ├── GothamMedium.ttf
+│   │   │   ├── Gotham-ThinItalic.otf
+│   │   │   ├── Gotham-Thin.otf
+│   │   │   ├── Gotham-UltraItalic.otf
+│   │   │   ├── Gotham-XLightItalic.otf
+│   │   │   └── Gotham-XLight.otf
+│   │   ├── index.html
+│   │   ├── lab26.jsx
+│   │   └── react-fetch.css
+│   └── main.html
+├── https
+│   └── index.html
+├── port8805
+│   ├── index.html
+│   └── noaccess.html
+└── port8855
+    ├── index.html
+    └── noaccess.html
+
+6 directories, 30 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  276 Apr  3 16:20 001-port8805.conf
+-rw-r--r-- 1 root root  274 Apr  3 17:03 002-port8855.conf
+-rw-r--r-- 1 root root 6460 Apr  4 16:59 casahouse-ssl.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf

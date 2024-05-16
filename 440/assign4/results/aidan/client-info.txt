@@ -1,0 +1,26 @@
+START>>>aidan 
+aholmes.dawsoncollege.qc.ca
+/var/www
+├── html
+│   ├── epic
+│   │   ├── epic.css
+│   │   ├── epic.js
+│   │   └── index.html
+│   ├── index.html
+│   ├── index.html.bak
+│   └── main.html
+├── https
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+5 directories, 9 files
+total 32
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  246 Apr  3 17:02 001-port8805.conf
+-rw-r--r-- 1 root root  246 Apr  4 00:05 002-port8855.conf
+-rw-r--r-- 1 root root  248 Apr  7 01:12 003-https.conf.bak
+-rw-r--r-- 1 root root 6358 Apr  6 01:06 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  6 01:03 default-ssl.conf.bak

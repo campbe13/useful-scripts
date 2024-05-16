@@ -1,0 +1,19 @@
+START>>>yanni 
+yannivm.dawsoncollege.qc.ca
+/var/www
+├── html
+│   └── index.html.bak
+├── httpsVhost
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+4 directories, 4 files
+total 24
+-rw-r--r-- 1 root root 1332 Apr  9 14:03 000-backupDefault.conf
+-rw-r--r-- 1 root root 1449 Apr  9 17:56 000-default.conf
+-rw-r--r-- 1 root root  199 Apr  3 17:02 001-port8805.conf
+-rw-r--r-- 1 root root  198 Apr  3 16:47 002-port8855.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf

@@ -1,0 +1,16 @@
+START>>>manil 
+manil.mhcp3dns.ca
+/var/www
+├── html
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+3 directories, 3 files
+total 20
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  199 Apr  4 16:05 001-port8805.conf
+-rw-r--r-- 1 root root  199 Apr  4 16:06 002-port8855.conf
+-rw-r--r-- 1 root root 6338 May  3  2023 default-ssl.conf

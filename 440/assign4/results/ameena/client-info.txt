@@ -1,0 +1,38 @@
+START>>>ameena 
+ameena.khokhardawsoncollege.qc.ca
+/var/www
+├── assignment4
+│   └── index.html
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.1
+│   ├── index.html.2
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── azureuser@48.216.241.9
+│   │   ├── cheatCode.js
+│   │   ├── gameboard.js
+│   │   ├── highScores.js
+│   │   ├── index.html
+│   │   ├── js.zip
+│   │   ├── main.js
+│   │   ├── style.css
+│   │   ├── tileSelection.js
+│   │   └── validation.js
+│   ├── main.html
+│   └── styles.css
+├── port8805
+│   ├── errorfile.html
+│   └── main.html
+└── port8855
+    ├── errorfile.html
+    └── main.html
+
+5 directories, 22 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  226 Apr  3 16:52 001-port8805.conf
+-rw-r--r-- 1 root root  226 Apr  3 16:52 002-port8855.conf
+-rw-r--r-- 1 root root 6338 Apr  7 18:12 backup-default-ssl.conf
+-rw-r--r-- 1 root root 6356 Apr  9 15:06 default-ssl.conf

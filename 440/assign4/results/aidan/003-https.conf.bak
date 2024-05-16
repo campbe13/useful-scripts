@@ -1,0 +1,12 @@
+<VirtualHost _default_:443>
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/https
+
+
+	ErrorLog ${APACHE_LOG_DIR}/error443.log
+	CustomLog ${APACHE_LOG_DIR}/access443.log combined
+
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet

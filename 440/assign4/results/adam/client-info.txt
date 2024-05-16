@@ -1,0 +1,36 @@
+START>>>adam 
+adamvm.assign3dom.ca
+/var/www
+├── assign4
+│   └── index.html
+├── html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   └── ColorGame
+│   │       ├── AUDIO
+│   │       │   ├── failure.mp3
+│   │       │   └── success.mp3
+│   │       ├── CSS
+│   │       │   ├── responsive.css
+│   │       │   └── style.css
+│   │       ├── HTML
+│   │       ├── index.html
+│   │       └── JS
+│   │           ├── game_settings.js
+│   │           ├── sorting.js
+│   │           ├── stats.js
+│   │           └── utilities.js
+│   └── main.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+10 directories, 15 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  775 Apr  4 17:38 001-port8805.conf
+-rw-r--r-- 1 root root  774 Apr  4 17:38 002-port8855.conf
+-rw-r--r-- 1 root root 6346 Apr  7 14:12 default-ssl.conf
+-rw-r--r-- 1 root root 6346 Apr  7 14:09 default-ssl.working.conf

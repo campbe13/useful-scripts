@@ -1,0 +1,65 @@
+over ssh running echo linuxyay! |sudo -S ufw status verbose  |grep 53 
+HOST aman
+53/tcp                     ALLOW IN    Anywhere                  
+53                         ALLOW IN    Anywhere                  
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+success aman
+HOST christina
+53/udp                     ALLOW IN    Anywhere                  
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success christina
+HOST bianca
+53/udp                     ALLOW IN    Anywhere                  
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success bianca
+HOST vijay
+fail vijay
+HOST elias
+53                         ALLOW IN    Anywhere                  
+53/udp                     ALLOW IN    Anywhere                  
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success elias
+HOST amy
+53/udp                     ALLOW IN    Anywhere                  
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success amy
+HOST manil
+53/udp                     ALLOW IN    Anywhere                  
+53/tcp                     ALLOW IN    Anywhere                  
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+success manil
+HOST patricia
+53/tcp                     ALLOW IN    Anywhere                  
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+success patricia
+HOST tony
+53/tcp                     ALLOW IN    Anywhere                  
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+success tony
+HOST sriraam
+53/tcp                     ALLOW IN    Anywhere                  
+53/udp                     ALLOW IN    Anywhere                  
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success sriraam
+HOST alexander
+53                         ALLOW IN    Anywhere                  
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+success alexander
+HOST Ivana
+53                         ALLOW IN    Anywhere                  
+53/udp                     ALLOW IN    Anywhere                  
+53 (v6)                    ALLOW IN    Anywhere (v6)             
+53/tcp (v6)                ALLOW IN    Anywhere (v6)             
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success Ivana
+HOST dmitriy
+53/udp                     ALLOW IN    Anywhere                  
+53/udp (v6)                ALLOW IN    Anywhere (v6)             
+success dmitriy
+success 12
+fail 1

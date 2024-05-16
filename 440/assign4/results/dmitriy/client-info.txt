@@ -1,0 +1,28 @@
+START>>>dmitriy 
+dmitriy.uwuntu.ca
+/var/www
+├── assignment4
+│   └── index.html
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── checkboard.js
+│   │   ├── index.html
+│   │   ├── README.md
+│   │   ├── tictactoe.css
+│   │   └── tictactoe.js
+│   └── main.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+5 directories, 12 files
+total 28
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  202 Apr  3 16:29 001-port8805.conf
+-rw-r--r-- 1 root root  245 Apr  3 17:02 002-port8855.conf
+-rw-r--r-- 1 root root 6352 Apr  7 22:56 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  6 12:18 default-ssl.conf.bak

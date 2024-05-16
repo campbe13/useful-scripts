@@ -1,0 +1,1 @@
+echo linuxyay! |sudo -S ufw status verbose  |grep 53

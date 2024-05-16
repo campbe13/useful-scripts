@@ -1,0 +1,39 @@
+START>>>patricia 
+Patricia.Power.ca
+/var/www
+├── html
+│   ├── error.html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   ├── index.html
+│   │   ├── README.md
+│   │   ├── Script
+│   │   │   ├── cheatCode.js
+│   │   │   ├── difficulty.js
+│   │   │   ├── highscore.js
+│   │   │   ├── script.js
+│   │   │   └── tableGenerator.js
+│   │   └── Style
+│   │       ├── mobile.css
+│   │       └── style.css
+│   ├── main.html
+│   └── site_backup.zip
+├── https
+│   └── index.html
+├── Patricia.Power.ca
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+8 directories, 18 files
+total 40
+-rw-r--r-- 1 root root 1332 Feb 20 11:38 000-default.conf
+-rw-r--r-- 1 root root 1332 Apr  3 16:56 001-port8805
+-rw-r--r-- 1 root root  197 Apr  3 19:29 001-port8805.conf
+-rw-r--r-- 1 root root  199 Apr  3 19:30 002-port8855.conf
+-rw-r--r-- 1 root root 6341 Apr  7 15:40 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  5 21:16 default-ssl.conf.bak
+-rw-r--r-- 1 root root 6338 Apr  7 15:06 working-ssl.conf

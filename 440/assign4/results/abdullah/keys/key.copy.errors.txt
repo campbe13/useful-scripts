@@ -1,0 +1,1 @@
+scp: /etc/apache2/tls/galaxy.key: Permission denied

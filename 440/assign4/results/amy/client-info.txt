@@ -1,0 +1,28 @@
+START>>>amy 
+amyjackson.littleponi.ca
+/var/www
+├── html
+│   ├── index.html
+│   ├── index.html.bak
+│   ├── js
+│   │   └── fall2023_webdev_assignment6
+│   │       ├── index.html
+│   │       ├── react-fetch.css
+│   │       ├── README.md
+│   │       └── valorantAPI.jsx
+│   └── main.html
+├── https
+│   └── index.html
+├── port8805
+│   └── index.html
+└── port8855
+    └── index.html
+
+6 directories, 10 files
+total 36
+-rw-r--r-- 1 root root 1332 May  3  2023 000-default.conf
+-rw-r--r-- 1 root root  197 Apr  3 16:19 001-port8805.conf
+-rw-r--r-- 1 root root  197 Apr  3 16:48 002-port8855.conf
+-rw-r--r-- 1 root root 6338 Apr  8 23:05 default-ssl.conf
+-rw-r--r-- 1 root root 6338 Apr  8 23:04 default-ssl.conf.backup
+-rw-r--r-- 1 root root 6457 Apr 10 00:43 littleponi-ssl.conf
